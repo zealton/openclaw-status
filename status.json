@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-03-09T15:05:26Z",
-  "generated_at_local": "2026-03-09 23:05:26 ",
+  "generated_at": "2026-03-09T15:06:29Z",
+  "generated_at_local": "2026-03-09 23:06:29 ",
   "stale_after_seconds": 180,
   "host": "LeedeMac-mini.local",
   "openclaw": {
@@ -64,10 +64,10 @@
     {
       "agent": "twitter-ops",
       "session_key": "agent:twitter-ops:telegram:direct:5683890141",
-      "updated_at_ms": 1773068644837,
-      "updated_at_local": "2026-03-09 23:04:04",
-      "state": "idle",
-      "task": "另外，登录一下电脑的wechat，二维码发我",
+      "updated_at_ms": 1773068765870,
+      "updated_at_local": "2026-03-09 23:06:05",
+      "state": "working",
+      "task": "你需要登录",
       "skills": [],
       "available_skills": [
         "clawhub",
