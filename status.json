@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-03-09T12:23:52Z",
-  "generated_at_local": "2026-03-09 20:23:52 ",
+  "generated_at": "2026-03-09T12:24:55Z",
+  "generated_at_local": "2026-03-09 20:24:55 ",
   "stale_after_seconds": 180,
   "host": "LeedeMac-mini.local",
   "openclaw": {
@@ -64,10 +64,10 @@
     {
       "agent": "twitter-ops",
       "session_key": "agent:twitter-ops:telegram:direct:5683890141",
-      "updated_at_ms": 1773058895081,
-      "updated_at_local": "2026-03-09 20:21:35",
+      "updated_at_ms": 1773059068392,
+      "updated_at_local": "2026-03-09 20:24:28",
       "state": "idle",
-      "task": "No recent user task found"
+      "task": "停止现在发送的内容，刚刚都是测试的"
     },
     {
       "agent": "twitter-ops",
