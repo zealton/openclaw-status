@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-03-09T13:20:52Z",
-  "generated_at_local": "2026-03-09 21:20:52 ",
+  "generated_at": "2026-03-09T13:21:55Z",
+  "generated_at_local": "2026-03-09 21:21:55 ",
   "stale_after_seconds": 180,
   "host": "LeedeMac-mini.local",
   "openclaw": {
@@ -92,16 +92,6 @@
       "updated_at_ms": 1773061297529,
       "updated_at_local": "2026-03-09 21:01:37",
       "state": "error",
-      "task": "Continue where you left off. The previous model attempt failed or timed out.",
-      "skills": [],
-      "available_skills": []
-    },
-    {
-      "agent": "twitter-ops",
-      "session_key": "agent:twitter-ops:subagent:31c958be-7470-4021-91f4-ac606a7ce745",
-      "updated_at_ms": 1773059282056,
-      "updated_at_local": "2026-03-09 20:28:02",
-      "state": "working",
       "task": "Continue where you left off. The previous model attempt failed or timed out.",
       "skills": [],
       "available_skills": []
