@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-03-09T12:01:43Z",
-  "generated_at_local": "2026-03-09 20:01:43 ",
+  "generated_at": "2026-03-09T12:02:46Z",
+  "generated_at_local": "2026-03-09 20:02:46 ",
   "stale_after_seconds": 180,
   "host": "LeedeMac-mini.local",
   "openclaw": {
@@ -51,14 +51,14 @@
     }
   },
   "recent_log": [
-    "2026-03-09T20:01:21.659+08:00 [browser/server] Browser control listening on http://127.0.0.1:18791/ (auth=token)",
-    "2026-03-09T20:01:21.664+08:00 [voice-call] Webhook server listening on http://127.0.0.1:3334/voice/webhook",
     "2026-03-09T20:01:21.665+08:00 [gateway] [voice-call] Runtime initialized",
     "2026-03-09T20:01:21.666+08:00 [gateway] [voice-call] Webhook URL: http://127.0.0.1:3334/voice/webhook",
     "2026-03-09T20:01:22.937+08:00 [telegram] [default] starting provider (@lark_mini_claw_bot)",
     "2026-03-09T20:01:22.946+08:00 [telegram] autoSelectFamily=true (default-node22)",
     "2026-03-09T20:01:22.949+08:00 [telegram] global undici dispatcher autoSelectFamily=true",
-    "2026-03-09T20:01:22.952+08:00 [telegram] dnsResultOrder=ipv4first (default-node22)"
+    "2026-03-09T20:01:22.952+08:00 [telegram] dnsResultOrder=ipv4first (default-node22)",
+    "2026-03-09T20:02:39.839+08:00 [reload] config change detected; evaluating reload (agents.list, bindings)",
+    "2026-03-09T20:02:39.841+08:00 [reload] config change applied (dynamic reads: agents.list, bindings)"
   ],
   "notes": [
     "Gateway watchdog checks launchd every 60 seconds."
