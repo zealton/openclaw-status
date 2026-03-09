@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-03-09T15:37:09Z",
-  "generated_at_local": "2026-03-09 23:37:09 ",
+  "generated_at": "2026-03-09T15:38:13Z",
+  "generated_at_local": "2026-03-09 23:38:13 ",
   "stale_after_seconds": 180,
   "host": "LeedeMac-mini.local",
   "openclaw": {
@@ -51,23 +51,23 @@
     }
   },
   "recent_log": [
-    "2026-03-09T23:12:12.723+08:00 [agents/tool-images] Image resized to fit limits: wechat_qr.png 1920x1080px 2.46MB -> 105.7KB (-95.8%)",
-    "2026-03-09T23:12:42.439+08:00 [agents/tool-images] Image resized to fit limits: wechat_qr.png 1920x1080px 2.41MB -> 105.1KB (-95.7%)",
-    "2026-03-09T23:13:04.116+08:00 [agents/tool-images] Image resized to fit limits: wechat_qr2.png 1920x1080px 2.46MB -> 105.8KB (-95.8%)",
     "2026-03-09T23:14:55.585+08:00 [agents/tool-images] Image resized to fit limits: wechat_qr3.png 1920x1080px 2.39MB -> 103.2KB (-95.8%)",
     "2026-03-09T23:15:55.627+08:00 [agents/tool-images] Image resized to fit limits: wechat_qr4.png 1920x1080px 3.69MB -> 106.6KB (-97.2%)",
     "2026-03-09T23:16:16.622+08:00 [agents/tool-images] Image resized to fit limits: wechat_qr5.png 1920x1080px 3.69MB -> 106.4KB (-97.2%)",
     "2026-03-09T23:17:47.514+08:00 [telegram] sendMessage ok chat=5683890141 message=182",
-    "2026-03-09T23:17:52.901+08:00 [telegram] sendMessage ok chat=5683890141 message=183"
+    "2026-03-09T23:17:52.901+08:00 [telegram] sendMessage ok chat=5683890141 message=183",
+    "2026-03-09T23:37:20.403+08:00 [telegram] sendMessage ok chat=5683890141 message=185",
+    "2026-03-09T23:37:34.882+08:00 [telegram] sendMessage ok chat=5683890141 message=187",
+    "2026-03-09T23:37:45.589+08:00 [telegram] sendMessage ok chat=5683890141 message=189"
   ],
   "active_tasks": [
     {
       "agent": "twitter-ops",
       "session_key": "agent:twitter-ops:telegram:direct:5683890141",
-      "updated_at_ms": 1773069472396,
-      "updated_at_local": "2026-03-09 23:17:52",
+      "updated_at_ms": 1773070665151,
+      "updated_at_local": "2026-03-09 23:37:45",
       "state": "error",
-      "task": "model 改成 openrouter的google/gemini-3-flash-preview",
+      "task": "什么情况？",
       "skills": [],
       "available_skills": [
         "clawhub",
