@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-03-09T12:20:42Z",
-  "generated_at_local": "2026-03-09 20:20:42 ",
+  "generated_at": "2026-03-09T12:21:45Z",
+  "generated_at_local": "2026-03-09 20:21:45 ",
   "stale_after_seconds": 180,
   "host": "LeedeMac-mini.local",
   "openclaw": {
@@ -51,23 +51,31 @@
     }
   },
   "recent_log": [
-    "2026-03-09T20:11:53.694+08:00 [voice-call] Webhook server listening on http://127.0.0.1:3334/voice/webhook",
     "2026-03-09T20:11:53.695+08:00 [gateway] [voice-call] Runtime initialized",
     "2026-03-09T20:11:53.696+08:00 [gateway] [voice-call] Webhook URL: http://127.0.0.1:3334/voice/webhook",
     "2026-03-09T20:11:54.500+08:00 [telegram] [default] starting provider (@lark_mini_claw_bot)",
     "2026-03-09T20:11:54.510+08:00 [telegram] autoSelectFamily=true (default-node22)",
     "2026-03-09T20:11:54.514+08:00 [telegram] global undici dispatcher autoSelectFamily=true",
     "2026-03-09T20:11:54.517+08:00 [telegram] dnsResultOrder=ipv4first (default-node22)",
-    "2026-03-09T20:13:33.059+08:00 [telegram] autoSelectFamily=false (config)"
+    "2026-03-09T20:13:33.059+08:00 [telegram] autoSelectFamily=false (config)",
+    "2026-03-09T20:21:35.089+08:00 [telegram] autoSelectFamily=true (default-node22)"
   ],
   "active_tasks": [
     {
       "agent": "twitter-ops",
       "session_key": "agent:twitter-ops:telegram:direct:5683890141",
-      "updated_at_ms": 1773058414554,
-      "updated_at_local": "2026-03-09 20:13:34",
-      "state": "working",
+      "updated_at_ms": 1773058895081,
+      "updated_at_local": "2026-03-09 20:21:35",
+      "state": "idle",
       "task": "No recent user task found"
+    },
+    {
+      "agent": "twitter-ops",
+      "session_key": "agent:twitter-ops:subagent:31c958be-7470-4021-91f4-ac606a7ce745",
+      "updated_at_ms": 1773058887030,
+      "updated_at_local": "2026-03-09 20:21:27",
+      "state": "working",
+      "task": "Continue where you left off. The previous model attempt failed or timed out."
     },
     {
       "agent": "main",
