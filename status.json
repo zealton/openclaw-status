@@ -1,20 +1,20 @@
 {
-  "generated_at": "2026-03-09T13:28:15Z",
-  "generated_at_local": "2026-03-09 21:28:15 ",
+  "generated_at": "2026-03-09T13:29:19Z",
+  "generated_at_local": "2026-03-09 21:29:19 ",
   "stale_after_seconds": 180,
   "host": "LeedeMac-mini.local",
   "openclaw": {
     "running": true,
-    "pid": 26871,
+    "pid": 30279,
     "model": "openrouter/minimax/minimax-m2.5"
   },
   "telegram": {
     "status": "running",
-    "detail": "2026-03-09T20:58:48.367+08:00 [telegram] [default] starting provider (@lark_mini_claw_bot)"
+    "detail": "2026-03-09T21:28:31.914+08:00 [telegram] [default] starting provider (@lark_mini_claw_bot)"
   },
   "browser": {
     "status": "running",
-    "detail": "2026-03-09T20:58:47.290+08:00 [browser/server] Browser control listening on http://127.0.0.1:18791/ (auth=token)"
+    "detail": "2026-03-09T21:28:30.857+08:00 [browser/server] Browser control listening on http://127.0.0.1:18791/ (auth=token)"
   },
   "caffeinate": {
     "status": "running",
@@ -32,7 +32,7 @@
     "openclaw": {
       "loaded": true,
       "state": "running",
-      "pid": 26871
+      "pid": 30279
     },
     "watchdog": {
       "loaded": true,
@@ -51,14 +51,14 @@
     }
   },
   "recent_log": [
-    "2026-03-09T21:24:40.461+08:00 [gateway] device pairing auto-approved device=a7920832e04fe8e10fb60296bc345f326465e9587e9a25e061838a8902bef7c7 role=operator",
-    "2026-03-09T21:25:09.550+08:00 [ws] ⇄ res ✓ agent.wait 30002ms conn=7010be0c…e6df id=91ab9971…d4b2",
-    "2026-03-09T21:25:21.548+08:00 [telegram] autoSelectFamily=true (default-node22)",
-    "2026-03-09T21:25:35.899+08:00 [agent:nested] session=agent:twitter-ops:telegram:direct:5683890141 run=01a1ac90-ead1-4e92-9502-743a473899f0 channel=webchat 这是刚刚发送的审批请求。等待批准中。",
-    "2026-03-09T21:25:35.904+08:00 [agent:nested] session=agent:twitter-ops:telegram:direct:5683890141 run=01a1ac90-ead1-4e92-9502-743a473899f0 channel=webchat 当前待审批：",
-    "2026-03-09T21:25:35.908+08:00 [agent:nested] session=agent:twitter-ops:telegram:direct:5683890141 run=01a1ac90-ead1-4e92-9502-743a473899f0 channel=webchat - P5, P6, P7 (第二轮)",
-    "2026-03-09T21:25:35.909+08:00 [agent:nested] session=agent:twitter-ops:telegram:direct:5683890141 run=01a1ac90-ead1-4e92-9502-743a473899f0 channel=webchat - P1, P2, P3, P4 (第一轮，还在外面)",
-    "2026-03-09T21:25:35.911+08:00 [agent:nested] session=agent:twitter-ops:telegram:direct:5683890141 run=01a1ac90-ead1-4e92-9502-743a473899f0 channel=webchat 请回复 `approve P5` 等来批准。"
+    "2026-03-09T21:28:31.101+08:00 [gateway] memory-lancedb: initialized (db: /Users/leelark/.openclaw/memory/lancedb, model: text-embedding-3-small)",
+    "2026-03-09T21:28:31.104+08:00 [voice-call] Webhook server listening on http://127.0.0.1:3334/voice/webhook",
+    "2026-03-09T21:28:31.105+08:00 [gateway] [voice-call] Runtime initialized",
+    "2026-03-09T21:28:31.106+08:00 [gateway] [voice-call] Webhook URL: http://127.0.0.1:3334/voice/webhook",
+    "2026-03-09T21:28:31.914+08:00 [telegram] [default] starting provider (@lark_mini_claw_bot)",
+    "2026-03-09T21:28:31.926+08:00 [telegram] autoSelectFamily=true (default-node22)",
+    "2026-03-09T21:28:31.929+08:00 [telegram] global undici dispatcher autoSelectFamily=true",
+    "2026-03-09T21:28:31.932+08:00 [telegram] dnsResultOrder=ipv4first (default-node22)"
   ],
   "active_tasks": [
     {
