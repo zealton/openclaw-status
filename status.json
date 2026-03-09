@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-03-09T13:00:49Z",
-  "generated_at_local": "2026-03-09 21:00:49 ",
+  "generated_at": "2026-03-09T13:01:52Z",
+  "generated_at_local": "2026-03-09 21:01:52 ",
   "stale_after_seconds": 180,
   "host": "LeedeMac-mini.local",
   "openclaw": {
@@ -61,6 +61,16 @@
     "2026-03-09T20:58:48.380+08:00 [telegram] dnsResultOrder=ipv4first (default-node22)"
   ],
   "active_tasks": [
+    {
+      "agent": "twitter-ops",
+      "session_key": "agent:twitter-ops:main",
+      "updated_at_ms": 1773061297529,
+      "updated_at_local": "2026-03-09 21:01:37",
+      "state": "error",
+      "task": "Continue where you left off. The previous model attempt failed or timed out.",
+      "skills": [],
+      "available_skills": []
+    },
     {
       "agent": "twitter-ops",
       "session_key": "agent:twitter-ops:subagent:31c958be-7470-4021-91f4-ac606a7ce745",
