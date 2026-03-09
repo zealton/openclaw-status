@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-03-09T13:33:32Z",
-  "generated_at_local": "2026-03-09 21:33:32 ",
+  "generated_at": "2026-03-09T13:34:35Z",
+  "generated_at_local": "2026-03-09 21:34:35 ",
   "stale_after_seconds": 180,
   "host": "LeedeMac-mini.local",
   "openclaw": {
@@ -64,10 +64,10 @@
     {
       "agent": "twitter-ops",
       "session_key": "agent:twitter-ops:telegram:direct:5683890141",
-      "updated_at_ms": 1773062860143,
-      "updated_at_local": "2026-03-09 21:27:40",
-      "state": "working",
-      "task": "运行一次 lark_twitter 这个skill",
+      "updated_at_ms": 1773063265711,
+      "updated_at_local": "2026-03-09 21:34:25",
+      "state": "queued",
+      "task": "模型改回那个claude code那个4.6",
       "skills": [
         "lark_twitter"
       ],
