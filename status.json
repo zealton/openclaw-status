@@ -1,20 +1,20 @@
 {
-  "generated_at": "2026-03-09T12:08:03Z",
-  "generated_at_local": "2026-03-09 20:08:03 ",
+  "generated_at": "2026-03-09T12:09:06Z",
+  "generated_at_local": "2026-03-09 20:09:06 ",
   "stale_after_seconds": 180,
   "host": "LeedeMac-mini.local",
   "openclaw": {
     "running": true,
-    "pid": 19938,
+    "pid": 20577,
     "model": "openrouter/anthropic/claude-opus-4.6"
   },
   "telegram": {
     "status": "running",
-    "detail": "2026-03-09T20:03:11.899+08:00 [telegram] [default] starting provider (@lark_mini_claw_bot)"
+    "detail": "2026-03-09T20:09:06.632+08:00 [telegram] [default] starting provider (@lark_mini_claw_bot)"
   },
   "browser": {
     "status": "running",
-    "detail": "2026-03-09T20:03:11.086+08:00 [browser/server] Browser control listening on http://127.0.0.1:18791/ (auth=token)"
+    "detail": "2026-03-09T20:09:05.575+08:00 [browser/server] Browser control listening on http://127.0.0.1:18791/ (auth=token)"
   },
   "caffeinate": {
     "status": "running",
@@ -32,7 +32,7 @@
     "openclaw": {
       "loaded": true,
       "state": "running",
-      "pid": 19938
+      "pid": 20577
     },
     "watchdog": {
       "loaded": true,
@@ -51,14 +51,14 @@
     }
   },
   "recent_log": [
-    "2026-03-09T20:03:11.091+08:00 [gateway] [voice-call] Webhook URL: http://127.0.0.1:3334/voice/webhook",
-    "2026-03-09T20:03:11.899+08:00 [telegram] [default] starting provider (@lark_mini_claw_bot)",
-    "2026-03-09T20:03:11.909+08:00 [telegram] autoSelectFamily=true (default-node22)",
-    "2026-03-09T20:03:11.912+08:00 [telegram] global undici dispatcher autoSelectFamily=true",
-    "2026-03-09T20:03:11.915+08:00 [telegram] dnsResultOrder=ipv4first (default-node22)",
-    "2026-03-09T20:04:10.566+08:00 [ws] ⇄ res ✗ sessions.resolve 2ms errorCode=INVALID_REQUEST errorMessage=No session found: telegram:5683890141 conn=d9e31dbb…8f16 id=e31144e5…546f",
-    "2026-03-09T20:04:10.579+08:00 [ws] ⇄ res ✗ sessions.resolve 1ms errorCode=INVALID_REQUEST errorMessage=No session found: telegram:5683890141 conn=84a66fe1…ec9a id=2e81c64b…9172",
-    "2026-03-09T20:06:26.133+08:00 [telegram] autoSelectFamily=false (config)"
+    "2026-03-09T20:09:05.822+08:00 [hooks] loaded 5 internal hook handlers",
+    "2026-03-09T20:09:05.824+08:00 [voice-call] Webhook server listening on http://127.0.0.1:3334/voice/webhook",
+    "2026-03-09T20:09:05.825+08:00 [gateway] [voice-call] Runtime initialized",
+    "2026-03-09T20:09:05.826+08:00 [gateway] [voice-call] Webhook URL: http://127.0.0.1:3334/voice/webhook",
+    "2026-03-09T20:09:06.632+08:00 [telegram] [default] starting provider (@lark_mini_claw_bot)",
+    "2026-03-09T20:09:06.643+08:00 [telegram] autoSelectFamily=true (default-node22)",
+    "2026-03-09T20:09:06.647+08:00 [telegram] global undici dispatcher autoSelectFamily=true",
+    "2026-03-09T20:09:06.649+08:00 [telegram] dnsResultOrder=ipv4first (default-node22)"
   ],
   "notes": [
     "Gateway watchdog checks launchd every 60 seconds."
