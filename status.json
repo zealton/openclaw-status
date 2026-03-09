@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-03-09T11:53:17Z",
-  "generated_at_local": "2026-03-09 19:53:17 ",
+  "generated_at": "2026-03-09T11:54:21Z",
+  "generated_at_local": "2026-03-09 19:54:21 ",
   "stale_after_seconds": 180,
   "host": "LeedeMac-mini.local",
   "openclaw": {
@@ -10,11 +10,11 @@
   },
   "telegram": {
     "status": "running",
-    "detail": "2026-03-09T19:53:10.669+08:00 [telegram] [default] starting provider (@lark_mini_claw_bot)"
+    "detail": "2026-03-09T19:53:20.570+08:00 [telegram] [default] starting provider (@lark_mini_claw_bot)"
   },
   "browser": {
     "status": "running",
-    "detail": "2026-03-09T19:52:10.942+08:00 [browser/server] Browser control listening on http://127.0.0.1:18791/ (auth=token)"
+    "detail": "2026-03-09T19:53:19.747+08:00 [browser/server] Browser control listening on http://127.0.0.1:18791/ (auth=token)"
   },
   "caffeinate": {
     "status": "running",
@@ -51,14 +51,14 @@
     }
   },
   "recent_log": [
-    "2026-03-09T19:52:11.786+08:00 [telegram] dnsResultOrder=ipv4first (default-node22)",
-    "2026-03-09T19:53:09.421+08:00 [reload] config change detected; evaluating reload (channels.telegram.capabilities)",
-    "2026-03-09T19:53:09.423+08:00 [gateway/channels] restarting telegram channel",
-    "2026-03-09T19:53:09.426+08:00 [reload] config hot reload applied (channels.telegram.capabilities)",
-    "2026-03-09T19:53:10.669+08:00 [telegram] [default] starting provider (@lark_mini_claw_bot)",
-    "2026-03-09T19:53:16.450+08:00 [gateway] signal SIGTERM received",
-    "2026-03-09T19:53:16.453+08:00 [gateway] received SIGTERM; shutting down",
-    "2026-03-09T19:53:16.490+08:00 [gmail-watcher] gmail watcher stopped"
+    "2026-03-09T19:53:19.747+08:00 [browser/server] Browser control listening on http://127.0.0.1:18791/ (auth=token)",
+    "2026-03-09T19:53:19.751+08:00 [voice-call] Webhook server listening on http://127.0.0.1:3334/voice/webhook",
+    "2026-03-09T19:53:19.753+08:00 [gateway] [voice-call] Runtime initialized",
+    "2026-03-09T19:53:19.753+08:00 [gateway] [voice-call] Webhook URL: http://127.0.0.1:3334/voice/webhook",
+    "2026-03-09T19:53:20.570+08:00 [telegram] [default] starting provider (@lark_mini_claw_bot)",
+    "2026-03-09T19:53:20.581+08:00 [telegram] autoSelectFamily=true (default-node22)",
+    "2026-03-09T19:53:20.585+08:00 [telegram] global undici dispatcher autoSelectFamily=true",
+    "2026-03-09T19:53:20.588+08:00 [telegram] dnsResultOrder=ipv4first (default-node22)"
   ],
   "notes": [
     "Gateway watchdog checks launchd every 60 seconds."
