@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-03-09T12:55:32Z",
-  "generated_at_local": "2026-03-09 20:55:32 ",
+  "generated_at": "2026-03-09T12:55:45Z",
+  "generated_at_local": "2026-03-09 20:55:45 ",
   "stale_after_seconds": 180,
   "host": "LeedeMac-mini.local",
   "openclaw": {
@@ -67,7 +67,7 @@
       "updated_at_ms": 1773059282056,
       "updated_at_local": "2026-03-09 20:28:02",
       "state": "working",
-      "task": "No recent user task found",
+      "task": "Continue where you left off. The previous model attempt failed or timed out.",
       "skills": []
     },
     {

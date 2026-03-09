@@ -181,6 +181,14 @@
       <section class="layout">
         <div class="logs">
           <div class="panel">
+            <h2>当前任务</h2>
+            <ul class="list" id="tasks"></ul>
+          </div>
+          <div class="panel">
+            <h2>最近 Skills</h2>
+            <ul class="list" id="skills"></ul>
+          </div>
+          <div class="panel">
             <h2>最近日志</h2>
             <pre id="recent-log">加载中…</pre>
           </div>
@@ -211,6 +219,8 @@
       const recentLog = document.getElementById("recent-log");
       const notes = document.getElementById("notes");
       const services = document.getElementById("services");
+      const tasks = document.getElementById("tasks");
+      const skills = document.getElementById("skills");
       const overallDot = document.getElementById("overall-dot");
       const overallText = document.getElementById("overall-text");
 
@@ -252,6 +262,8 @@
         cards.innerHTML = "";
         notes.innerHTML = "";
         services.innerHTML = "";
+        tasks.innerHTML = "";
+        skills.innerHTML = "";
 
         const age = ageFromIso(data.generated_at);
         const stale = age != null && age > (data.stale_after_seconds || 180);
@@ -289,6 +301,35 @@
           li.innerHTML = `<strong>${name}</strong>: ${info.state}${info.pid ? ` (PID ${info.pid})` : ""}`;
           services.appendChild(li);
         });
+
+        (data.active_tasks || []).forEach((item) => {
+          const li = document.createElement("li");
+          li.innerHTML = `<strong>${item.agent}</strong> · ${item.state} · ${item.updated_at_local}<br>${item.task}`;
+          tasks.appendChild(li);
+        });
+        if (!data.active_tasks || !data.active_tasks.length) {
+          const li = document.createElement("li");
+          li.textContent = "最近没有检测到活跃任务";
+          tasks.appendChild(li);
+        }
+
+        const skillSeen = new Set();
+        (data.active_tasks || []).forEach((item) => {
+          const sourceSkills = (item.skills && item.skills.length) ? item.skills : (item.available_skills || []);
+          sourceSkills.forEach((name) => {
+            if (skillSeen.has(name)) return;
+            skillSeen.add(name);
+            const li = document.createElement("li");
+            const mode = (item.skills && item.skills.length) ? "hit" : "loaded";
+            li.textContent = `${name} · ${mode} · ${item.agent}`;
+            skills.appendChild(li);
+          });
+        });
+        if (!skillSeen.size) {
+          const li = document.createElement("li");
+          li.textContent = "最近没有检测到明确命中的 skill";
+          skills.appendChild(li);
+        }
       }
 
       loadStatus().catch((err) => {

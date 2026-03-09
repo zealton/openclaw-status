@@ -13,6 +13,7 @@ OUT = ROOT / "status.json"
 GATEWAY_LOG = pathlib.Path("/Users/leelark/.openclaw/logs/gateway.log")
 WATCHDOG_LOG = pathlib.Path("/Users/leelark/.openclaw/logs/gateway-watchdog.log")
 CAFFEINATE_STDERR = pathlib.Path("/Users/leelark/.openclaw/logs/caffeinate.stderr.log")
+STATE_ROOT = pathlib.Path("/Users/leelark/.openclaw/agents")
 
 LABELS = {
     "openclaw": "gui/501/ai.openclaw.gateway",
@@ -52,6 +53,136 @@ def last_matching(lines: List[str], needle: str) -> Optional[str]:
         if needle in line:
             return line
     return None
+
+
+def summarize_user_text(raw: str) -> str:
+    text = raw
+    if "```" in text:
+        parts = text.split("```")
+        text = parts[-1]
+    lines = [line.strip() for line in text.splitlines() if line.strip()]
+    filtered = [
+        line
+        for line in lines
+        if not line.startswith("Conversation info")
+        and not line.startswith("Sender")
+        and not line.startswith("{")
+        and not line.startswith("}")
+        and not line.startswith('"')
+    ]
+    if not filtered:
+        filtered = lines
+    joined = " ".join(filtered).strip()
+    return joined[:160] if joined else "(empty)"
+
+
+def infer_task_state(events: List[dict]) -> str:
+    if not events:
+        return "unknown"
+    last = events[-1]
+    message = last.get("message", {})
+    role = message.get("role")
+    if role == "toolResult":
+        return "working"
+    if role == "assistant":
+        content = message.get("content", [])
+        if any(item.get("type") == "toolCall" for item in content if isinstance(item, dict)):
+            return "working"
+        if message.get("stopReason") == "error":
+            return "error"
+        return "idle"
+    if role == "user":
+        return "queued"
+    return "unknown"
+
+
+def extract_skill_names_from_text(text: str) -> List[str]:
+    names = []
+    for match in re.findall(r"/skills/([^/\n]+)/SKILL\.md", text):
+        names.append(match)
+    return names
+
+
+def extract_recent_skills(events: List[dict]) -> List[str]:
+    found: List[str] = []
+    seen = set()
+    for event in events[-60:]:
+        message = event.get("message", {})
+        content = message.get("content", [])
+        if not isinstance(content, list):
+            continue
+        for item in content:
+            if not isinstance(item, dict):
+                continue
+            if item.get("type") == "toolCall":
+                args = item.get("arguments", {})
+                if isinstance(args, dict):
+                    for value in args.values():
+                        if isinstance(value, str):
+                            for name in extract_skill_names_from_text(value):
+                                if name not in seen:
+                                    seen.add(name)
+                                    found.append(name)
+            elif item.get("type") == "text":
+                for name in extract_skill_names_from_text(item.get("text", "")):
+                    if name not in seen:
+                        seen.add(name)
+                        found.append(name)
+    return found[:8]
+
+
+def extract_active_tasks() -> List[dict]:
+    tasks: List[dict] = []
+    cutoff_ms = int((dt.datetime.utcnow() - dt.timedelta(hours=6)).timestamp() * 1000)
+    for sessions_path in STATE_ROOT.glob("*/sessions/sessions.json"):
+        try:
+            sessions = json.loads(sessions_path.read_text())
+        except Exception:
+            continue
+        for session_key, meta in sessions.items():
+            updated_at = int(meta.get("updatedAt") or 0)
+            if updated_at < cutoff_ms:
+                continue
+            session_file = meta.get("sessionFile")
+            if not session_file or not pathlib.Path(session_file).exists():
+                continue
+            lines = pathlib.Path(session_file).read_text(errors="ignore").splitlines()[-200:]
+            events = []
+            for line in lines:
+                try:
+                    events.append(json.loads(line))
+                except Exception:
+                    continue
+            last_user = None
+            for event in reversed(events):
+                message = event.get("message", {})
+                if message.get("role") != "user":
+                    continue
+                content = message.get("content", [])
+                for item in content:
+                    if isinstance(item, dict) and item.get("type") == "text":
+                        last_user = summarize_user_text(item.get("text", ""))
+                        break
+                if last_user:
+                    break
+            tasks.append(
+                {
+                    "agent": session_key.split(":")[1] if ":" in session_key else "unknown",
+                    "session_key": session_key,
+                    "updated_at_ms": updated_at,
+                    "updated_at_local": dt.datetime.fromtimestamp(updated_at / 1000).strftime("%Y-%m-%d %H:%M:%S"),
+                    "state": infer_task_state(events),
+                    "task": last_user or "No recent user task found",
+                    "skills": extract_recent_skills(events),
+                    "available_skills": [
+                        entry.get("name")
+                        for entry in meta.get("skillsSnapshot", {}).get("entries", [])
+                        if isinstance(entry, dict) and entry.get("name")
+                    ][:12],
+                }
+            )
+    tasks.sort(key=lambda item: item["updated_at_ms"], reverse=True)
+    return tasks[:8]
 
 
 def main() -> int:
@@ -99,6 +230,7 @@ def main() -> int:
         },
         "services": services,
         "recent_log": gateway_lines[-8:],
+        "active_tasks": extract_active_tasks(),
         "notes": [],
     }
 
