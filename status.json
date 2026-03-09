@@ -1,11 +1,12 @@
 {
-  "generated_at": "2026-03-09T11:27:37Z",
-  "generated_at_local": "2026-03-09 19:27:37 ",
+  "generated_at": "2026-03-09T11:29:37Z",
+  "generated_at_local": "2026-03-09 19:29:37 ",
+  "stale_after_seconds": 180,
   "host": "LeedeMac-mini.local",
   "openclaw": {
     "running": true,
     "pid": 14068,
-    "model": null
+    "model": "openrouter/anthropic/claude-opus-4.6"
   },
   "telegram": {
     "status": "running",
@@ -50,14 +51,14 @@
     }
   },
   "recent_log": [
-    "2026-03-09T18:51:02.545+08:00 [telegram] global undici dispatcher autoSelectFamily=true",
     "2026-03-09T18:51:02.547+08:00 [telegram] dnsResultOrder=ipv4first (default-node22)",
     "2026-03-09T18:56:44.194+08:00 [telegram] autoSelectFamily=false (config)",
     "2026-03-09T18:56:57.811+08:00 [telegram] autoSelectFamily=true (default-node22)",
     "2026-03-09T19:08:19.483+08:00 [telegram] autoSelectFamily=false (config)",
     "2026-03-09T19:09:06.158+08:00 [telegram] autoSelectFamily=true (default-node22)",
     "2026-03-09T19:15:05.779+08:00 [reload] config change detected; evaluating reload (tools.media)",
-    "2026-03-09T19:15:05.782+08:00 [reload] config change applied (dynamic reads: tools.media)"
+    "2026-03-09T19:15:05.782+08:00 [reload] config change applied (dynamic reads: tools.media)",
+    "2026-03-09T19:28:24.485+08:00 [telegram] autoSelectFamily=false (config)"
   ],
   "notes": [
     "Gateway watchdog checks launchd every 60 seconds."

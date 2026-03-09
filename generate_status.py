@@ -56,7 +56,7 @@ def last_matching(lines: List[str], needle: str) -> Optional[str]:
 
 def main() -> int:
     services = {name: launchctl_info(label) for name, label in LABELS.items()}
-    gateway_lines = tail(GATEWAY_LOG, 16)
+    gateway_lines = tail(GATEWAY_LOG, 80)
 
     model_line = last_matching(gateway_lines, "agent model:")
     model = None
@@ -70,6 +70,7 @@ def main() -> int:
     payload = {
         "generated_at": dt.datetime.utcnow().replace(microsecond=0).isoformat() + "Z",
         "generated_at_local": dt.datetime.now().strftime("%Y-%m-%d %H:%M:%S %Z"),
+        "stale_after_seconds": 180,
         "host": socket.gethostname(),
         "openclaw": {
             "running": services["openclaw"]["state"] == "running",

@@ -214,6 +214,20 @@
       const overallDot = document.getElementById("overall-dot");
       const overallText = document.getElementById("overall-text");
 
+      function ageFromIso(iso) {
+        if (!iso) return null;
+        const then = new Date(iso).getTime();
+        const now = Date.now();
+        return Math.max(0, Math.floor((now - then) / 1000));
+      }
+
+      function humanAge(seconds) {
+        if (seconds == null) return "未知";
+        if (seconds < 60) return `${seconds}s`;
+        if (seconds < 3600) return `${Math.floor(seconds / 60)}m`;
+        return `${Math.floor(seconds / 3600)}h`;
+      }
+
       function statusClass(value) {
         if (value === "running" || value === "ok" || value === true) return "good";
         if (value === "warning" || value === "degraded") return "warn";
@@ -239,13 +253,18 @@
         notes.innerHTML = "";
         services.innerHTML = "";
 
-        const overall = data.openclaw.running ? "good" : "bad";
+        const age = ageFromIso(data.generated_at);
+        const stale = age != null && age > (data.stale_after_seconds || 180);
+        const overall = stale ? "warn" : (data.openclaw.running ? "good" : "bad");
         overallDot.className = `dot ${overall}`;
-        overallText.textContent = data.openclaw.running ? "在线" : "离线";
+        overallText.textContent = stale
+          ? "心跳过期"
+          : (data.openclaw.running ? "在线" : "离线");
 
-        summary.textContent = `主机 ${data.host}，最后更新 ${data.generated_at_local}，模型 ${data.openclaw.model || "未知"}`;
+        summary.textContent = `主机 ${data.host}，最后更新 ${data.generated_at_local}，心跳年龄 ${humanAge(age)}，模型 ${data.openclaw.model || "未知"}`;
 
         addCard("OpenClaw", data.openclaw.running ? "Running" : "Stopped", `PID ${data.openclaw.pid || "-"}`);
+        addCard("Heartbeat", stale ? "Stale" : "Fresh", `Age ${humanAge(age)} / timeout ${data.stale_after_seconds || 180}s`);
         addCard("Telegram", data.telegram.status, data.telegram.detail || "");
         addCard("Browser Relay", data.browser.status, data.browser.detail || "");
         addCard("Caffeinate", data.caffeinate.status, data.caffeinate.detail || "");
