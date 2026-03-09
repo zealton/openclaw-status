@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-03-09T13:45:09Z",
-  "generated_at_local": "2026-03-09 21:45:09 ",
+  "generated_at": "2026-03-09T13:46:12Z",
+  "generated_at_local": "2026-03-09 21:46:12 ",
   "stale_after_seconds": 180,
   "host": "LeedeMac-mini.local",
   "openclaw": {
@@ -51,14 +51,14 @@
     }
   },
   "recent_log": [
-    "2026-03-09T21:28:31.106+08:00 [gateway] [voice-call] Webhook URL: http://127.0.0.1:3334/voice/webhook",
     "2026-03-09T21:28:31.914+08:00 [telegram] [default] starting provider (@lark_mini_claw_bot)",
     "2026-03-09T21:28:31.926+08:00 [telegram] autoSelectFamily=true (default-node22)",
     "2026-03-09T21:28:31.929+08:00 [telegram] global undici dispatcher autoSelectFamily=true",
     "2026-03-09T21:28:31.932+08:00 [telegram] dnsResultOrder=ipv4first (default-node22)",
     "2026-03-09T21:34:59.171+08:00 [telegram] sendMessage ok chat=5683890141 message=137",
     "2026-03-09T21:37:53.062+08:00 [telegram] sendMessage ok chat=5683890141 message=142",
-    "2026-03-09T21:41:24.321+08:00 [telegram] sendMessage ok chat=5683890141 message=145"
+    "2026-03-09T21:41:24.321+08:00 [telegram] sendMessage ok chat=5683890141 message=145",
+    "2026-03-09T21:45:32.116+08:00 [telegram] autoSelectFamily=false (config)"
   ],
   "active_tasks": [
     {
