@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-03-09T12:54:29Z",
-  "generated_at_local": "2026-03-09 20:54:29 ",
+  "generated_at": "2026-03-09T12:55:32Z",
+  "generated_at_local": "2026-03-09 20:55:32 ",
   "stale_after_seconds": 180,
   "host": "LeedeMac-mini.local",
   "openclaw": {
@@ -67,7 +67,8 @@
       "updated_at_ms": 1773059282056,
       "updated_at_local": "2026-03-09 20:28:02",
       "state": "working",
-      "task": "No recent user task found"
+      "task": "No recent user task found",
+      "skills": []
     },
     {
       "agent": "twitter-ops",
@@ -75,7 +76,8 @@
       "updated_at_ms": 1773059068392,
       "updated_at_local": "2026-03-09 20:24:28",
       "state": "idle",
-      "task": "停止现在发送的内容，刚刚都是测试的"
+      "task": "停止现在发送的内容，刚刚都是测试的",
+      "skills": []
     },
     {
       "agent": "main",
@@ -83,7 +85,8 @@
       "updated_at_ms": 1773057539724,
       "updated_at_local": "2026-03-09 19:58:59",
       "state": "idle",
-      "task": "Approve Twitter post P2"
+      "task": "Approve Twitter post P2",
+      "skills": []
     }
   ],
   "notes": [
