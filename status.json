@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-03-09T13:27:12Z",
-  "generated_at_local": "2026-03-09 21:27:12 ",
+  "generated_at": "2026-03-09T13:28:15Z",
+  "generated_at_local": "2026-03-09 21:28:15 ",
   "stale_after_seconds": 180,
   "host": "LeedeMac-mini.local",
   "openclaw": {
@@ -64,10 +64,10 @@
     {
       "agent": "twitter-ops",
       "session_key": "agent:twitter-ops:telegram:direct:5683890141",
-      "updated_at_ms": 1773062735896,
-      "updated_at_local": "2026-03-09 21:25:35",
-      "state": "idle",
-      "task": "[Mon 2026-03-09 21:24 GMT+8] 📝 **新推文审批请求** (第二轮) 基于最新 sources 生成了 3 个新候选： --- **P5** | Polymarket顶级1%的交易习惯 Angle: Polymarket顶级1%的赚钱习惯 为什么: 11.2万钱包数据分析，实操性强，可直接应",
+      "updated_at_ms": 1773062860143,
+      "updated_at_local": "2026-03-09 21:27:40",
+      "state": "working",
+      "task": "运行一次 lark_twitter 这个skill",
       "skills": [
         "lark_twitter"
       ],
