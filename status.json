@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-03-09T12:55:45Z",
-  "generated_at_local": "2026-03-09 20:55:45 ",
+  "generated_at": "2026-03-09T12:56:36Z",
+  "generated_at_local": "2026-03-09 20:56:36 ",
   "stale_after_seconds": 180,
   "host": "LeedeMac-mini.local",
   "openclaw": {
@@ -68,7 +68,8 @@
       "updated_at_local": "2026-03-09 20:28:02",
       "state": "working",
       "task": "Continue where you left off. The previous model attempt failed or timed out.",
-      "skills": []
+      "skills": [],
+      "available_skills": []
     },
     {
       "agent": "twitter-ops",
@@ -77,7 +78,21 @@
       "updated_at_local": "2026-03-09 20:24:28",
       "state": "idle",
       "task": "停止现在发送的内容，刚刚都是测试的",
-      "skills": []
+      "skills": [],
+      "available_skills": [
+        "clawhub",
+        "coding-agent",
+        "gh-issues",
+        "github",
+        "healthcheck",
+        "session-logs",
+        "skill-creator",
+        "voice-call",
+        "weather",
+        "polymarket-api",
+        "trader-analysis",
+        "trading-strategies"
+      ]
     },
     {
       "agent": "main",
@@ -86,7 +101,14 @@
       "updated_at_local": "2026-03-09 19:58:59",
       "state": "idle",
       "task": "Approve Twitter post P2",
-      "skills": []
+      "skills": [],
+      "available_skills": [
+        "coding-agent",
+        "healthcheck",
+        "session-logs",
+        "skill-creator",
+        "weather"
+      ]
     }
   ],
   "notes": [
