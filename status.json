@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-03-09T14:08:23Z",
-  "generated_at_local": "2026-03-09 22:08:23 ",
+  "generated_at": "2026-03-09T14:09:26Z",
+  "generated_at_local": "2026-03-09 22:09:26 ",
   "stale_after_seconds": 180,
   "host": "LeedeMac-mini.local",
   "openclaw": {
@@ -63,6 +63,29 @@
   "active_tasks": [
     {
       "agent": "twitter-ops",
+      "session_key": "agent:twitter-ops:main",
+      "updated_at_ms": 1773065319390,
+      "updated_at_local": "2026-03-09 22:08:39",
+      "state": "working",
+      "task": "System: [2026-03-09 22:02:31 GMT+8] Exec completed (ember-re, code 0) :: {\"updatedAt\": \"2026-03-09T14:02:06.555036+00:00\", \"sources\": 23, \"items\": 144} System: ",
+      "skills": [],
+      "available_skills": [
+        "clawhub",
+        "coding-agent",
+        "gh-issues",
+        "github",
+        "healthcheck",
+        "session-logs",
+        "skill-creator",
+        "voice-call",
+        "weather",
+        "polymarket-api",
+        "trader-analysis",
+        "trading-strategies"
+      ]
+    },
+    {
+      "agent": "twitter-ops",
       "session_key": "agent:twitter-ops:telegram:direct:5683890141",
       "updated_at_ms": 1773064774170,
       "updated_at_local": "2026-03-09 21:59:34",
@@ -83,16 +106,6 @@
         "trader-analysis",
         "trading-strategies"
       ]
-    },
-    {
-      "agent": "twitter-ops",
-      "session_key": "agent:twitter-ops:main",
-      "updated_at_ms": 1773064710944,
-      "updated_at_local": "2026-03-09 21:58:30",
-      "state": "working",
-      "task": "Read HEARTBEAT.md if it exists (workspace context). Follow it strictly. Do not infer or repeat old tasks from prior chats. If nothing needs attention, reply HEA",
-      "skills": [],
-      "available_skills": []
     },
     {
       "agent": "main",
