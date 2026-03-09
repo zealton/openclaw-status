@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-03-09T13:38:48Z",
-  "generated_at_local": "2026-03-09 21:38:48 ",
+  "generated_at": "2026-03-09T13:39:52Z",
+  "generated_at_local": "2026-03-09 21:39:52 ",
   "stale_after_seconds": 180,
   "host": "LeedeMac-mini.local",
   "openclaw": {
@@ -64,10 +64,10 @@
     {
       "agent": "twitter-ops",
       "session_key": "agent:twitter-ops:telegram:direct:5683890141",
-      "updated_at_ms": 1773063470131,
-      "updated_at_local": "2026-03-09 21:37:50",
-      "state": "idle",
-      "task": "4.6",
+      "updated_at_ms": 1773063589573,
+      "updated_at_local": "2026-03-09 21:39:49",
+      "state": "queued",
+      "task": "anthropic/claude-opus-4.6",
       "skills": [],
       "available_skills": [
         "clawhub",
