@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-03-09T11:58:33Z",
-  "generated_at_local": "2026-03-09 19:58:33 ",
+  "generated_at": "2026-03-09T11:59:36Z",
+  "generated_at_local": "2026-03-09 19:59:36 ",
   "stale_after_seconds": 180,
   "host": "LeedeMac-mini.local",
   "openclaw": {
@@ -51,14 +51,14 @@
     }
   },
   "recent_log": [
-    "2026-03-09T19:53:19.751+08:00 [voice-call] Webhook server listening on http://127.0.0.1:3334/voice/webhook",
     "2026-03-09T19:53:19.753+08:00 [gateway] [voice-call] Runtime initialized",
     "2026-03-09T19:53:19.753+08:00 [gateway] [voice-call] Webhook URL: http://127.0.0.1:3334/voice/webhook",
     "2026-03-09T19:53:20.570+08:00 [telegram] [default] starting provider (@lark_mini_claw_bot)",
     "2026-03-09T19:53:20.581+08:00 [telegram] autoSelectFamily=true (default-node22)",
     "2026-03-09T19:53:20.585+08:00 [telegram] global undici dispatcher autoSelectFamily=true",
     "2026-03-09T19:53:20.588+08:00 [telegram] dnsResultOrder=ipv4first (default-node22)",
-    "2026-03-09T19:58:33.740+08:00 [telegram] autoSelectFamily=false (config)"
+    "2026-03-09T19:58:33.740+08:00 [telegram] autoSelectFamily=false (config)",
+    "2026-03-09T19:59:00.925+08:00 [telegram] autoSelectFamily=true (default-node22)"
   ],
   "notes": [
     "Gateway watchdog checks launchd every 60 seconds."
