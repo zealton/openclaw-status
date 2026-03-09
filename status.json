@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-03-09T16:02:34Z",
-  "generated_at_local": "2026-03-10 00:02:34 ",
+  "generated_at": "2026-03-09T16:03:38Z",
+  "generated_at_local": "2026-03-10 00:03:38 ",
   "stale_after_seconds": 180,
   "host": "LeedeMac-mini.local",
   "openclaw": {
@@ -51,23 +51,23 @@
     }
   },
   "recent_log": [
-    "2026-03-09T23:43:57.375+08:00 [gateway] [voice-call] Webhook URL: http://127.0.0.1:3334/voice/webhook",
-    "2026-03-09T23:43:58.201+08:00 [telegram] [default] starting provider (@lark_mini_claw_bot)",
-    "2026-03-09T23:43:58.212+08:00 [telegram] autoSelectFamily=true (default-node22)",
-    "2026-03-09T23:43:58.214+08:00 [telegram] global undici dispatcher autoSelectFamily=true",
-    "2026-03-09T23:43:58.216+08:00 [telegram] dnsResultOrder=ipv4first (default-node22)",
-    "2026-03-09T23:44:48.718+08:00 [telegram] sendMessage ok chat=5683890141 message=193",
     "2026-03-10T00:02:13.208+08:00 [telegram] sendMessage ok chat=5683890141 message=195",
-    "2026-03-10T00:02:23.310+08:00 [telegram] sendMessage ok chat=5683890141 message=197"
+    "2026-03-10T00:02:23.310+08:00 [telegram] sendMessage ok chat=5683890141 message=197",
+    "2026-03-10T00:02:36.733+08:00 [telegram] sendMessage ok chat=5683890141 message=199",
+    "2026-03-10T00:02:48.542+08:00 [plugins] memory-lancedb: plugin registered (db: /Users/leelark/.openclaw/memory/lancedb, lazy init)",
+    "2026-03-10T00:03:04.156+08:00 [hooks/session-memory] Session context saved to ~/.openclaw/workspace/memory/2026-03-09-1602.md",
+    "2026-03-10T00:03:04.199+08:00 [telegram] autoSelectFamily=true (default-node22)",
+    "2026-03-10T00:03:04.200+08:00 [telegram] dnsResultOrder=ipv4first (default-node22)",
+    "2026-03-10T00:03:23.896+08:00 [telegram] sendMessage ok chat=5683890141 message=203"
   ],
   "active_tasks": [
     {
       "agent": "twitter-ops",
       "session_key": "agent:twitter-ops:telegram:direct:5683890141",
-      "updated_at_ms": 1773072142881,
-      "updated_at_local": "2026-03-10 00:02:22",
-      "state": "error",
-      "task": "什么情况？",
+      "updated_at_ms": 1773072208326,
+      "updated_at_local": "2026-03-10 00:03:28",
+      "state": "idle",
+      "task": "啥情况刚刚",
       "skills": [],
       "available_skills": [
         "clawhub",
