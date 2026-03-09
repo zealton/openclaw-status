@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-03-09T13:50:26Z",
-  "generated_at_local": "2026-03-09 21:50:26 ",
+  "generated_at": "2026-03-09T13:51:29Z",
+  "generated_at_local": "2026-03-09 21:51:29 ",
   "stale_after_seconds": 180,
   "host": "LeedeMac-mini.local",
   "openclaw": {
@@ -51,23 +51,23 @@
     }
   },
   "recent_log": [
-    "2026-03-09T21:28:31.926+08:00 [telegram] autoSelectFamily=true (default-node22)",
-    "2026-03-09T21:28:31.929+08:00 [telegram] global undici dispatcher autoSelectFamily=true",
     "2026-03-09T21:28:31.932+08:00 [telegram] dnsResultOrder=ipv4first (default-node22)",
     "2026-03-09T21:34:59.171+08:00 [telegram] sendMessage ok chat=5683890141 message=137",
     "2026-03-09T21:37:53.062+08:00 [telegram] sendMessage ok chat=5683890141 message=142",
     "2026-03-09T21:41:24.321+08:00 [telegram] sendMessage ok chat=5683890141 message=145",
     "2026-03-09T21:45:32.116+08:00 [telegram] autoSelectFamily=false (config)",
-    "2026-03-09T21:47:18.356+08:00 [telegram] autoSelectFamily=true (default-node22)"
+    "2026-03-09T21:47:18.356+08:00 [telegram] autoSelectFamily=true (default-node22)",
+    "2026-03-09T21:50:27.979+08:00 [ws] ⇄ res ✓ agent.wait 30002ms conn=1f079b6c…0380 id=823c1ec2…69bb",
+    "2026-03-09T21:50:45.107+08:00 [ws] ⇄ res ✗ agent errorCode=UNAVAILABLE errorMessage=Error: All models failed (2): openrouter/anthropic/claude-opus-4.6: 403 This model is not available in your region. (auth) | openrouter/openrouter/auto: 403 This model is not available in your region. (auth) runId=0ae90630-b3df-455c-8a55-aa2b8d76c918 error=Error: All models failed (2): openrouter/anthropic/claude-opus-4.6: 403 This model is not available in your region. (auth) | openrouter/openrouter/auto: 403 This model is not available in your region. (auth) conn=c3e18bd6…7443 id=c00b2537…ee69"
   ],
   "active_tasks": [
     {
       "agent": "twitter-ops",
       "session_key": "agent:twitter-ops:telegram:direct:5683890141",
-      "updated_at_ms": 1773064197973,
-      "updated_at_local": "2026-03-09 21:49:57",
-      "state": "working",
-      "task": "完成了？",
+      "updated_at_ms": 1773064243208,
+      "updated_at_local": "2026-03-09 21:50:43",
+      "state": "error",
+      "task": "Continue where you left off. The previous model attempt failed or timed out.",
       "skills": [
         "lark_twitter",
         "openclaw-find-skills"
