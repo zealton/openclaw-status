@@ -1,20 +1,20 @@
 {
-  "generated_at": "2026-03-09T12:11:13Z",
-  "generated_at_local": "2026-03-09 20:11:13 ",
+  "generated_at": "2026-03-09T12:12:16Z",
+  "generated_at_local": "2026-03-09 20:12:16 ",
   "stale_after_seconds": 180,
   "host": "LeedeMac-mini.local",
   "openclaw": {
     "running": true,
-    "pid": 20577,
+    "pid": 20891,
     "model": "openrouter/anthropic/claude-opus-4.6"
   },
   "telegram": {
     "status": "running",
-    "detail": "2026-03-09T20:09:06.632+08:00 [telegram] [default] starting provider (@lark_mini_claw_bot)"
+    "detail": "2026-03-09T20:11:54.500+08:00 [telegram] [default] starting provider (@lark_mini_claw_bot)"
   },
   "browser": {
     "status": "running",
-    "detail": "2026-03-09T20:09:05.575+08:00 [browser/server] Browser control listening on http://127.0.0.1:18791/ (auth=token)"
+    "detail": "2026-03-09T20:11:53.430+08:00 [browser/server] Browser control listening on http://127.0.0.1:18791/ (auth=token)"
   },
   "caffeinate": {
     "status": "running",
@@ -32,7 +32,7 @@
     "openclaw": {
       "loaded": true,
       "state": "running",
-      "pid": 20577
+      "pid": 20891
     },
     "watchdog": {
       "loaded": true,
@@ -51,14 +51,14 @@
     }
   },
   "recent_log": [
-    "2026-03-09T20:09:05.822+08:00 [hooks] loaded 5 internal hook handlers",
-    "2026-03-09T20:09:05.824+08:00 [voice-call] Webhook server listening on http://127.0.0.1:3334/voice/webhook",
-    "2026-03-09T20:09:05.825+08:00 [gateway] [voice-call] Runtime initialized",
-    "2026-03-09T20:09:05.826+08:00 [gateway] [voice-call] Webhook URL: http://127.0.0.1:3334/voice/webhook",
-    "2026-03-09T20:09:06.632+08:00 [telegram] [default] starting provider (@lark_mini_claw_bot)",
-    "2026-03-09T20:09:06.643+08:00 [telegram] autoSelectFamily=true (default-node22)",
-    "2026-03-09T20:09:06.647+08:00 [telegram] global undici dispatcher autoSelectFamily=true",
-    "2026-03-09T20:09:06.649+08:00 [telegram] dnsResultOrder=ipv4first (default-node22)"
+    "2026-03-09T20:11:53.692+08:00 [hooks] loaded 5 internal hook handlers",
+    "2026-03-09T20:11:53.694+08:00 [voice-call] Webhook server listening on http://127.0.0.1:3334/voice/webhook",
+    "2026-03-09T20:11:53.695+08:00 [gateway] [voice-call] Runtime initialized",
+    "2026-03-09T20:11:53.696+08:00 [gateway] [voice-call] Webhook URL: http://127.0.0.1:3334/voice/webhook",
+    "2026-03-09T20:11:54.500+08:00 [telegram] [default] starting provider (@lark_mini_claw_bot)",
+    "2026-03-09T20:11:54.510+08:00 [telegram] autoSelectFamily=true (default-node22)",
+    "2026-03-09T20:11:54.514+08:00 [telegram] global undici dispatcher autoSelectFamily=true",
+    "2026-03-09T20:11:54.517+08:00 [telegram] dnsResultOrder=ipv4first (default-node22)"
   ],
   "notes": [
     "Gateway watchdog checks launchd every 60 seconds."
