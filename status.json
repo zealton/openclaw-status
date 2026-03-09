@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-03-09T12:16:29Z",
-  "generated_at_local": "2026-03-09 20:16:29 ",
+  "generated_at": "2026-03-09T12:17:33Z",
+  "generated_at_local": "2026-03-09 20:17:33 ",
   "stale_after_seconds": 180,
   "host": "LeedeMac-mini.local",
   "openclaw": {
@@ -59,6 +59,24 @@
     "2026-03-09T20:11:54.514+08:00 [telegram] global undici dispatcher autoSelectFamily=true",
     "2026-03-09T20:11:54.517+08:00 [telegram] dnsResultOrder=ipv4first (default-node22)",
     "2026-03-09T20:13:33.059+08:00 [telegram] autoSelectFamily=false (config)"
+  ],
+  "active_tasks": [
+    {
+      "agent": "twitter-ops",
+      "session_key": "agent:twitter-ops:telegram:direct:5683890141",
+      "updated_at_ms": 1773058414554,
+      "updated_at_local": "2026-03-09 20:13:34",
+      "state": "working",
+      "task": "No recent user task found"
+    },
+    {
+      "agent": "main",
+      "session_key": "agent:main:telegram:direct:5683890141",
+      "updated_at_ms": 1773057539724,
+      "updated_at_local": "2026-03-09 19:58:59",
+      "state": "idle",
+      "task": "Approve Twitter post P2"
+    }
   ],
   "notes": [
     "Gateway watchdog checks launchd every 60 seconds."
