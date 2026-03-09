@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-03-09T14:02:03Z",
-  "generated_at_local": "2026-03-09 22:02:03 ",
+  "generated_at": "2026-03-09T14:03:06Z",
+  "generated_at_local": "2026-03-09 22:03:06 ",
   "stale_after_seconds": 180,
   "host": "LeedeMac-mini.local",
   "openclaw": {
@@ -51,14 +51,14 @@
     }
   },
   "recent_log": [
-    "2026-03-09T21:45:32.116+08:00 [telegram] autoSelectFamily=false (config)",
-    "2026-03-09T21:47:18.356+08:00 [telegram] autoSelectFamily=true (default-node22)",
     "2026-03-09T21:50:27.979+08:00 [ws] ⇄ res ✓ agent.wait 30002ms conn=1f079b6c…0380 id=823c1ec2…69bb",
     "2026-03-09T21:50:45.107+08:00 [ws] ⇄ res ✗ agent errorCode=UNAVAILABLE errorMessage=Error: All models failed (2): openrouter/anthropic/claude-opus-4.6: 403 This model is not available in your region. (auth) | openrouter/openrouter/auto: 403 This model is not available in your region. (auth) runId=0ae90630-b3df-455c-8a55-aa2b8d76c918 error=Error: All models failed (2): openrouter/anthropic/claude-opus-4.6: 403 This model is not available in your region. (auth) | openrouter/openrouter/auto: 403 This model is not available in your region. (auth) conn=c3e18bd6…7443 id=c00b2537…ee69",
     "2026-03-09T21:53:15.644+08:00 [ws] ⇄ res ✓ agent.wait 30002ms conn=3267175f…4858 id=fc2e397c…6990",
     "2026-03-09T21:53:55.727+08:00 [ws] ⇄ res ✗ agent errorCode=UNAVAILABLE errorMessage=Error: All models failed (2): openrouter/anthropic/claude-opus-4.6: 403 This model is not available in your region. (auth) | openrouter/openrouter/auto: 403 This model is not available in your region. (auth) runId=a21ae5c2-96d8-4a15-9a56-4209392aec58 error=Error: All models failed (2): openrouter/anthropic/claude-opus-4.6: 403 This model is not available in your region. (auth) | openrouter/openrouter/auto: 403 This model is not available in your region. (auth) conn=4dffbb8e…5005 id=4099a9b2…8a8e",
     "2026-03-09T21:54:46.921+08:00 [ws] ⇄ res ✓ agent.wait 30002ms conn=7137b1b6…c08c id=17713ca1…46b1",
-    "2026-03-09T21:55:02.562+08:00 [ws] ⇄ res ✗ agent errorCode=UNAVAILABLE errorMessage=Error: All models failed (2): openrouter/anthropic/claude-opus-4.6: 403 This model is not available in your region. (auth) | openrouter/openrouter/auto: 403 This model is not available in your region. (auth) runId=53514420-14b7-4ae7-89b7-fed07fe8d2e2 error=Error: All models failed (2): openrouter/anthropic/claude-opus-4.6: 403 This model is not available in your region. (auth) | openrouter/openrouter/auto: 403 This model is not available in your region. (auth) conn=ea52d9c1…8524 id=9dd5b683…7e10"
+    "2026-03-09T21:55:02.562+08:00 [ws] ⇄ res ✗ agent errorCode=UNAVAILABLE errorMessage=Error: All models failed (2): openrouter/anthropic/claude-opus-4.6: 403 This model is not available in your region. (auth) | openrouter/openrouter/auto: 403 This model is not available in your region. (auth) runId=53514420-14b7-4ae7-89b7-fed07fe8d2e2 error=Error: All models failed (2): openrouter/anthropic/claude-opus-4.6: 403 This model is not available in your region. (auth) | openrouter/openrouter/auto: 403 This model is not available in your region. (auth) conn=ea52d9c1…8524 id=9dd5b683…7e10",
+    "2026-03-09T22:02:09.040+08:00 [telegram] autoSelectFamily=false (config)",
+    "2026-03-09T22:02:35.777+08:00 [telegram] autoSelectFamily=true (default-node22)"
   ],
   "active_tasks": [
     {
