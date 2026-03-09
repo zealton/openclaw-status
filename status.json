@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-03-09T13:21:55Z",
-  "generated_at_local": "2026-03-09 21:21:55 ",
+  "generated_at": "2026-03-09T13:22:59Z",
+  "generated_at_local": "2026-03-09 21:22:59 ",
   "stale_after_seconds": 180,
   "host": "LeedeMac-mini.local",
   "openclaw": {
@@ -64,10 +64,10 @@
     {
       "agent": "twitter-ops",
       "session_key": "agent:twitter-ops:telegram:direct:5683890141",
-      "updated_at_ms": 1773061563859,
-      "updated_at_local": "2026-03-09 21:06:03",
-      "state": "idle",
-      "task": "[Mon 2026-03-09 21:05 GMT+8] 📝 **推文审批请求** 基于今日 sources 生成了 3 个候选： --- **P1** | CZ预测AI支付规模 Angle: CZ预测AI支付规模将是人类的百万倍 为什么: 这是AI x crypto基础设施叙事的有力支撑点，来自行业最具影响力的人物之",
+      "updated_at_ms": 1773062548703,
+      "updated_at_local": "2026-03-09 21:22:28",
+      "state": "queued",
+      "task": "运行一次 lark_twitter 这个skill",
       "skills": [
         "lark_twitter"
       ],
