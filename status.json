@@ -1,20 +1,20 @@
 {
-  "generated_at": "2026-03-09T15:43:32Z",
-  "generated_at_local": "2026-03-09 23:43:32 ",
+  "generated_at": "2026-03-09T15:44:35Z",
+  "generated_at_local": "2026-03-09 23:44:35 ",
   "stale_after_seconds": 180,
   "host": "LeedeMac-mini.local",
   "openclaw": {
     "running": true,
-    "pid": 30279,
+    "pid": 37157,
     "model": "openrouter/minimax/minimax-m2.5"
   },
   "telegram": {
     "status": "running",
-    "detail": "2026-03-09T21:28:31.914+08:00 [telegram] [default] starting provider (@lark_mini_claw_bot)"
+    "detail": "2026-03-09T23:43:58.201+08:00 [telegram] [default] starting provider (@lark_mini_claw_bot)"
   },
   "browser": {
     "status": "running",
-    "detail": "2026-03-09T21:28:30.857+08:00 [browser/server] Browser control listening on http://127.0.0.1:18791/ (auth=token)"
+    "detail": "2026-03-09T23:43:57.142+08:00 [browser/server] Browser control listening on http://127.0.0.1:18791/ (auth=token)"
   },
   "caffeinate": {
     "status": "running",
@@ -32,7 +32,7 @@
     "openclaw": {
       "loaded": true,
       "state": "running",
-      "pid": 30279
+      "pid": 37157
     },
     "watchdog": {
       "loaded": true,
@@ -51,21 +51,21 @@
     }
   },
   "recent_log": [
-    "2026-03-09T23:14:55.585+08:00 [agents/tool-images] Image resized to fit limits: wechat_qr3.png 1920x1080px 2.39MB -> 103.2KB (-95.8%)",
-    "2026-03-09T23:15:55.627+08:00 [agents/tool-images] Image resized to fit limits: wechat_qr4.png 1920x1080px 3.69MB -> 106.6KB (-97.2%)",
-    "2026-03-09T23:16:16.622+08:00 [agents/tool-images] Image resized to fit limits: wechat_qr5.png 1920x1080px 3.69MB -> 106.4KB (-97.2%)",
-    "2026-03-09T23:17:47.514+08:00 [telegram] sendMessage ok chat=5683890141 message=182",
-    "2026-03-09T23:17:52.901+08:00 [telegram] sendMessage ok chat=5683890141 message=183",
-    "2026-03-09T23:37:20.403+08:00 [telegram] sendMessage ok chat=5683890141 message=185",
-    "2026-03-09T23:37:34.882+08:00 [telegram] sendMessage ok chat=5683890141 message=187",
-    "2026-03-09T23:37:45.589+08:00 [telegram] sendMessage ok chat=5683890141 message=189"
+    "2026-03-09T23:43:57.372+08:00 [gateway] memory-lancedb: initialized (db: /Users/leelark/.openclaw/memory/lancedb, model: text-embedding-3-small)",
+    "2026-03-09T23:43:57.373+08:00 [voice-call] Webhook server listening on http://127.0.0.1:3334/voice/webhook",
+    "2026-03-09T23:43:57.374+08:00 [gateway] [voice-call] Runtime initialized",
+    "2026-03-09T23:43:57.375+08:00 [gateway] [voice-call] Webhook URL: http://127.0.0.1:3334/voice/webhook",
+    "2026-03-09T23:43:58.201+08:00 [telegram] [default] starting provider (@lark_mini_claw_bot)",
+    "2026-03-09T23:43:58.212+08:00 [telegram] autoSelectFamily=true (default-node22)",
+    "2026-03-09T23:43:58.214+08:00 [telegram] global undici dispatcher autoSelectFamily=true",
+    "2026-03-09T23:43:58.216+08:00 [telegram] dnsResultOrder=ipv4first (default-node22)"
   ],
   "active_tasks": [
     {
       "agent": "twitter-ops",
       "session_key": "agent:twitter-ops:telegram:direct:5683890141",
-      "updated_at_ms": 1773070665151,
-      "updated_at_local": "2026-03-09 23:37:45",
+      "updated_at_ms": 1773071031877,
+      "updated_at_local": "2026-03-09 23:43:51",
       "state": "error",
       "task": "什么情况？",
       "skills": [],
