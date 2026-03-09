@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-03-09T15:11:46Z",
-  "generated_at_local": "2026-03-09 23:11:46 ",
+  "generated_at": "2026-03-09T15:12:49Z",
+  "generated_at_local": "2026-03-09 23:12:49 ",
   "stale_after_seconds": 180,
   "host": "LeedeMac-mini.local",
   "openclaw": {
@@ -51,14 +51,14 @@
     }
   },
   "recent_log": [
-    "2026-03-09T21:53:15.644+08:00 [ws] ⇄ res ✓ agent.wait 30002ms conn=3267175f…4858 id=fc2e397c…6990",
-    "2026-03-09T21:53:55.727+08:00 [ws] ⇄ res ✗ agent errorCode=UNAVAILABLE errorMessage=Error: All models failed (2): openrouter/anthropic/claude-opus-4.6: 403 This model is not available in your region. (auth) | openrouter/openrouter/auto: 403 This model is not available in your region. (auth) runId=a21ae5c2-96d8-4a15-9a56-4209392aec58 error=Error: All models failed (2): openrouter/anthropic/claude-opus-4.6: 403 This model is not available in your region. (auth) | openrouter/openrouter/auto: 403 This model is not available in your region. (auth) conn=4dffbb8e…5005 id=4099a9b2…8a8e",
     "2026-03-09T21:54:46.921+08:00 [ws] ⇄ res ✓ agent.wait 30002ms conn=7137b1b6…c08c id=17713ca1…46b1",
     "2026-03-09T21:55:02.562+08:00 [ws] ⇄ res ✗ agent errorCode=UNAVAILABLE errorMessage=Error: All models failed (2): openrouter/anthropic/claude-opus-4.6: 403 This model is not available in your region. (auth) | openrouter/openrouter/auto: 403 This model is not available in your region. (auth) runId=53514420-14b7-4ae7-89b7-fed07fe8d2e2 error=Error: All models failed (2): openrouter/anthropic/claude-opus-4.6: 403 This model is not available in your region. (auth) | openrouter/openrouter/auto: 403 This model is not available in your region. (auth) conn=ea52d9c1…8524 id=9dd5b683…7e10",
     "2026-03-09T22:02:09.040+08:00 [telegram] autoSelectFamily=false (config)",
     "2026-03-09T22:02:35.777+08:00 [telegram] autoSelectFamily=true (default-node22)",
     "2026-03-09T22:42:16.316+08:00 [telegram] autoSelectFamily=false (config)",
-    "2026-03-09T22:42:40.386+08:00 [telegram] autoSelectFamily=true (default-node22)"
+    "2026-03-09T22:42:40.386+08:00 [telegram] autoSelectFamily=true (default-node22)",
+    "2026-03-09T23:12:12.723+08:00 [agents/tool-images] Image resized to fit limits: wechat_qr.png 1920x1080px 2.46MB -> 105.7KB (-95.8%)",
+    "2026-03-09T23:12:42.439+08:00 [agents/tool-images] Image resized to fit limits: wechat_qr.png 1920x1080px 2.41MB -> 105.1KB (-95.7%)"
   ],
   "active_tasks": [
     {
