@@ -1,0 +1,65 @@
+{
+  "generated_at": "2026-03-09T11:27:37Z",
+  "generated_at_local": "2026-03-09 19:27:37 ",
+  "host": "LeedeMac-mini.local",
+  "openclaw": {
+    "running": true,
+    "pid": 14068,
+    "model": null
+  },
+  "telegram": {
+    "status": "running",
+    "detail": "2026-03-09T18:51:02.530+08:00 [telegram] [default] starting provider (@lark_mini_claw_bot)"
+  },
+  "browser": {
+    "status": "running",
+    "detail": "2026-03-09T18:51:01.281+08:00 [browser/server] Browser control listening on http://127.0.0.1:18791/ (auth=token)"
+  },
+  "caffeinate": {
+    "status": "running",
+    "detail": "Headless keep-awake service"
+  },
+  "watchdog": {
+    "status": "running",
+    "detail": "No watchdog events yet"
+  },
+  "notion_sync": {
+    "status": "scheduled",
+    "detail": "Midnight daily summary job"
+  },
+  "services": {
+    "openclaw": {
+      "loaded": true,
+      "state": "running",
+      "pid": 14068
+    },
+    "watchdog": {
+      "loaded": true,
+      "state": "not running",
+      "pid": null
+    },
+    "caffeinate": {
+      "loaded": true,
+      "state": "running",
+      "pid": 16234
+    },
+    "notion_sync": {
+      "loaded": true,
+      "state": "not running",
+      "pid": null
+    }
+  },
+  "recent_log": [
+    "2026-03-09T18:51:02.545+08:00 [telegram] global undici dispatcher autoSelectFamily=true",
+    "2026-03-09T18:51:02.547+08:00 [telegram] dnsResultOrder=ipv4first (default-node22)",
+    "2026-03-09T18:56:44.194+08:00 [telegram] autoSelectFamily=false (config)",
+    "2026-03-09T18:56:57.811+08:00 [telegram] autoSelectFamily=true (default-node22)",
+    "2026-03-09T19:08:19.483+08:00 [telegram] autoSelectFamily=false (config)",
+    "2026-03-09T19:09:06.158+08:00 [telegram] autoSelectFamily=true (default-node22)",
+    "2026-03-09T19:15:05.779+08:00 [reload] config change detected; evaluating reload (tools.media)",
+    "2026-03-09T19:15:05.782+08:00 [reload] config change applied (dynamic reads: tools.media)"
+  ],
+  "notes": [
+    "Gateway watchdog checks launchd every 60 seconds."
+  ]
+}

@@ -1,0 +1,283 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>OpenClaw Status</title>
+    <style>
+      :root {
+        --bg: #f3efe7;
+        --panel: rgba(255, 252, 245, 0.88);
+        --text: #1f1f19;
+        --muted: #5b5a52;
+        --line: rgba(31, 31, 25, 0.12);
+        --good: #0f766e;
+        --warn: #b45309;
+        --bad: #b91c1c;
+        --accent: #154a8a;
+      }
+
+      * {
+        box-sizing: border-box;
+      }
+
+      body {
+        margin: 0;
+        font-family: "SF Mono", "IBM Plex Mono", Menlo, monospace;
+        color: var(--text);
+        background:
+          radial-gradient(circle at top left, rgba(21, 74, 138, 0.18), transparent 34%),
+          radial-gradient(circle at top right, rgba(15, 118, 110, 0.12), transparent 28%),
+          linear-gradient(180deg, #f7f4ee 0%, var(--bg) 100%);
+      }
+
+      .wrap {
+        max-width: 1100px;
+        margin: 0 auto;
+        padding: 32px 18px 56px;
+      }
+
+      .hero,
+      .panel {
+        background: var(--panel);
+        backdrop-filter: blur(18px);
+        border: 1px solid var(--line);
+        border-radius: 22px;
+        box-shadow: 0 18px 40px rgba(31, 31, 25, 0.08);
+      }
+
+      .hero {
+        padding: 24px;
+        margin-bottom: 18px;
+      }
+
+      h1,
+      h2 {
+        margin: 0;
+        font-weight: 700;
+        letter-spacing: -0.03em;
+      }
+
+      h1 {
+        font-size: clamp(28px, 6vw, 52px);
+      }
+
+      .sub {
+        margin-top: 10px;
+        color: var(--muted);
+        font-size: 14px;
+        line-height: 1.5;
+      }
+
+      .topline {
+        display: flex;
+        justify-content: space-between;
+        gap: 16px;
+        align-items: flex-start;
+        flex-wrap: wrap;
+      }
+
+      .badge {
+        display: inline-flex;
+        align-items: center;
+        gap: 8px;
+        padding: 10px 14px;
+        border-radius: 999px;
+        font-size: 13px;
+        border: 1px solid var(--line);
+        background: rgba(255, 255, 255, 0.7);
+      }
+
+      .dot {
+        width: 10px;
+        height: 10px;
+        border-radius: 50%;
+        background: var(--muted);
+        box-shadow: 0 0 0 6px rgba(0, 0, 0, 0.04);
+      }
+
+      .dot.good { background: var(--good); }
+      .dot.warn { background: var(--warn); }
+      .dot.bad { background: var(--bad); }
+
+      .grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+        gap: 14px;
+        margin: 18px 0;
+      }
+
+      .panel {
+        padding: 18px;
+      }
+
+      .kicker {
+        color: var(--muted);
+        font-size: 12px;
+        text-transform: uppercase;
+        letter-spacing: 0.08em;
+      }
+
+      .value {
+        margin-top: 8px;
+        font-size: 20px;
+      }
+
+      .layout {
+        display: grid;
+        grid-template-columns: 1.2fr 0.8fr;
+        gap: 16px;
+      }
+
+      .logs {
+        display: grid;
+        gap: 16px;
+      }
+
+      pre {
+        margin: 12px 0 0;
+        white-space: pre-wrap;
+        word-break: break-word;
+        font-size: 12px;
+        line-height: 1.5;
+        color: var(--muted);
+      }
+
+      .list {
+        margin: 12px 0 0;
+        padding-left: 18px;
+        color: var(--muted);
+        font-size: 13px;
+        line-height: 1.6;
+      }
+
+      a {
+        color: var(--accent);
+      }
+
+      @media (max-width: 860px) {
+        .layout {
+          grid-template-columns: 1fr;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="wrap">
+      <section class="hero">
+        <div class="topline">
+          <div>
+            <h1>OpenClaw Status</h1>
+            <div class="sub" id="summary">正在加载状态…</div>
+          </div>
+          <div class="badge">
+            <span class="dot" id="overall-dot"></span>
+            <span id="overall-text">加载中</span>
+          </div>
+        </div>
+        <div class="grid" id="cards"></div>
+      </section>
+
+      <section class="layout">
+        <div class="logs">
+          <div class="panel">
+            <h2>最近日志</h2>
+            <pre id="recent-log">加载中…</pre>
+          </div>
+          <div class="panel">
+            <h2>备注</h2>
+            <ul class="list" id="notes"></ul>
+          </div>
+        </div>
+        <div class="logs">
+          <div class="panel">
+            <h2>服务</h2>
+            <ul class="list" id="services"></ul>
+          </div>
+          <div class="panel">
+            <h2>访问</h2>
+            <ul class="list">
+              <li>页面每 15 秒自动刷新。</li>
+              <li>状态来自 Mac mini 本机生成的 <code>status.json</code>。</li>
+              <li>如果部署在 GitHub Pages / Vercel，需要本机继续推送更新。</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+    </div>
+    <script>
+      const cards = document.getElementById("cards");
+      const summary = document.getElementById("summary");
+      const recentLog = document.getElementById("recent-log");
+      const notes = document.getElementById("notes");
+      const services = document.getElementById("services");
+      const overallDot = document.getElementById("overall-dot");
+      const overallText = document.getElementById("overall-text");
+
+      function statusClass(value) {
+        if (value === "running" || value === "ok" || value === true) return "good";
+        if (value === "warning" || value === "degraded") return "warn";
+        return "bad";
+      }
+
+      function addCard(label, value, extra) {
+        const panel = document.createElement("div");
+        panel.className = "panel";
+        panel.innerHTML = `
+          <div class="kicker">${label}</div>
+          <div class="value">${value}</div>
+          <div class="sub">${extra || ""}</div>
+        `;
+        cards.appendChild(panel);
+      }
+
+      async function loadStatus() {
+        const res = await fetch(`status.json?ts=${Date.now()}`, { cache: "no-store" });
+        const data = await res.json();
+
+        cards.innerHTML = "";
+        notes.innerHTML = "";
+        services.innerHTML = "";
+
+        const overall = data.openclaw.running ? "good" : "bad";
+        overallDot.className = `dot ${overall}`;
+        overallText.textContent = data.openclaw.running ? "在线" : "离线";
+
+        summary.textContent = `主机 ${data.host}，最后更新 ${data.generated_at_local}，模型 ${data.openclaw.model || "未知"}`;
+
+        addCard("OpenClaw", data.openclaw.running ? "Running" : "Stopped", `PID ${data.openclaw.pid || "-"}`);
+        addCard("Telegram", data.telegram.status, data.telegram.detail || "");
+        addCard("Browser Relay", data.browser.status, data.browser.detail || "");
+        addCard("Caffeinate", data.caffeinate.status, data.caffeinate.detail || "");
+        addCard("Watchdog", data.watchdog.status, data.watchdog.detail || "");
+        addCard("Notion Sync", data.notion_sync.status, data.notion_sync.detail || "");
+
+        recentLog.textContent = (data.recent_log || []).join("\n") || "无";
+
+        (data.notes || []).forEach((item) => {
+          const li = document.createElement("li");
+          li.textContent = item;
+          notes.appendChild(li);
+        });
+        if (!data.notes || !data.notes.length) {
+          const li = document.createElement("li");
+          li.textContent = "暂无附加备注";
+          notes.appendChild(li);
+        }
+
+        Object.entries(data.services || {}).forEach(([name, info]) => {
+          const li = document.createElement("li");
+          li.innerHTML = `<strong>${name}</strong>: ${info.state}${info.pid ? ` (PID ${info.pid})` : ""}`;
+          services.appendChild(li);
+        });
+      }
+
+      loadStatus().catch((err) => {
+        summary.textContent = `加载失败：${err.message}`;
+        overallDot.className = "dot bad";
+        overallText.textContent = "失败";
+      });
+      setInterval(() => loadStatus().catch(() => {}), 15000);
+    </script>
+  </body>
+</html>
