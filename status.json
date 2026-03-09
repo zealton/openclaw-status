@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-03-09T14:05:13Z",
-  "generated_at_local": "2026-03-09 22:05:13 ",
+  "generated_at": "2026-03-09T14:06:16Z",
+  "generated_at_local": "2026-03-09 22:06:16 ",
   "stale_after_seconds": 180,
   "host": "LeedeMac-mini.local",
   "openclaw": {
@@ -91,9 +91,7 @@
       "updated_at_local": "2026-03-09 21:58:30",
       "state": "working",
       "task": "Read HEARTBEAT.md if it exists (workspace context). Follow it strictly. Do not infer or repeat old tasks from prior chats. If nothing needs attention, reply HEA",
-      "skills": [
-        "lark_twitter"
-      ],
+      "skills": [],
       "available_skills": []
     },
     {
