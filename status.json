@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-03-09T13:05:02Z",
-  "generated_at_local": "2026-03-09 21:05:02 ",
+  "generated_at": "2026-03-09T13:06:05Z",
+  "generated_at_local": "2026-03-09 21:06:05 ",
   "stale_after_seconds": 180,
   "host": "LeedeMac-mini.local",
   "openclaw": {
@@ -51,23 +51,23 @@
     }
   },
   "recent_log": [
-    "2026-03-09T20:58:47.546+08:00 [voice-call] Webhook server listening on http://127.0.0.1:3334/voice/webhook",
-    "2026-03-09T20:58:47.547+08:00 [gateway] [voice-call] Runtime initialized",
-    "2026-03-09T20:58:47.547+08:00 [gateway] [voice-call] Webhook URL: http://127.0.0.1:3334/voice/webhook",
-    "2026-03-09T20:58:48.367+08:00 [telegram] [default] starting provider (@lark_mini_claw_bot)",
-    "2026-03-09T20:58:48.376+08:00 [telegram] autoSelectFamily=true (default-node22)",
-    "2026-03-09T20:58:48.379+08:00 [telegram] global undici dispatcher autoSelectFamily=true",
     "2026-03-09T20:58:48.380+08:00 [telegram] dnsResultOrder=ipv4first (default-node22)",
-    "2026-03-09T21:04:28.753+08:00 [ws] ⇄ res ✗ sessions.resolve 2ms errorCode=INVALID_REQUEST errorMessage=No session found with label: twitter-ops conn=c53a03f2…ff99 id=2817ddba…4630"
+    "2026-03-09T21:04:28.753+08:00 [ws] ⇄ res ✗ sessions.resolve 2ms errorCode=INVALID_REQUEST errorMessage=No session found with label: twitter-ops conn=c53a03f2…ff99 id=2817ddba…4630",
+    "2026-03-09T21:05:39.385+08:00 [ws] ⇄ res ✓ agent.wait 30003ms conn=4ea421ec…2399 id=8eece8af…8a6b",
+    "2026-03-09T21:06:03.864+08:00 [agent:nested] session=agent:twitter-ops:telegram:direct:5683890141 run=f80fa019-8b56-4fcb-899e-e60874315a82 channel=webchat 我收到了这条审批请求。请问要批准哪些？ ",
+    "2026-03-09T21:06:03.866+08:00 [agent:nested] session=agent:twitter-ops:telegram:direct:5683890141 run=f80fa019-8b56-4fcb-899e-e60874315a82 channel=webchat 请回复：",
+    "2026-03-09T21:06:03.870+08:00 [agent:nested] session=agent:twitter-ops:telegram:direct:5683890141 run=f80fa019-8b56-4fcb-899e-e60874315a82 channel=webchat - `approve P1` / `reject P1` / `revise P1: ...`",
+    "2026-03-09T21:06:03.871+08:00 [agent:nested] session=agent:twitter-ops:telegram:direct:5683890141 run=f80fa019-8b56-4fcb-899e-e60874315a82 channel=webchat - `approve P2` / `reject P2` / `revise P2: ...`  ",
+    "2026-03-09T21:06:03.872+08:00 [agent:nested] session=agent:twitter-ops:telegram:direct:5683890141 run=f80fa019-8b56-4fcb-899e-e60874315a82 channel=webchat - `approve P3` / `reject P3` / `revise P3: ...`"
   ],
   "active_tasks": [
     {
       "agent": "twitter-ops",
       "session_key": "agent:twitter-ops:telegram:direct:5683890141",
-      "updated_at_ms": 1773061335022,
-      "updated_at_local": "2026-03-09 21:02:15",
-      "state": "working",
-      "task": "运行一次 lark_twitter 这个skill",
+      "updated_at_ms": 1773061563859,
+      "updated_at_local": "2026-03-09 21:06:03",
+      "state": "idle",
+      "task": "[Mon 2026-03-09 21:05 GMT+8] 📝 **推文审批请求** 基于今日 sources 生成了 3 个候选： --- **P1** | CZ预测AI支付规模 Angle: CZ预测AI支付规模将是人类的百万倍 为什么: 这是AI x crypto基础设施叙事的有力支撑点，来自行业最具影响力的人物之",
       "skills": [
         "lark_twitter"
       ],
