@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-03-09T14:49:36Z",
-  "generated_at_local": "2026-03-09 22:49:36 ",
+  "generated_at": "2026-03-09T14:50:39Z",
+  "generated_at_local": "2026-03-09 22:50:39 ",
   "stale_after_seconds": 180,
   "host": "LeedeMac-mini.local",
   "openclaw": {
@@ -63,11 +63,11 @@
   "active_tasks": [
     {
       "agent": "twitter-ops",
-      "session_key": "agent:twitter-ops:main",
-      "updated_at_ms": 1773067229960,
-      "updated_at_local": "2026-03-09 22:40:29",
-      "state": "idle",
-      "task": "Read HEARTBEAT.md if it exists (workspace context). Follow it strictly. Do not infer or repeat old tasks from prior chats. If nothing needs attention, reply HEA",
+      "session_key": "agent:twitter-ops:telegram:direct:5683890141",
+      "updated_at_ms": 1773067802001,
+      "updated_at_local": "2026-03-09 22:50:02",
+      "state": "working",
+      "task": "没有在回复嘛",
       "skills": [],
       "available_skills": [
         "clawhub",
@@ -86,11 +86,11 @@
     },
     {
       "agent": "twitter-ops",
-      "session_key": "agent:twitter-ops:telegram:direct:5683890141",
-      "updated_at_ms": 1773064774170,
-      "updated_at_local": "2026-03-09 21:59:34",
+      "session_key": "agent:twitter-ops:main",
+      "updated_at_ms": 1773067229960,
+      "updated_at_local": "2026-03-09 22:40:29",
       "state": "idle",
-      "task": "我的意思是在twitter的reply内容，不是post的内容",
+      "task": "Read HEARTBEAT.md if it exists (workspace context). Follow it strictly. Do not infer or repeat old tasks from prior chats. If nothing needs attention, reply HEA",
       "skills": [],
       "available_skills": [
         "clawhub",
