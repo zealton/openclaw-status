@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-03-09T12:05:57Z",
-  "generated_at_local": "2026-03-09 20:05:57 ",
+  "generated_at": "2026-03-09T12:07:00Z",
+  "generated_at_local": "2026-03-09 20:07:00 ",
   "stale_after_seconds": 180,
   "host": "LeedeMac-mini.local",
   "openclaw": {
@@ -51,14 +51,14 @@
     }
   },
   "recent_log": [
-    "2026-03-09T20:03:11.090+08:00 [gateway] [voice-call] Runtime initialized",
     "2026-03-09T20:03:11.091+08:00 [gateway] [voice-call] Webhook URL: http://127.0.0.1:3334/voice/webhook",
     "2026-03-09T20:03:11.899+08:00 [telegram] [default] starting provider (@lark_mini_claw_bot)",
     "2026-03-09T20:03:11.909+08:00 [telegram] autoSelectFamily=true (default-node22)",
     "2026-03-09T20:03:11.912+08:00 [telegram] global undici dispatcher autoSelectFamily=true",
     "2026-03-09T20:03:11.915+08:00 [telegram] dnsResultOrder=ipv4first (default-node22)",
     "2026-03-09T20:04:10.566+08:00 [ws] ⇄ res ✗ sessions.resolve 2ms errorCode=INVALID_REQUEST errorMessage=No session found: telegram:5683890141 conn=d9e31dbb…8f16 id=e31144e5…546f",
-    "2026-03-09T20:04:10.579+08:00 [ws] ⇄ res ✗ sessions.resolve 1ms errorCode=INVALID_REQUEST errorMessage=No session found: telegram:5683890141 conn=84a66fe1…ec9a id=2e81c64b…9172"
+    "2026-03-09T20:04:10.579+08:00 [ws] ⇄ res ✗ sessions.resolve 1ms errorCode=INVALID_REQUEST errorMessage=No session found: telegram:5683890141 conn=84a66fe1…ec9a id=2e81c64b…9172",
+    "2026-03-09T20:06:26.133+08:00 [telegram] autoSelectFamily=false (config)"
   ],
   "notes": [
     "Gateway watchdog checks launchd every 60 seconds."
