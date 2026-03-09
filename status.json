@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-03-09T14:37:58Z",
-  "generated_at_local": "2026-03-09 22:37:58 ",
+  "generated_at": "2026-03-09T14:39:02Z",
+  "generated_at_local": "2026-03-09 22:39:02 ",
   "stale_after_seconds": 180,
   "host": "LeedeMac-mini.local",
   "openclaw": {
@@ -64,10 +64,10 @@
     {
       "agent": "twitter-ops",
       "session_key": "agent:twitter-ops:main",
-      "updated_at_ms": 1773065790952,
-      "updated_at_local": "2026-03-09 22:16:30",
-      "state": "idle",
-      "task": "System: [2026-03-09 22:02:31 GMT+8] Exec completed (ember-re, code 0) :: {\"updatedAt\": \"2026-03-09T14:02:06.555036+00:00\", \"sources\": 23, \"items\": 144} System: ",
+      "updated_at_ms": 1773067119409,
+      "updated_at_local": "2026-03-09 22:38:39",
+      "state": "queued",
+      "task": "Read HEARTBEAT.md if it exists (workspace context). Follow it strictly. Do not infer or repeat old tasks from prior chats. If nothing needs attention, reply HEA",
       "skills": [],
       "available_skills": [
         "clawhub",
