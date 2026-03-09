@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-03-09T15:15:59Z",
-  "generated_at_local": "2026-03-09 23:15:59 ",
+  "generated_at": "2026-03-09T15:17:03Z",
+  "generated_at_local": "2026-03-09 23:17:03 ",
   "stale_after_seconds": 180,
   "host": "LeedeMac-mini.local",
   "openclaw": {
@@ -51,14 +51,14 @@
     }
   },
   "recent_log": [
-    "2026-03-09T22:02:35.777+08:00 [telegram] autoSelectFamily=true (default-node22)",
     "2026-03-09T22:42:16.316+08:00 [telegram] autoSelectFamily=false (config)",
     "2026-03-09T22:42:40.386+08:00 [telegram] autoSelectFamily=true (default-node22)",
     "2026-03-09T23:12:12.723+08:00 [agents/tool-images] Image resized to fit limits: wechat_qr.png 1920x1080px 2.46MB -> 105.7KB (-95.8%)",
     "2026-03-09T23:12:42.439+08:00 [agents/tool-images] Image resized to fit limits: wechat_qr.png 1920x1080px 2.41MB -> 105.1KB (-95.7%)",
     "2026-03-09T23:13:04.116+08:00 [agents/tool-images] Image resized to fit limits: wechat_qr2.png 1920x1080px 2.46MB -> 105.8KB (-95.8%)",
     "2026-03-09T23:14:55.585+08:00 [agents/tool-images] Image resized to fit limits: wechat_qr3.png 1920x1080px 2.39MB -> 103.2KB (-95.8%)",
-    "2026-03-09T23:15:55.627+08:00 [agents/tool-images] Image resized to fit limits: wechat_qr4.png 1920x1080px 3.69MB -> 106.6KB (-97.2%)"
+    "2026-03-09T23:15:55.627+08:00 [agents/tool-images] Image resized to fit limits: wechat_qr4.png 1920x1080px 3.69MB -> 106.6KB (-97.2%)",
+    "2026-03-09T23:16:16.622+08:00 [agents/tool-images] Image resized to fit limits: wechat_qr5.png 1920x1080px 3.69MB -> 106.4KB (-97.2%)"
   ],
   "active_tasks": [
     {
