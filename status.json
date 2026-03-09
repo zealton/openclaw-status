@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-03-09T13:57:49Z",
-  "generated_at_local": "2026-03-09 21:57:49 ",
+  "generated_at": "2026-03-09T13:58:53Z",
+  "generated_at_local": "2026-03-09 21:58:53 ",
   "stale_after_seconds": 180,
   "host": "LeedeMac-mini.local",
   "openclaw": {
@@ -64,10 +64,10 @@
     {
       "agent": "twitter-ops",
       "session_key": "agent:twitter-ops:telegram:direct:5683890141",
-      "updated_at_ms": 1773064653647,
-      "updated_at_local": "2026-03-09 21:57:33",
+      "updated_at_ms": 1773064724915,
+      "updated_at_local": "2026-03-09 21:58:44",
       "state": "queued",
-      "task": "reply了什么内容了嘛",
+      "task": "我的意思是在twitter的reply内容，不是post的内容",
       "skills": [],
       "available_skills": [
         "clawhub",
@@ -87,10 +87,10 @@
     {
       "agent": "twitter-ops",
       "session_key": "agent:twitter-ops:main",
-      "updated_at_ms": 1773061297529,
-      "updated_at_local": "2026-03-09 21:01:37",
-      "state": "error",
-      "task": "Continue where you left off. The previous model attempt failed or timed out.",
+      "updated_at_ms": 1773064710944,
+      "updated_at_local": "2026-03-09 21:58:30",
+      "state": "queued",
+      "task": "Read HEARTBEAT.md if it exists (workspace context). Follow it strictly. Do not infer or repeat old tasks from prior chats. If nothing needs attention, reply HEA",
       "skills": [],
       "available_skills": []
     },
