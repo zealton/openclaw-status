@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-03-09T13:47:16Z",
-  "generated_at_local": "2026-03-09 21:47:16 ",
+  "generated_at": "2026-03-09T13:48:19Z",
+  "generated_at_local": "2026-03-09 21:48:19 ",
   "stale_after_seconds": 180,
   "host": "LeedeMac-mini.local",
   "openclaw": {
@@ -51,22 +51,22 @@
     }
   },
   "recent_log": [
-    "2026-03-09T21:28:31.914+08:00 [telegram] [default] starting provider (@lark_mini_claw_bot)",
     "2026-03-09T21:28:31.926+08:00 [telegram] autoSelectFamily=true (default-node22)",
     "2026-03-09T21:28:31.929+08:00 [telegram] global undici dispatcher autoSelectFamily=true",
     "2026-03-09T21:28:31.932+08:00 [telegram] dnsResultOrder=ipv4first (default-node22)",
     "2026-03-09T21:34:59.171+08:00 [telegram] sendMessage ok chat=5683890141 message=137",
     "2026-03-09T21:37:53.062+08:00 [telegram] sendMessage ok chat=5683890141 message=142",
     "2026-03-09T21:41:24.321+08:00 [telegram] sendMessage ok chat=5683890141 message=145",
-    "2026-03-09T21:45:32.116+08:00 [telegram] autoSelectFamily=false (config)"
+    "2026-03-09T21:45:32.116+08:00 [telegram] autoSelectFamily=false (config)",
+    "2026-03-09T21:47:18.356+08:00 [telegram] autoSelectFamily=true (default-node22)"
   ],
   "active_tasks": [
     {
       "agent": "twitter-ops",
       "session_key": "agent:twitter-ops:telegram:direct:5683890141",
-      "updated_at_ms": 1773064011385,
-      "updated_at_local": "2026-03-09 21:46:51",
-      "state": "working",
+      "updated_at_ms": 1773064036251,
+      "updated_at_local": "2026-03-09 21:47:16",
+      "state": "idle",
       "task": "openrouter的我配置的是",
       "skills": [
         "lark_twitter",
