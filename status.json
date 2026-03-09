@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-03-09T13:39:52Z",
-  "generated_at_local": "2026-03-09 21:39:52 ",
+  "generated_at": "2026-03-09T13:40:55Z",
+  "generated_at_local": "2026-03-09 21:40:55 ",
   "stale_after_seconds": 180,
   "host": "LeedeMac-mini.local",
   "openclaw": {
@@ -66,9 +66,12 @@
       "session_key": "agent:twitter-ops:telegram:direct:5683890141",
       "updated_at_ms": 1773063589573,
       "updated_at_local": "2026-03-09 21:39:49",
-      "state": "queued",
+      "state": "working",
       "task": "anthropic/claude-opus-4.6",
-      "skills": [],
+      "skills": [
+        "lark_twitter",
+        "openclaw-find-skills"
+      ],
       "available_skills": [
         "clawhub",
         "coding-agent",
