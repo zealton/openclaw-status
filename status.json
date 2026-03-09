@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-03-09T13:06:05Z",
-  "generated_at_local": "2026-03-09 21:06:05 ",
+  "generated_at": "2026-03-09T13:07:09Z",
+  "generated_at_local": "2026-03-09 21:07:09 ",
   "stale_after_seconds": 180,
   "host": "LeedeMac-mini.local",
   "openclaw": {
@@ -51,14 +51,14 @@
     }
   },
   "recent_log": [
-    "2026-03-09T20:58:48.380+08:00 [telegram] dnsResultOrder=ipv4first (default-node22)",
     "2026-03-09T21:04:28.753+08:00 [ws] ⇄ res ✗ sessions.resolve 2ms errorCode=INVALID_REQUEST errorMessage=No session found with label: twitter-ops conn=c53a03f2…ff99 id=2817ddba…4630",
     "2026-03-09T21:05:39.385+08:00 [ws] ⇄ res ✓ agent.wait 30003ms conn=4ea421ec…2399 id=8eece8af…8a6b",
     "2026-03-09T21:06:03.864+08:00 [agent:nested] session=agent:twitter-ops:telegram:direct:5683890141 run=f80fa019-8b56-4fcb-899e-e60874315a82 channel=webchat 我收到了这条审批请求。请问要批准哪些？ ",
     "2026-03-09T21:06:03.866+08:00 [agent:nested] session=agent:twitter-ops:telegram:direct:5683890141 run=f80fa019-8b56-4fcb-899e-e60874315a82 channel=webchat 请回复：",
     "2026-03-09T21:06:03.870+08:00 [agent:nested] session=agent:twitter-ops:telegram:direct:5683890141 run=f80fa019-8b56-4fcb-899e-e60874315a82 channel=webchat - `approve P1` / `reject P1` / `revise P1: ...`",
     "2026-03-09T21:06:03.871+08:00 [agent:nested] session=agent:twitter-ops:telegram:direct:5683890141 run=f80fa019-8b56-4fcb-899e-e60874315a82 channel=webchat - `approve P2` / `reject P2` / `revise P2: ...`  ",
-    "2026-03-09T21:06:03.872+08:00 [agent:nested] session=agent:twitter-ops:telegram:direct:5683890141 run=f80fa019-8b56-4fcb-899e-e60874315a82 channel=webchat - `approve P3` / `reject P3` / `revise P3: ...`"
+    "2026-03-09T21:06:03.872+08:00 [agent:nested] session=agent:twitter-ops:telegram:direct:5683890141 run=f80fa019-8b56-4fcb-899e-e60874315a82 channel=webchat - `approve P3` / `reject P3` / `revise P3: ...`",
+    "2026-03-09T21:06:54.020+08:00 [telegram] autoSelectFamily=false (config)"
   ],
   "active_tasks": [
     {
