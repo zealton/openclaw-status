@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-03-10T04:29:33Z",
-  "generated_at_local": "2026-03-10 12:29:33 ",
+  "generated_at": "2026-03-10T04:30:36Z",
+  "generated_at_local": "2026-03-10 12:30:36 ",
   "stale_after_seconds": 180,
   "host": "LeedeMac-mini.local",
   "openclaw": {
     "running": true,
     "pid": 59193,
-    "model": "openrouter/anthropic/claude-opus-4.6"
+    "model": null
   },
   "telegram": {
     "status": "running",
@@ -51,33 +51,46 @@
     }
   },
   "recent_log": [
-    "2026-03-10T11:54:01.827+08:00 [telegram] global undici dispatcher autoSelectFamily=true",
-    "2026-03-10T11:54:01.829+08:00 [telegram] dnsResultOrder=ipv4first (default-node22)",
-    "2026-03-10T11:57:44.771+08:00 [telegram] autoSelectFamily=false (config)",
-    "2026-03-10T12:25:06.198+08:00 [browser/service] Browser control service ready (profiles=2)",
-    "2026-03-10T12:25:21.002+08:00 [browser/chrome] 🦞 openclaw browser profile decorated (#FF4500)",
-    "2026-03-10T12:25:21.264+08:00 [browser/chrome] 🦞 openclaw browser started (chrome) profile \"openclaw\" on 127.0.0.1:18800 (pid 61475)",
-    "2026-03-10T12:25:21.295+08:00 [ws] ⇄ res ✓ browser.request 10500ms conn=e7c75cd1…ff5b id=e8ca9c84…bd62",
-    "2026-03-10T12:25:32.745+08:00 [ws] ⇄ res ✓ browser.request 283ms conn=7900693e…6b63 id=71a2547b…f372"
+    "**📧 邮箱** — +2封新邮件（共15封未读）",
+    "- **Hongfei Tian 拒绝了3月17日的月度通话** — 可能需要跟进重新约时间",
+    "- 10x Research 市场通讯 — 不急",
+    "- ⚠️ **CA DFPI 调查仍未处理**，3月13日截止（还剩3天）",
+    "",
+    "**🌤️ 上海** — ☀️ 12°C（体感12°C），微风，湿度28%，比早上暖多了",
+    "",
+    "日历和记忆状态没变化，跳过。"
   ],
   "active_tasks": [
     {
       "agent": "twitter-ops",
       "session_key": "agent:twitter-ops:subagent:3abf6821-d6fb-443c-9dda-a4c97f9e59b6",
-      "updated_at_ms": 1773116848141,
-      "updated_at_local": "2026-03-10 12:27:28",
-      "state": "working",
+      "updated_at_ms": 1773116998093,
+      "updated_at_local": "2026-03-10 12:29:58",
+      "state": "idle",
       "task": "[Tue 2026-03-10 12:24 GMT+8] [Subagent Context] You are running as a subagent (depth 1/1). Results auto-announce to your requester; do not busy-poll for status.",
       "skills": [],
-      "available_skills": []
+      "available_skills": [
+        "clawhub",
+        "coding-agent",
+        "gh-issues",
+        "github",
+        "healthcheck",
+        "session-logs",
+        "skill-creator",
+        "tmux",
+        "voice-call",
+        "weather",
+        "polymarket-api",
+        "trader-analysis"
+      ]
     },
     {
       "agent": "twitter-ops",
       "session_key": "agent:twitter-ops:main",
-      "updated_at_ms": 1773116662639,
-      "updated_at_local": "2026-03-10 12:24:22",
+      "updated_at_ms": 1773116998078,
+      "updated_at_local": "2026-03-10 12:29:58",
       "state": "idle",
-      "task": "Read HEARTBEAT.md if it exists (workspace context). Follow it strictly. Do not infer or repeat old tasks from prior chats. If nothing needs attention, reply HEA",
+      "task": "[Tue 2026-03-10 12:29 GMT+8] OpenClaw runtime context (internal): This context is runtime-generated, not user-authored. Keep internal details private. [Internal",
       "skills": [
         "weather"
       ],
