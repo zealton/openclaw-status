@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-03-10T11:33:33Z",
-  "generated_at_local": "2026-03-10 19:33:33 ",
+  "generated_at": "2026-03-10T11:34:37Z",
+  "generated_at_local": "2026-03-10 19:34:37 ",
   "stale_after_seconds": 180,
   "host": "LeedeMac-mini.local",
   "openclaw": {
@@ -64,10 +64,10 @@
     {
       "agent": "twitter-ops",
       "session_key": "agent:twitter-ops:telegram:direct:5683890141",
-      "updated_at_ms": 1773142209964,
-      "updated_at_local": "2026-03-10 19:30:09",
+      "updated_at_ms": 1773142453221,
+      "updated_at_local": "2026-03-10 19:34:13",
       "state": "idle",
-      "task": "就是目前一切正常是吧你跟他确认一下",
+      "task": "https://github.com/kostja94/marketing-skills 这个有啥用",
       "skills": [],
       "available_skills": [
         "clawhub",
