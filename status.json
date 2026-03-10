@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-03-10T10:17:32Z",
-  "generated_at_local": "2026-03-10 18:17:32 ",
+  "generated_at": "2026-03-10T10:18:35Z",
+  "generated_at_local": "2026-03-10 18:18:35 ",
   "stale_after_seconds": 180,
   "host": "LeedeMac-mini.local",
   "openclaw": {
@@ -63,13 +63,13 @@
   "active_tasks": [
     {
       "agent": "twitter-ops",
-      "session_key": "agent:twitter-ops:main",
-      "updated_at_ms": 1773137393772,
-      "updated_at_local": "2026-03-10 18:09:53",
+      "session_key": "agent:twitter-ops:telegram:direct:5683890141",
+      "updated_at_ms": 1773137914545,
+      "updated_at_local": "2026-03-10 18:18:34",
       "state": "idle",
-      "task": "[Tue 2026-03-10 16:42 GMT+8] OpenClaw runtime context (internal): This context is runtime-generated, not user-authored. Keep internal details private. [Internal",
+      "task": "还在吗",
       "skills": [
-        "weather"
+        "lark_twitter"
       ],
       "available_skills": [
         "clawhub",
@@ -88,13 +88,13 @@
     },
     {
       "agent": "twitter-ops",
-      "session_key": "agent:twitter-ops:telegram:direct:5683890141",
-      "updated_at_ms": 1773137357165,
-      "updated_at_local": "2026-03-10 18:09:17",
+      "session_key": "agent:twitter-ops:main",
+      "updated_at_ms": 1773137393772,
+      "updated_at_local": "2026-03-10 18:09:53",
       "state": "idle",
-      "task": "还在吗",
+      "task": "[Tue 2026-03-10 16:42 GMT+8] OpenClaw runtime context (internal): This context is runtime-generated, not user-authored. Keep internal details private. [Internal",
       "skills": [
-        "lark_twitter"
+        "weather"
       ],
       "available_skills": [
         "clawhub",
