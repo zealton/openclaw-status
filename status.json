@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-03-10T12:06:19Z",
-  "generated_at_local": "2026-03-10 20:06:19 ",
+  "generated_at": "2026-03-10T12:07:22Z",
+  "generated_at_local": "2026-03-10 20:07:22 ",
   "stale_after_seconds": 180,
   "host": "LeedeMac-mini.local",
   "openclaw": {
@@ -63,12 +63,14 @@
   "active_tasks": [
     {
       "agent": "twitter-ops",
-      "session_key": "agent:twitter-ops:telegram:direct:5683890141",
-      "updated_at_ms": 1773142718130,
-      "updated_at_local": "2026-03-10 19:38:38",
-      "state": "idle",
-      "task": "influencer具体是做了什么的",
-      "skills": [],
+      "session_key": "agent:twitter-ops:main",
+      "updated_at_ms": 1773144438995,
+      "updated_at_local": "2026-03-10 20:07:18",
+      "state": "queued",
+      "task": "Read HEARTBEAT.md if it exists (workspace context). Follow it strictly. Do not infer or repeat old tasks from prior chats. If nothing needs attention, reply HEA",
+      "skills": [
+        "weather"
+      ],
       "available_skills": [
         "clawhub",
         "coding-agent",
@@ -86,14 +88,12 @@
     },
     {
       "agent": "twitter-ops",
-      "session_key": "agent:twitter-ops:main",
-      "updated_at_ms": 1773140765235,
-      "updated_at_local": "2026-03-10 19:06:05",
+      "session_key": "agent:twitter-ops:telegram:direct:5683890141",
+      "updated_at_ms": 1773142718130,
+      "updated_at_local": "2026-03-10 19:38:38",
       "state": "idle",
-      "task": "[Tue 2026-03-10 19:05 GMT+8] OpenClaw runtime context (internal): This context is runtime-generated, not user-authored. Keep internal details private. [Internal",
-      "skills": [
-        "weather"
-      ],
+      "task": "influencer具体是做了什么的",
+      "skills": [],
       "available_skills": [
         "clawhub",
         "coding-agent",
