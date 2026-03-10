@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-03-10T20:06:58Z",
-  "generated_at_local": "2026-03-11 04:06:58 ",
+  "generated_at": "2026-03-10T20:08:01Z",
+  "generated_at_local": "2026-03-11 04:08:01 ",
   "stale_after_seconds": 180,
   "host": "LeedeMac-mini.local",
   "openclaw": {
@@ -64,13 +64,11 @@
     {
       "agent": "twitter-ops",
       "session_key": "agent:twitter-ops:main",
-      "updated_at_ms": 1773171444015,
-      "updated_at_local": "2026-03-11 03:37:24",
+      "updated_at_ms": 1773173245080,
+      "updated_at_local": "2026-03-11 04:07:25",
       "state": "idle",
-      "task": "[Tue 2026-03-10 20:38 GMT+8] OpenClaw runtime context (internal): This context is runtime-generated, not user-authored. Keep internal details private. [Internal",
-      "skills": [
-        "weather"
-      ],
+      "task": "Read HEARTBEAT.md if it exists (workspace context). Follow it strictly. Do not infer or repeat old tasks from prior chats. If nothing needs attention, reply HEA",
+      "skills": [],
       "available_skills": [
         "clawhub",
         "coding-agent",
@@ -79,11 +77,11 @@
         "healthcheck",
         "session-logs",
         "skill-creator",
+        "tmux",
         "voice-call",
         "weather",
         "polymarket-api",
-        "trader-analysis",
-        "trading-strategies"
+        "trader-analysis"
       ]
     },
     {
