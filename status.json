@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-03-10T10:58:44Z",
-  "generated_at_local": "2026-03-10 18:58:44 ",
+  "generated_at": "2026-03-10T10:59:47Z",
+  "generated_at_local": "2026-03-10 18:59:47 ",
   "stale_after_seconds": 180,
   "host": "LeedeMac-mini.local",
   "openclaw": {
@@ -51,23 +51,46 @@
     }
   },
   "recent_log": [
-    "2026-03-10T17:24:54.914+08:00 [telegram] autoSelectFamily=false (config)",
-    "2026-03-10T17:26:04.169+08:00 [telegram] autoSelectFamily=true (default-node22)",
-    "2026-03-10T17:28:43.866+08:00 [telegram] autoSelectFamily=false (config)",
-    "2026-03-10T17:38:34.603+08:00 [telegram] autoSelectFamily=true (default-node22)",
-    "2026-03-10T17:45:53.868+08:00 [telegram] autoSelectFamily=false (config)",
-    "2026-03-10T18:08:05.632+08:00 [telegram] autoSelectFamily=true (default-node22)",
-    "2026-03-10T18:52:04.685+08:00 [telegram] autoSelectFamily=false (config)",
-    "2026-03-10T18:53:47.496+08:00 [telegram] autoSelectFamily=true (default-node22)"
+    "DefiLlama 上 Monad 的历史数据比较有限，只拿到了最近两天的。03-03 到 03-08 的数据没有被收录。",
+    "",
+    "数据来源：",
+    "- TVL: defillama.com/chain/Monad",
+    "- DEX: defillama.com/dexs/Monad",
+    "- Perps: defillama.com/derivatives/Monad",
+    "",
+    "要我试试其他数据源补全吗？"
   ],
   "active_tasks": [
     {
       "agent": "twitter-ops",
-      "session_key": "agent:twitter-ops:telegram:direct:5683890141",
-      "updated_at_ms": 1773140303390,
-      "updated_at_local": "2026-03-10 18:58:23",
+      "session_key": "agent:twitter-ops:subagent:2ad7a135-1a49-47c9-bd0a-40f011cb6bf1",
+      "updated_at_ms": 1773140342508,
+      "updated_at_local": "2026-03-10 18:59:02",
       "state": "idle",
-      "task": "<media:audio>",
+      "task": "[Tue 2026-03-10 18:58 GMT+8] [Subagent Context] You are running as a subagent (depth 1/1). Results auto-announce to your requester; do not busy-poll for status.",
+      "skills": [],
+      "available_skills": [
+        "clawhub",
+        "coding-agent",
+        "gh-issues",
+        "github",
+        "healthcheck",
+        "session-logs",
+        "skill-creator",
+        "tmux",
+        "voice-call",
+        "weather",
+        "polymarket-api",
+        "trader-analysis"
+      ]
+    },
+    {
+      "agent": "twitter-ops",
+      "session_key": "agent:twitter-ops:telegram:direct:5683890141",
+      "updated_at_ms": 1773140341880,
+      "updated_at_local": "2026-03-10 18:59:01",
+      "state": "idle",
+      "task": "[Tue 2026-03-10 18:58 GMT+8] OpenClaw runtime context (internal): This context is runtime-generated, not user-authored. Keep internal details private. [Internal",
       "skills": [
         "clawhub",
         "captcha-auto"
@@ -86,16 +109,6 @@
         "trader-analysis",
         "trading-strategies"
       ]
-    },
-    {
-      "agent": "twitter-ops",
-      "session_key": "agent:twitter-ops:subagent:2ad7a135-1a49-47c9-bd0a-40f011cb6bf1",
-      "updated_at_ms": 1773140299409,
-      "updated_at_local": "2026-03-10 18:58:19",
-      "state": "working",
-      "task": "[Tue 2026-03-10 18:58 GMT+8] [Subagent Context] You are running as a subagent (depth 1/1). Results auto-announce to your requester; do not busy-poll for status.",
-      "skills": [],
-      "available_skills": []
     },
     {
       "agent": "twitter-ops",
