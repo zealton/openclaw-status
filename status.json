@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-03-10T11:11:23Z",
-  "generated_at_local": "2026-03-10 19:11:23 ",
+  "generated_at": "2026-03-10T11:12:26Z",
+  "generated_at_local": "2026-03-10 19:12:26 ",
   "stale_after_seconds": 180,
   "host": "LeedeMac-mini.local",
   "openclaw": {
@@ -64,9 +64,9 @@
     {
       "agent": "twitter-ops",
       "session_key": "agent:twitter-ops:telegram:direct:5683890141",
-      "updated_at_ms": 1773141068764,
-      "updated_at_local": "2026-03-10 19:11:08",
-      "state": "queued",
+      "updated_at_ms": 1773141106803,
+      "updated_at_local": "2026-03-10 19:11:46",
+      "state": "idle",
       "task": "<media:image>",
       "skills": [],
       "available_skills": [
