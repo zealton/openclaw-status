@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-03-10T15:48:28Z",
-  "generated_at_local": "2026-03-10 23:48:28 ",
+  "generated_at": "2026-03-10T15:49:31Z",
+  "generated_at_local": "2026-03-10 23:49:31 ",
   "stale_after_seconds": 180,
   "host": "LeedeMac-mini.local",
   "openclaw": {
@@ -51,14 +51,14 @@
     }
   },
   "recent_log": [
-    "2026-03-10T20:38:21.460+08:00 The Gmail tab shows \"Inbox (150)\" — that's the total unread count. Last check had 16 unread. Let me check if there are new emails since 7:04 PM by examining the inbox.",
     "2026-03-10T20:38:21.461+08:00 Got the data. No new emails since 7:04 PM — the most recent email is from Moongate at 6:30 PM, which was already there at the last check.",
     "",
     "**Email check result:** No new emails since 7:04 PM. The inbox still shows 150 total unread (mostly newsletter/promo backlog). The most recent email is from **Moongate** at 6:30 PM — a marketing email, nothing urgent. No new important items to report.",
     "2026-03-10T20:38:27.430+08:00 无新邮件，一切平静。下次心跳明早9点后。",
     "",
     "HEARTBEAT_OK",
-    "2026-03-10T23:20:37.209+08:00 [telegram] autoSelectFamily=true (default-node22)"
+    "2026-03-10T23:20:37.209+08:00 [telegram] autoSelectFamily=true (default-node22)",
+    "2026-03-10T23:48:56.862+08:00 [telegram] autoSelectFamily=false (config)"
   ],
   "active_tasks": [
     {
