@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-03-10T05:24:24Z",
-  "generated_at_local": "2026-03-10 13:24:24 ",
+  "generated_at": "2026-03-10T05:25:27Z",
+  "generated_at_local": "2026-03-10 13:25:27 ",
   "stale_after_seconds": 180,
   "host": "LeedeMac-mini.local",
   "openclaw": {
@@ -84,29 +84,6 @@
         "polymarket-api",
         "trader-analysis",
         "trading-strategies"
-      ]
-    },
-    {
-      "agent": "twitter-ops",
-      "session_key": "agent:twitter-ops:subagent:3abf6821-d6fb-443c-9dda-a4c97f9e59b6",
-      "updated_at_ms": 1773116998093,
-      "updated_at_local": "2026-03-10 12:29:58",
-      "state": "idle",
-      "task": "[Tue 2026-03-10 12:24 GMT+8] [Subagent Context] You are running as a subagent (depth 1/1). Results auto-announce to your requester; do not busy-poll for status.",
-      "skills": [],
-      "available_skills": [
-        "clawhub",
-        "coding-agent",
-        "gh-issues",
-        "github",
-        "healthcheck",
-        "session-logs",
-        "skill-creator",
-        "tmux",
-        "voice-call",
-        "weather",
-        "polymarket-api",
-        "trader-analysis"
       ]
     },
     {
