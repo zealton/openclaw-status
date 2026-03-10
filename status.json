@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-03-10T11:04:00Z",
-  "generated_at_local": "2026-03-10 19:04:00 ",
+  "generated_at": "2026-03-10T11:05:04Z",
+  "generated_at_local": "2026-03-10 19:05:04 ",
   "stale_after_seconds": 180,
   "host": "LeedeMac-mini.local",
   "openclaw": {
@@ -63,6 +63,41 @@
   "active_tasks": [
     {
       "agent": "twitter-ops",
+      "session_key": "agent:twitter-ops:main",
+      "updated_at_ms": 1773140689359,
+      "updated_at_local": "2026-03-10 19:04:49",
+      "state": "idle",
+      "task": "Read HEARTBEAT.md if it exists (workspace context). Follow it strictly. Do not infer or repeat old tasks from prior chats. If nothing needs attention, reply HEA",
+      "skills": [
+        "weather"
+      ],
+      "available_skills": [
+        "clawhub",
+        "coding-agent",
+        "gh-issues",
+        "github",
+        "healthcheck",
+        "session-logs",
+        "skill-creator",
+        "voice-call",
+        "weather",
+        "polymarket-api",
+        "trader-analysis",
+        "trading-strategies"
+      ]
+    },
+    {
+      "agent": "twitter-ops",
+      "session_key": "agent:twitter-ops:subagent:c920d2ad-e699-4a4b-974d-62c49a8ee676",
+      "updated_at_ms": 1773140669659,
+      "updated_at_local": "2026-03-10 19:04:29",
+      "state": "working",
+      "task": "[Tue 2026-03-10 19:04 GMT+8] [Subagent Context] You are running as a subagent (depth 1/1). Results auto-announce to your requester; do not busy-poll for status.",
+      "skills": [],
+      "available_skills": []
+    },
+    {
+      "agent": "twitter-ops",
       "session_key": "agent:twitter-ops:telegram:direct:5683890141",
       "updated_at_ms": 1773140531682,
       "updated_at_local": "2026-03-10 19:02:11",
@@ -107,31 +142,6 @@
         "weather",
         "polymarket-api",
         "trader-analysis"
-      ]
-    },
-    {
-      "agent": "twitter-ops",
-      "session_key": "agent:twitter-ops:main",
-      "updated_at_ms": 1773137393772,
-      "updated_at_local": "2026-03-10 18:09:53",
-      "state": "idle",
-      "task": "[Tue 2026-03-10 16:42 GMT+8] OpenClaw runtime context (internal): This context is runtime-generated, not user-authored. Keep internal details private. [Internal",
-      "skills": [
-        "weather"
-      ],
-      "available_skills": [
-        "clawhub",
-        "coding-agent",
-        "gh-issues",
-        "github",
-        "healthcheck",
-        "session-logs",
-        "skill-creator",
-        "voice-call",
-        "weather",
-        "polymarket-api",
-        "trader-analysis",
-        "trading-strategies"
       ]
     }
   ],
