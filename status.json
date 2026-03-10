@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-03-10T12:10:32Z",
-  "generated_at_local": "2026-03-10 20:10:32 ",
+  "generated_at": "2026-03-10T12:11:36Z",
+  "generated_at_local": "2026-03-10 20:11:36 ",
   "stale_after_seconds": 180,
   "host": "LeedeMac-mini.local",
   "openclaw": {
@@ -51,14 +51,14 @@
     }
   },
   "recent_log": [
-    "- 只新增了 Moongate 推广邮件，忽略",
     "- ⚠️ **CA DFPI 调查**（3月13日截止）和 **Hongfei 通话**仍待处理",
     "",
     "**🌤️ 上海** — wttr.in 持续超时，按早间预报：晚间~7°C 晴，无雨",
     "",
     "今天最后一次心跳。下次检查窗口为明早 9-11am。晚安 🌃",
     "2026-03-10T19:11:10.878+08:00 [agents/tool-images] Image resized to fit limits: 589x1280px 84.6KB -> 87.2KB (--3%)",
-    "2026-03-10T19:11:10.914+08:00 [agents/tool-images] Image resized to fit limits: 589x1280px 84.6KB -> 87.6KB (--3.7%)"
+    "2026-03-10T19:11:10.914+08:00 [agents/tool-images] Image resized to fit limits: 589x1280px 84.6KB -> 87.6KB (--3.7%)",
+    "2026-03-10T20:11:12.683+08:00 [telegram] autoSelectFamily=false (config)"
   ],
   "active_tasks": [
     {
