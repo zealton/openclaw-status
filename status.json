@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-03-10T09:38:30Z",
-  "generated_at_local": "2026-03-10 17:38:30 ",
+  "generated_at": "2026-03-10T09:39:34Z",
+  "generated_at_local": "2026-03-10 17:39:34 ",
   "stale_after_seconds": 180,
   "host": "LeedeMac-mini.local",
   "openclaw": {
@@ -9,8 +9,8 @@
     "model": null
   },
   "telegram": {
-    "status": "running",
-    "detail": "2026-03-10T13:09:01.761+08:00 [telegram] [default] starting provider (@lark_mini_claw_bot)"
+    "status": "unknown",
+    "detail": "No recent telegram startup log"
   },
   "browser": {
     "status": "unknown",
@@ -51,14 +51,14 @@
     }
   },
   "recent_log": [
-    "2026-03-10T16:52:32.204+08:00 [telegram] autoSelectFamily=true (default-node22)",
     "2026-03-10T16:55:11.807+08:00 [telegram] autoSelectFamily=false (config)",
     "2026-03-10T16:58:03.188+08:00 [telegram] autoSelectFamily=true (default-node22)",
     "2026-03-10T17:15:22.071+08:00 [telegram] autoSelectFamily=false (config)",
     "2026-03-10T17:16:03.624+08:00 [telegram] autoSelectFamily=true (default-node22)",
     "2026-03-10T17:24:54.914+08:00 [telegram] autoSelectFamily=false (config)",
     "2026-03-10T17:26:04.169+08:00 [telegram] autoSelectFamily=true (default-node22)",
-    "2026-03-10T17:28:43.866+08:00 [telegram] autoSelectFamily=false (config)"
+    "2026-03-10T17:28:43.866+08:00 [telegram] autoSelectFamily=false (config)",
+    "2026-03-10T17:38:34.603+08:00 [telegram] autoSelectFamily=true (default-node22)"
   ],
   "active_tasks": [
     {
@@ -109,29 +109,6 @@
         "polymarket-api",
         "trader-analysis",
         "trading-strategies"
-      ]
-    },
-    {
-      "agent": "twitter-ops",
-      "session_key": "agent:twitter-ops:subagent:fcaf77a9-a3bf-435a-9c21-789524213c23",
-      "updated_at_ms": 1773132145213,
-      "updated_at_local": "2026-03-10 16:42:25",
-      "state": "idle",
-      "task": "[Tue 2026-03-10 16:39 GMT+8] [Subagent Context] You are running as a subagent (depth 1/1). Results auto-announce to your requester; do not busy-poll for status.",
-      "skills": [],
-      "available_skills": [
-        "clawhub",
-        "coding-agent",
-        "gh-issues",
-        "github",
-        "healthcheck",
-        "session-logs",
-        "skill-creator",
-        "tmux",
-        "voice-call",
-        "weather",
-        "polymarket-api",
-        "trader-analysis"
       ]
     }
   ],
