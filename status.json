@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-03-10T11:21:56Z",
-  "generated_at_local": "2026-03-10 19:21:56 ",
+  "generated_at": "2026-03-10T11:22:59Z",
+  "generated_at_local": "2026-03-10 19:22:59 ",
   "stale_after_seconds": 180,
   "host": "LeedeMac-mini.local",
   "openclaw": {
@@ -64,11 +64,13 @@
     {
       "agent": "twitter-ops",
       "session_key": "agent:twitter-ops:telegram:direct:5683890141",
-      "updated_at_ms": 1773141644171,
-      "updated_at_local": "2026-03-10 19:20:44",
-      "state": "working",
-      "task": "<media:audio>",
-      "skills": [],
+      "updated_at_ms": 1773141767799,
+      "updated_at_local": "2026-03-10 19:22:47",
+      "state": "queued",
+      "task": "System: [2026-03-10 19:22:01 GMT+8] Exec completed (neat-ree, code 0) :: - Resolving xiaohongshu-api ✔ OK. Installed xiaohongshu-api -> /Users/leelark/.openclaw",
+      "skills": [
+        "xiaohongshu-api"
+      ],
       "available_skills": [
         "clawhub",
         "coding-agent",
