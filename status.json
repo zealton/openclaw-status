@@ -1,20 +1,20 @@
 {
-  "generated_at": "2026-03-10T04:32:42Z",
-  "generated_at_local": "2026-03-10 12:32:42 ",
+  "generated_at": "2026-03-10T04:33:46Z",
+  "generated_at_local": "2026-03-10 12:33:46 ",
   "stale_after_seconds": 180,
   "host": "LeedeMac-mini.local",
   "openclaw": {
     "running": true,
-    "pid": 59193,
-    "model": null
+    "pid": 62123,
+    "model": "openrouter/anthropic/claude-opus-4.6"
   },
   "telegram": {
     "status": "running",
-    "detail": "2026-03-10T11:54:01.814+08:00 [telegram] [default] starting provider (@lark_mini_claw_bot)"
+    "detail": "2026-03-10T12:33:34.438+08:00 [telegram] [default] starting provider (@lark_mini_claw_bot)"
   },
   "browser": {
     "status": "running",
-    "detail": "2026-03-10T11:54:00.359+08:00 [browser/server] Browser control listening on http://127.0.0.1:18791/ (auth=token)"
+    "detail": "2026-03-10T12:33:33.047+08:00 [browser/server] Browser control listening on http://127.0.0.1:18791/ (auth=token)"
   },
   "caffeinate": {
     "status": "running",
@@ -32,7 +32,7 @@
     "openclaw": {
       "loaded": true,
       "state": "running",
-      "pid": 59193
+      "pid": 62123
     },
     "watchdog": {
       "loaded": true,
@@ -51,14 +51,14 @@
     }
   },
   "recent_log": [
-    "**📧 邮箱** — +2封新邮件（共15封未读）",
-    "- **Hongfei Tian 拒绝了3月17日的月度通话** — 可能需要跟进重新约时间",
-    "- 10x Research 市场通讯 — 不急",
-    "- ⚠️ **CA DFPI 调查仍未处理**，3月13日截止（还剩3天）",
-    "",
-    "**🌤️ 上海** — ☀️ 12°C（体感12°C），微风，湿度28%，比早上暖多了",
-    "",
-    "日历和记忆状态没变化，跳过。"
+    "2026-03-10T12:33:33.280+08:00 [gateway] memory-lancedb: initialized (db: /Users/leelark/.openclaw/memory/lancedb, model: text-embedding-3-small)",
+    "2026-03-10T12:33:33.282+08:00 [voice-call] Webhook server listening on http://127.0.0.1:3334/voice/webhook",
+    "2026-03-10T12:33:33.283+08:00 [gateway] [voice-call] Runtime initialized",
+    "2026-03-10T12:33:33.284+08:00 [gateway] [voice-call] Webhook URL: http://127.0.0.1:3334/voice/webhook",
+    "2026-03-10T12:33:34.438+08:00 [telegram] [default] starting provider (@lark_mini_claw_bot)",
+    "2026-03-10T12:33:34.450+08:00 [telegram] autoSelectFamily=true (default-node22)",
+    "2026-03-10T12:33:34.455+08:00 [telegram] global undici dispatcher autoSelectFamily=true",
+    "2026-03-10T12:33:34.457+08:00 [telegram] dnsResultOrder=ipv4first (default-node22)"
   ],
   "active_tasks": [
     {
