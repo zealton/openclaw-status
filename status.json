@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-03-10T10:47:07Z",
-  "generated_at_local": "2026-03-10 18:47:07 ",
+  "generated_at": "2026-03-10T10:48:10Z",
+  "generated_at_local": "2026-03-10 18:48:10 ",
   "stale_after_seconds": 180,
   "host": "LeedeMac-mini.local",
   "openclaw": {
@@ -64,11 +64,13 @@
     {
       "agent": "twitter-ops",
       "session_key": "agent:twitter-ops:telegram:direct:5683890141",
-      "updated_at_ms": 1773139576015,
-      "updated_at_local": "2026-03-10 18:46:16",
-      "state": "working",
-      "task": "xps 14，最近ces发布的",
-      "skills": [],
+      "updated_at_ms": 1773139659708,
+      "updated_at_local": "2026-03-10 18:47:39",
+      "state": "idle",
+      "task": "找一个破解captcha的skill之类的东西",
+      "skills": [
+        "clawhub"
+      ],
       "available_skills": [
         "clawhub",
         "coding-agent",
