@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-03-10T08:52:03Z",
-  "generated_at_local": "2026-03-10 16:52:03 ",
+  "generated_at": "2026-03-10T08:53:06Z",
+  "generated_at_local": "2026-03-10 16:53:06 ",
   "stale_after_seconds": 180,
   "host": "LeedeMac-mini.local",
   "openclaw": {
@@ -51,14 +51,14 @@
     }
   },
   "recent_log": [
-    "- Dubai Tech Tuesday 活动邀请 — 不相关，忽略",
     "- ⚠️ **CA DFPI 调查仍未处理**（3月13日截止，还剩不到3天）",
     "- Hongfei 月度通话拒绝也还在收件箱",
     "",
     "**🌤️ 上海** — wttr.in 超时了，根据早上的预报：傍晚转凉至~8°C，晴，无雨。明晚有雨。",
     "",
     "无新日历事件。一切平静。",
-    "2026-03-10T16:51:38.041+08:00 [telegram] autoSelectFamily=false (config)"
+    "2026-03-10T16:51:38.041+08:00 [telegram] autoSelectFamily=false (config)",
+    "2026-03-10T16:52:32.204+08:00 [telegram] autoSelectFamily=true (default-node22)"
   ],
   "active_tasks": [
     {
