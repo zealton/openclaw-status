@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-03-10T09:15:17Z",
-  "generated_at_local": "2026-03-10 17:15:17 ",
+  "generated_at": "2026-03-10T09:16:20Z",
+  "generated_at_local": "2026-03-10 17:16:20 ",
   "stale_after_seconds": 180,
   "host": "LeedeMac-mini.local",
   "openclaw": {
@@ -52,13 +52,13 @@
   },
   "recent_log": [
     "",
-    "**🌤️ 上海** — wttr.in 超时了，根据早上的预报：傍晚转凉至~8°C，晴，无雨。明晚有雨。",
-    "",
     "无新日历事件。一切平静。",
     "2026-03-10T16:51:38.041+08:00 [telegram] autoSelectFamily=false (config)",
     "2026-03-10T16:52:32.204+08:00 [telegram] autoSelectFamily=true (default-node22)",
     "2026-03-10T16:55:11.807+08:00 [telegram] autoSelectFamily=false (config)",
-    "2026-03-10T16:58:03.188+08:00 [telegram] autoSelectFamily=true (default-node22)"
+    "2026-03-10T16:58:03.188+08:00 [telegram] autoSelectFamily=true (default-node22)",
+    "2026-03-10T17:15:22.071+08:00 [telegram] autoSelectFamily=false (config)",
+    "2026-03-10T17:16:03.624+08:00 [telegram] autoSelectFamily=true (default-node22)"
   ],
   "active_tasks": [
     {
