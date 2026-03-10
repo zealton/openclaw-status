@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-03-10T11:29:19Z",
-  "generated_at_local": "2026-03-10 19:29:19 ",
+  "generated_at": "2026-03-10T11:30:23Z",
+  "generated_at_local": "2026-03-10 19:30:23 ",
   "stale_after_seconds": 180,
   "host": "LeedeMac-mini.local",
   "openclaw": {
@@ -64,10 +64,10 @@
     {
       "agent": "twitter-ops",
       "session_key": "agent:twitter-ops:telegram:direct:5683890141",
-      "updated_at_ms": 1773142123075,
-      "updated_at_local": "2026-03-10 19:28:43",
-      "state": "working",
-      "task": "你跟他说网页没有更新状态帮忙看看问题",
+      "updated_at_ms": 1773142209964,
+      "updated_at_local": "2026-03-10 19:30:09",
+      "state": "idle",
+      "task": "就是目前一切正常是吧你跟他确认一下",
       "skills": [],
       "available_skills": [
         "clawhub",
