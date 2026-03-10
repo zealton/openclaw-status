@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-03-10T11:16:39Z",
-  "generated_at_local": "2026-03-10 19:16:39 ",
+  "generated_at": "2026-03-10T11:17:43Z",
+  "generated_at_local": "2026-03-10 19:17:43 ",
   "stale_after_seconds": 180,
   "host": "LeedeMac-mini.local",
   "openclaw": {
@@ -64,9 +64,9 @@
     {
       "agent": "twitter-ops",
       "session_key": "agent:twitter-ops:telegram:direct:5683890141",
-      "updated_at_ms": 1773141282547,
-      "updated_at_local": "2026-03-10 19:14:42",
-      "state": "working",
+      "updated_at_ms": 1773141410437,
+      "updated_at_local": "2026-03-10 19:16:50",
+      "state": "idle",
       "task": "确认一下是否可以在蛇口港办理值机并且托运行李",
       "skills": [],
       "available_skills": [
