@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-03-10T03:36:50Z",
-  "generated_at_local": "2026-03-10 11:36:50 ",
+  "generated_at": "2026-03-10T03:37:53Z",
+  "generated_at_local": "2026-03-10 11:37:53 ",
   "stale_after_seconds": 180,
   "host": "LeedeMac-mini.local",
   "openclaw": {
@@ -85,16 +85,6 @@
         "trader-analysis",
         "trading-strategies"
       ]
-    },
-    {
-      "agent": "twitter-ops",
-      "session_key": "agent:twitter-ops:subagent:f2f7a622-2d55-4a52-8945-bd4cbbabffd3",
-      "updated_at_ms": 1773110359019,
-      "updated_at_local": "2026-03-10 10:39:19",
-      "state": "working",
-      "task": "[Tue 2026-03-10 10:36 GMT+8] [Subagent Context] You are running as a subagent (depth 1/1). Results auto-announce to your requester; do not busy-poll for status.",
-      "skills": [],
-      "available_skills": []
     },
     {
       "agent": "twitter-ops",
