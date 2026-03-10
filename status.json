@@ -1,20 +1,20 @@
 {
-  "generated_at": "2026-03-09T17:14:37Z",
-  "generated_at_local": "2026-03-10 01:14:37 ",
+  "generated_at": "2026-03-10T01:43:13Z",
+  "generated_at_local": "2026-03-10 09:43:13 ",
   "stale_after_seconds": 180,
   "host": "LeedeMac-mini.local",
   "openclaw": {
     "running": true,
-    "pid": 37157,
-    "model": "openrouter/minimax/minimax-m2.5"
+    "pid": 44669,
+    "model": "openrouter/anthropic/claude-opus-4.6"
   },
   "telegram": {
     "status": "running",
-    "detail": "2026-03-09T23:43:58.201+08:00 [telegram] [default] starting provider (@lark_mini_claw_bot)"
+    "detail": "2026-03-10T09:40:49.800+08:00 [telegram] [default] starting provider (@lark_mini_claw_bot)"
   },
   "browser": {
     "status": "running",
-    "detail": "2026-03-09T23:43:57.142+08:00 [browser/server] Browser control listening on http://127.0.0.1:18791/ (auth=token)"
+    "detail": "2026-03-10T09:40:48.776+08:00 [browser/server] Browser control listening on http://127.0.0.1:18791/ (auth=token)"
   },
   "caffeinate": {
     "status": "running",
@@ -32,7 +32,7 @@
     "openclaw": {
       "loaded": true,
       "state": "running",
-      "pid": 37157
+      "pid": 44669
     },
     "watchdog": {
       "loaded": true,
@@ -51,21 +51,21 @@
     }
   },
   "recent_log": [
-    "2026-03-10T00:02:13.208+08:00 [telegram] sendMessage ok chat=5683890141 message=195",
-    "2026-03-10T00:02:23.310+08:00 [telegram] sendMessage ok chat=5683890141 message=197",
-    "2026-03-10T00:02:36.733+08:00 [telegram] sendMessage ok chat=5683890141 message=199",
-    "2026-03-10T00:02:48.542+08:00 [plugins] memory-lancedb: plugin registered (db: /Users/leelark/.openclaw/memory/lancedb, lazy init)",
-    "2026-03-10T00:03:04.156+08:00 [hooks/session-memory] Session context saved to ~/.openclaw/workspace/memory/2026-03-09-1602.md",
-    "2026-03-10T00:03:04.199+08:00 [telegram] autoSelectFamily=true (default-node22)",
-    "2026-03-10T00:03:04.200+08:00 [telegram] dnsResultOrder=ipv4first (default-node22)",
-    "2026-03-10T00:03:23.896+08:00 [telegram] sendMessage ok chat=5683890141 message=203"
+    "2026-03-10T09:40:48.998+08:00 [voice-call] Webhook server listening on http://127.0.0.1:3334/voice/webhook",
+    "2026-03-10T09:40:48.999+08:00 [gateway] [voice-call] Runtime initialized",
+    "2026-03-10T09:40:49.000+08:00 [gateway] [voice-call] Webhook URL: http://127.0.0.1:3334/voice/webhook",
+    "2026-03-10T09:40:49.800+08:00 [telegram] [default] starting provider (@lark_mini_claw_bot)",
+    "2026-03-10T09:40:49.810+08:00 [telegram] autoSelectFamily=true (default-node22)",
+    "2026-03-10T09:40:49.812+08:00 [telegram] global undici dispatcher autoSelectFamily=true",
+    "2026-03-10T09:40:49.814+08:00 [telegram] dnsResultOrder=ipv4first (default-node22)",
+    "2026-03-10T09:42:16.214+08:00 [ws] ⇄ res ✓ channels.status 1250ms conn=d4ab824f…8fca id=9e91a737…d27f"
   ],
   "active_tasks": [
     {
       "agent": "twitter-ops",
       "session_key": "agent:twitter-ops:main",
-      "updated_at_ms": 1773076444007,
-      "updated_at_local": "2026-03-10 01:14:04",
+      "updated_at_ms": 1773105259245,
+      "updated_at_local": "2026-03-10 09:14:19",
       "state": "idle",
       "task": "Read HEARTBEAT.md if it exists (workspace context). Follow it strictly. Do not infer or repeat old tasks from prior chats. If nothing needs attention, reply HEA",
       "skills": [],
@@ -87,11 +87,13 @@
     {
       "agent": "twitter-ops",
       "session_key": "agent:twitter-ops:telegram:direct:5683890141",
-      "updated_at_ms": 1773072240280,
-      "updated_at_local": "2026-03-10 00:04:00",
+      "updated_at_ms": 1773102799556,
+      "updated_at_local": "2026-03-10 08:33:19",
       "state": "idle",
-      "task": "旧的会话帮我kill掉",
-      "skills": [],
+      "task": "记住了，用摄氏度",
+      "skills": [
+        "weather"
+      ],
       "available_skills": [
         "clawhub",
         "coding-agent",
