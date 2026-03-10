@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-03-10T11:06:07Z",
-  "generated_at_local": "2026-03-10 19:06:07 ",
+  "generated_at": "2026-03-10T11:07:10Z",
+  "generated_at_local": "2026-03-10 19:07:10 ",
   "stale_after_seconds": 180,
   "host": "LeedeMac-mini.local",
   "openclaw": {
@@ -63,6 +63,31 @@
   "active_tasks": [
     {
       "agent": "twitter-ops",
+      "session_key": "agent:twitter-ops:telegram:direct:5683890141",
+      "updated_at_ms": 1773140815390,
+      "updated_at_local": "2026-03-10 19:06:55",
+      "state": "working",
+      "task": "<media:audio>",
+      "skills": [
+        "captcha-auto"
+      ],
+      "available_skills": [
+        "clawhub",
+        "coding-agent",
+        "gh-issues",
+        "github",
+        "healthcheck",
+        "session-logs",
+        "skill-creator",
+        "voice-call",
+        "weather",
+        "polymarket-api",
+        "trader-analysis",
+        "trading-strategies"
+      ]
+    },
+    {
+      "agent": "twitter-ops",
       "session_key": "agent:twitter-ops:subagent:c920d2ad-e699-4a4b-974d-62c49a8ee676",
       "updated_at_ms": 1773140765251,
       "updated_at_local": "2026-03-10 19:06:05",
@@ -93,31 +118,6 @@
       "task": "[Tue 2026-03-10 19:05 GMT+8] OpenClaw runtime context (internal): This context is runtime-generated, not user-authored. Keep internal details private. [Internal",
       "skills": [
         "weather"
-      ],
-      "available_skills": [
-        "clawhub",
-        "coding-agent",
-        "gh-issues",
-        "github",
-        "healthcheck",
-        "session-logs",
-        "skill-creator",
-        "voice-call",
-        "weather",
-        "polymarket-api",
-        "trader-analysis",
-        "trading-strategies"
-      ]
-    },
-    {
-      "agent": "twitter-ops",
-      "session_key": "agent:twitter-ops:telegram:direct:5683890141",
-      "updated_at_ms": 1773140531682,
-      "updated_at_local": "2026-03-10 19:02:11",
-      "state": "idle",
-      "task": "<media:audio>",
-      "skills": [
-        "captcha-auto"
       ],
       "available_skills": [
         "clawhub",
