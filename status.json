@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-03-10T11:24:02Z",
-  "generated_at_local": "2026-03-10 19:24:02 ",
+  "generated_at": "2026-03-10T11:25:06Z",
+  "generated_at_local": "2026-03-10 19:25:06 ",
   "stale_after_seconds": 180,
   "host": "LeedeMac-mini.local",
   "openclaw": {
@@ -64,10 +64,10 @@
     {
       "agent": "twitter-ops",
       "session_key": "agent:twitter-ops:telegram:direct:5683890141",
-      "updated_at_ms": 1773141830144,
-      "updated_at_local": "2026-03-10 19:23:50",
-      "state": "queued",
-      "task": "我觉得你直接用chrome relay来操作吧",
+      "updated_at_ms": 1773141874584,
+      "updated_at_local": "2026-03-10 19:24:34",
+      "state": "working",
+      "task": "找一个最近我交互过的，内容肯定是最多的",
       "skills": [
         "xiaohongshu-api"
       ],
