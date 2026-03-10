@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-03-10T04:25:19Z",
-  "generated_at_local": "2026-03-10 12:25:19 ",
+  "generated_at": "2026-03-10T04:26:23Z",
+  "generated_at_local": "2026-03-10 12:26:23 ",
   "stale_after_seconds": 180,
   "host": "LeedeMac-mini.local",
   "openclaw": {
@@ -51,16 +51,26 @@
     }
   },
   "recent_log": [
-    "2026-03-10T11:54:00.642+08:00 [gateway] [voice-call] Runtime initialized",
-    "2026-03-10T11:54:00.642+08:00 [gateway] [voice-call] Webhook URL: http://127.0.0.1:3334/voice/webhook",
-    "2026-03-10T11:54:01.814+08:00 [telegram] [default] starting provider (@lark_mini_claw_bot)",
-    "2026-03-10T11:54:01.825+08:00 [telegram] autoSelectFamily=true (default-node22)",
     "2026-03-10T11:54:01.827+08:00 [telegram] global undici dispatcher autoSelectFamily=true",
     "2026-03-10T11:54:01.829+08:00 [telegram] dnsResultOrder=ipv4first (default-node22)",
     "2026-03-10T11:57:44.771+08:00 [telegram] autoSelectFamily=false (config)",
-    "2026-03-10T12:25:06.198+08:00 [browser/service] Browser control service ready (profiles=2)"
+    "2026-03-10T12:25:06.198+08:00 [browser/service] Browser control service ready (profiles=2)",
+    "2026-03-10T12:25:21.002+08:00 [browser/chrome] 🦞 openclaw browser profile decorated (#FF4500)",
+    "2026-03-10T12:25:21.264+08:00 [browser/chrome] 🦞 openclaw browser started (chrome) profile \"openclaw\" on 127.0.0.1:18800 (pid 61475)",
+    "2026-03-10T12:25:21.295+08:00 [ws] ⇄ res ✓ browser.request 10500ms conn=e7c75cd1…ff5b id=e8ca9c84…bd62",
+    "2026-03-10T12:25:32.745+08:00 [ws] ⇄ res ✓ browser.request 283ms conn=7900693e…6b63 id=71a2547b…f372"
   ],
   "active_tasks": [
+    {
+      "agent": "twitter-ops",
+      "session_key": "agent:twitter-ops:subagent:3abf6821-d6fb-443c-9dda-a4c97f9e59b6",
+      "updated_at_ms": 1773116721638,
+      "updated_at_local": "2026-03-10 12:25:21",
+      "state": "working",
+      "task": "[Tue 2026-03-10 12:24 GMT+8] [Subagent Context] You are running as a subagent (depth 1/1). Results auto-announce to your requester; do not busy-poll for status.",
+      "skills": [],
+      "available_skills": []
+    },
     {
       "agent": "twitter-ops",
       "session_key": "agent:twitter-ops:main",
@@ -85,16 +95,6 @@
         "trader-analysis",
         "trading-strategies"
       ]
-    },
-    {
-      "agent": "twitter-ops",
-      "session_key": "agent:twitter-ops:subagent:3abf6821-d6fb-443c-9dda-a4c97f9e59b6",
-      "updated_at_ms": 1773116655466,
-      "updated_at_local": "2026-03-10 12:24:15",
-      "state": "working",
-      "task": "[Tue 2026-03-10 12:24 GMT+8] [Subagent Context] You are running as a subagent (depth 1/1). Results auto-announce to your requester; do not busy-poll for status.",
-      "skills": [],
-      "available_skills": []
     },
     {
       "agent": "twitter-ops",
