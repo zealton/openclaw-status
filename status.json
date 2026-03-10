@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-03-10T10:57:40Z",
-  "generated_at_local": "2026-03-10 18:57:40 ",
+  "generated_at": "2026-03-10T10:58:44Z",
+  "generated_at_local": "2026-03-10 18:58:44 ",
   "stale_after_seconds": 180,
   "host": "LeedeMac-mini.local",
   "openclaw": {
@@ -64,10 +64,10 @@
     {
       "agent": "twitter-ops",
       "session_key": "agent:twitter-ops:telegram:direct:5683890141",
-      "updated_at_ms": 1773140246951,
-      "updated_at_local": "2026-03-10 18:57:26",
+      "updated_at_ms": 1773140303390,
+      "updated_at_local": "2026-03-10 18:58:23",
       "state": "idle",
-      "task": "你没听清嘛",
+      "task": "<media:audio>",
       "skills": [
         "clawhub",
         "captcha-auto"
@@ -86,6 +86,16 @@
         "trader-analysis",
         "trading-strategies"
       ]
+    },
+    {
+      "agent": "twitter-ops",
+      "session_key": "agent:twitter-ops:subagent:2ad7a135-1a49-47c9-bd0a-40f011cb6bf1",
+      "updated_at_ms": 1773140299409,
+      "updated_at_local": "2026-03-10 18:58:19",
+      "state": "working",
+      "task": "[Tue 2026-03-10 18:58 GMT+8] [Subagent Context] You are running as a subagent (depth 1/1). Results auto-announce to your requester; do not busy-poll for status.",
+      "skills": [],
+      "available_skills": []
     },
     {
       "agent": "twitter-ops",
