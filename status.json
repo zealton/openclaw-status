@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-03-10T05:03:18Z",
-  "generated_at_local": "2026-03-10 13:03:18 ",
+  "generated_at": "2026-03-10T05:04:21Z",
+  "generated_at_local": "2026-03-10 13:04:21 ",
   "stale_after_seconds": 180,
   "host": "LeedeMac-mini.local",
   "openclaw": {
@@ -63,6 +63,31 @@
   "active_tasks": [
     {
       "agent": "twitter-ops",
+      "session_key": "agent:twitter-ops:main",
+      "updated_at_ms": 1773119021368,
+      "updated_at_local": "2026-03-10 13:03:41",
+      "state": "idle",
+      "task": "[Tue 2026-03-10 12:29 GMT+8] OpenClaw runtime context (internal): This context is runtime-generated, not user-authored. Keep internal details private. [Internal",
+      "skills": [
+        "weather"
+      ],
+      "available_skills": [
+        "clawhub",
+        "coding-agent",
+        "gh-issues",
+        "github",
+        "healthcheck",
+        "session-logs",
+        "skill-creator",
+        "voice-call",
+        "weather",
+        "polymarket-api",
+        "trader-analysis",
+        "trading-strategies"
+      ]
+    },
+    {
+      "agent": "twitter-ops",
       "session_key": "agent:twitter-ops:subagent:3abf6821-d6fb-443c-9dda-a4c97f9e59b6",
       "updated_at_ms": 1773116998093,
       "updated_at_local": "2026-03-10 12:29:58",
@@ -82,31 +107,6 @@
         "weather",
         "polymarket-api",
         "trader-analysis"
-      ]
-    },
-    {
-      "agent": "twitter-ops",
-      "session_key": "agent:twitter-ops:main",
-      "updated_at_ms": 1773116998078,
-      "updated_at_local": "2026-03-10 12:29:58",
-      "state": "idle",
-      "task": "[Tue 2026-03-10 12:29 GMT+8] OpenClaw runtime context (internal): This context is runtime-generated, not user-authored. Keep internal details private. [Internal",
-      "skills": [
-        "weather"
-      ],
-      "available_skills": [
-        "clawhub",
-        "coding-agent",
-        "gh-issues",
-        "github",
-        "healthcheck",
-        "session-logs",
-        "skill-creator",
-        "voice-call",
-        "weather",
-        "polymarket-api",
-        "trader-analysis",
-        "trading-strategies"
       ]
     },
     {
