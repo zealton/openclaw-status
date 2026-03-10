@@ -1,20 +1,20 @@
 {
-  "generated_at": "2026-03-10T01:43:13Z",
-  "generated_at_local": "2026-03-10 09:43:13 ",
+  "generated_at": "2026-03-10T02:46:10Z",
+  "generated_at_local": "2026-03-10 10:46:10 ",
   "stale_after_seconds": 180,
   "host": "LeedeMac-mini.local",
   "openclaw": {
     "running": true,
-    "pid": 44669,
+    "pid": 49755,
     "model": "openrouter/anthropic/claude-opus-4.6"
   },
   "telegram": {
     "status": "running",
-    "detail": "2026-03-10T09:40:49.800+08:00 [telegram] [default] starting provider (@lark_mini_claw_bot)"
+    "detail": "2026-03-10T10:41:24.408+08:00 [telegram] [default] starting provider (@lark_mini_claw_bot)"
   },
   "browser": {
     "status": "running",
-    "detail": "2026-03-10T09:40:48.776+08:00 [browser/server] Browser control listening on http://127.0.0.1:18791/ (auth=token)"
+    "detail": "2026-03-10T10:41:22.943+08:00 [browser/server] Browser control listening on http://127.0.0.1:18791/ (auth=token)"
   },
   "caffeinate": {
     "status": "running",
@@ -32,7 +32,7 @@
     "openclaw": {
       "loaded": true,
       "state": "running",
-      "pid": 44669
+      "pid": 49755
     },
     "watchdog": {
       "loaded": true,
@@ -51,23 +51,59 @@
     }
   },
   "recent_log": [
-    "2026-03-10T09:40:48.998+08:00 [voice-call] Webhook server listening on http://127.0.0.1:3334/voice/webhook",
-    "2026-03-10T09:40:48.999+08:00 [gateway] [voice-call] Runtime initialized",
-    "2026-03-10T09:40:49.000+08:00 [gateway] [voice-call] Webhook URL: http://127.0.0.1:3334/voice/webhook",
-    "2026-03-10T09:40:49.800+08:00 [telegram] [default] starting provider (@lark_mini_claw_bot)",
-    "2026-03-10T09:40:49.810+08:00 [telegram] autoSelectFamily=true (default-node22)",
-    "2026-03-10T09:40:49.812+08:00 [telegram] global undici dispatcher autoSelectFamily=true",
-    "2026-03-10T09:40:49.814+08:00 [telegram] dnsResultOrder=ipv4first (default-node22)",
-    "2026-03-10T09:42:16.214+08:00 [ws] ⇄ res ✓ channels.status 1250ms conn=d4ab824f…8fca id=9e91a737…d27f"
+    "2026-03-10T10:41:23.190+08:00 [gateway] memory-lancedb: initialized (db: /Users/leelark/.openclaw/memory/lancedb, model: text-embedding-3-small)",
+    "2026-03-10T10:41:23.192+08:00 [voice-call] Webhook server listening on http://127.0.0.1:3334/voice/webhook",
+    "2026-03-10T10:41:23.193+08:00 [gateway] [voice-call] Runtime initialized",
+    "2026-03-10T10:41:23.194+08:00 [gateway] [voice-call] Webhook URL: http://127.0.0.1:3334/voice/webhook",
+    "2026-03-10T10:41:24.408+08:00 [telegram] [default] starting provider (@lark_mini_claw_bot)",
+    "2026-03-10T10:41:24.423+08:00 [telegram] autoSelectFamily=true (default-node22)",
+    "2026-03-10T10:41:24.425+08:00 [telegram] global undici dispatcher autoSelectFamily=true",
+    "2026-03-10T10:41:24.427+08:00 [telegram] dnsResultOrder=ipv4first (default-node22)"
   ],
   "active_tasks": [
     {
       "agent": "twitter-ops",
-      "session_key": "agent:twitter-ops:main",
-      "updated_at_ms": 1773105259245,
-      "updated_at_local": "2026-03-10 09:14:19",
+      "session_key": "agent:twitter-ops:subagent:f2f7a622-2d55-4a52-8945-bd4cbbabffd3",
+      "updated_at_ms": 1773110359019,
+      "updated_at_local": "2026-03-10 10:39:19",
+      "state": "working",
+      "task": "[Tue 2026-03-10 10:36 GMT+8] [Subagent Context] You are running as a subagent (depth 1/1). Results auto-announce to your requester; do not busy-poll for status.",
+      "skills": [],
+      "available_skills": []
+    },
+    {
+      "agent": "twitter-ops",
+      "session_key": "agent:twitter-ops:telegram:direct:5683890141",
+      "updated_at_ms": 1773110200184,
+      "updated_at_local": "2026-03-10 10:36:40",
       "state": "idle",
-      "task": "Read HEARTBEAT.md if it exists (workspace context). Follow it strictly. Do not infer or repeat old tasks from prior chats. If nothing needs attention, reply HEA",
+      "task": "执行lark-twitter 这个skill",
+      "skills": [
+        "weather",
+        "lark_twitter"
+      ],
+      "available_skills": [
+        "clawhub",
+        "coding-agent",
+        "gh-issues",
+        "github",
+        "healthcheck",
+        "session-logs",
+        "skill-creator",
+        "voice-call",
+        "weather",
+        "polymarket-api",
+        "trader-analysis",
+        "trading-strategies"
+      ]
+    },
+    {
+      "agent": "twitter-ops",
+      "session_key": "agent:twitter-ops:subagent:fe92dd42-f8fa-4a29-8c46-157d324339f9",
+      "updated_at_ms": 1773108819094,
+      "updated_at_local": "2026-03-10 10:13:39",
+      "state": "idle",
+      "task": "[Tue 2026-03-10 10:11 GMT+8] [Subagent Context] You are running as a subagent (depth 1/1). Results auto-announce to your requester; do not busy-poll for status.",
       "skills": [],
       "available_skills": [
         "clawhub",
@@ -86,11 +122,11 @@
     },
     {
       "agent": "twitter-ops",
-      "session_key": "agent:twitter-ops:telegram:direct:5683890141",
-      "updated_at_ms": 1773102799556,
-      "updated_at_local": "2026-03-10 08:33:19",
+      "session_key": "agent:twitter-ops:main",
+      "updated_at_ms": 1773108819077,
+      "updated_at_local": "2026-03-10 10:13:39",
       "state": "idle",
-      "task": "记住了，用摄氏度",
+      "task": "[Tue 2026-03-10 10:13 GMT+8] OpenClaw runtime context (internal): This context is runtime-generated, not user-authored. Keep internal details private. [Internal",
       "skills": [
         "weather"
       ],
@@ -110,19 +146,49 @@
       ]
     },
     {
-      "agent": "main",
-      "session_key": "agent:main:telegram:direct:5683890141",
-      "updated_at_ms": 1773057539724,
-      "updated_at_local": "2026-03-09 19:58:59",
+      "agent": "twitter-ops",
+      "session_key": "agent:twitter-ops:subagent:6248b6da-32cd-46b1-b6da-ad17d531d781",
+      "updated_at_ms": 1773108719147,
+      "updated_at_local": "2026-03-10 10:11:59",
       "state": "idle",
-      "task": "Approve Twitter post P2",
+      "task": "[Tue 2026-03-10 10:11 GMT+8] [Subagent Context] You are running as a subagent (depth 1/1). Results auto-announce to your requester; do not busy-poll for status.",
       "skills": [],
       "available_skills": [
+        "clawhub",
         "coding-agent",
+        "gh-issues",
+        "github",
         "healthcheck",
         "session-logs",
         "skill-creator",
-        "weather"
+        "voice-call",
+        "weather",
+        "polymarket-api",
+        "trader-analysis",
+        "trading-strategies"
+      ]
+    },
+    {
+      "agent": "twitter-ops",
+      "session_key": "agent:twitter-ops:subagent:062b0a0d-66f4-4c88-9a09-4f6891ad555a",
+      "updated_at_ms": 1773108715243,
+      "updated_at_local": "2026-03-10 10:11:55",
+      "state": "idle",
+      "task": "[Tue 2026-03-10 10:11 GMT+8] [Subagent Context] You are running as a subagent (depth 1/1). Results auto-announce to your requester; do not busy-poll for status.",
+      "skills": [],
+      "available_skills": [
+        "clawhub",
+        "coding-agent",
+        "gh-issues",
+        "github",
+        "healthcheck",
+        "session-logs",
+        "skill-creator",
+        "voice-call",
+        "weather",
+        "polymarket-api",
+        "trader-analysis",
+        "trading-strategies"
       ]
     }
   ],
