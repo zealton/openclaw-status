@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-03-10T12:36:57Z",
-  "generated_at_local": "2026-03-10 20:36:57 ",
+  "generated_at": "2026-03-10T12:38:01Z",
+  "generated_at_local": "2026-03-10 20:38:01 ",
   "stale_after_seconds": 180,
   "host": "LeedeMac-mini.local",
   "openclaw": {
@@ -64,10 +64,10 @@
     {
       "agent": "twitter-ops",
       "session_key": "agent:twitter-ops:main",
-      "updated_at_ms": 1773144445833,
-      "updated_at_local": "2026-03-10 20:07:25",
+      "updated_at_ms": 1773146255589,
+      "updated_at_local": "2026-03-10 20:37:35",
       "state": "idle",
-      "task": "[Tue 2026-03-10 19:05 GMT+8] OpenClaw runtime context (internal): This context is runtime-generated, not user-authored. Keep internal details private. [Internal",
+      "task": "Read HEARTBEAT.md if it exists (workspace context). Follow it strictly. Do not infer or repeat old tasks from prior chats. If nothing needs attention, reply HEA",
       "skills": [
         "weather"
       ],
@@ -85,6 +85,16 @@
         "trader-analysis",
         "trading-strategies"
       ]
+    },
+    {
+      "agent": "twitter-ops",
+      "session_key": "agent:twitter-ops:subagent:7fc6ccd8-ac1d-4b53-a689-9d267a7e1ccf",
+      "updated_at_ms": 1773146252089,
+      "updated_at_local": "2026-03-10 20:37:32",
+      "state": "working",
+      "task": "[Tue 2026-03-10 20:37 GMT+8] [Subagent Context] You are running as a subagent (depth 1/1). Results auto-announce to your requester; do not busy-poll for status.",
+      "skills": [],
+      "available_skills": []
     },
     {
       "agent": "twitter-ops",
