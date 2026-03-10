@@ -1,20 +1,20 @@
 {
-  "generated_at": "2026-03-10T08:41:31Z",
-  "generated_at_local": "2026-03-10 16:41:31 ",
+  "generated_at": "2026-03-10T08:42:34Z",
+  "generated_at_local": "2026-03-10 16:42:34 ",
   "stale_after_seconds": 180,
   "host": "LeedeMac-mini.local",
   "openclaw": {
     "running": true,
     "pid": 64153,
-    "model": "openrouter/anthropic/claude-opus-4.6"
+    "model": null
   },
   "telegram": {
     "status": "running",
     "detail": "2026-03-10T13:09:01.761+08:00 [telegram] [default] starting provider (@lark_mini_claw_bot)"
   },
   "browser": {
-    "status": "running",
-    "detail": "2026-03-10T13:09:00.335+08:00 [browser/server] Browser control listening on http://127.0.0.1:18791/ (auth=token)"
+    "status": "unknown",
+    "detail": "No recent browser relay log"
   },
   "caffeinate": {
     "status": "running",
@@ -51,25 +51,24 @@
     }
   },
   "recent_log": [
-    "2026-03-10T15:42:21.064+08:00 [telegram] autoSelectFamily=false (config)",
-    "2026-03-10T15:45:29.147+08:00 [telegram] autoSelectFamily=true (default-node22)",
-    "2026-03-10T15:53:18.218+08:00 [telegram] autoSelectFamily=false (config)",
-    "2026-03-10T16:16:00.197+08:00 [telegram] autoSelectFamily=true (default-node22)",
-    "2026-03-10T16:17:08.348+08:00 [telegram] autoSelectFamily=false (config)",
-    "2026-03-10T16:26:31.177+08:00 [telegram] autoSelectFamily=true (default-node22)",
-    "2026-03-10T16:34:20.464+08:00 [telegram] autoSelectFamily=false (config)",
-    "2026-03-10T16:41:13.750+08:00 [telegram] autoSelectFamily=true (default-node22)"
+    "**📧 邮箱** — +1封新邮件（共16封未读）",
+    "- Dubai Tech Tuesday 活动邀请 — 不相关，忽略",
+    "- ⚠️ **CA DFPI 调查仍未处理**（3月13日截止，还剩不到3天）",
+    "- Hongfei 月度通话拒绝也还在收件箱",
+    "",
+    "**🌤️ 上海** — wttr.in 超时了，根据早上的预报：傍晚转凉至~8°C，晴，无雨。明晚有雨。",
+    "",
+    "无新日历事件。一切平静。"
   ],
   "active_tasks": [
     {
       "agent": "twitter-ops",
       "session_key": "agent:twitter-ops:telegram:direct:5683890141",
-      "updated_at_ms": 1773132079554,
-      "updated_at_local": "2026-03-10 16:41:19",
-      "state": "queued",
-      "task": "你有什么特定的日常执行任务嘛",
+      "updated_at_ms": 1773132149591,
+      "updated_at_local": "2026-03-10 16:42:29",
+      "state": "idle",
+      "task": "Heartbeat 检查（HEARTBEAT.md） • 检查邮件是否有紧急消息 • 检查天气 这两个需要去掉",
       "skills": [
-        "weather",
         "lark_twitter"
       ],
       "available_skills": [
@@ -89,11 +88,34 @@
     },
     {
       "agent": "twitter-ops",
-      "session_key": "agent:twitter-ops:main",
-      "updated_at_ms": 1773131993378,
-      "updated_at_local": "2026-03-10 16:39:53",
+      "session_key": "agent:twitter-ops:subagent:fcaf77a9-a3bf-435a-9c21-789524213c23",
+      "updated_at_ms": 1773132145213,
+      "updated_at_local": "2026-03-10 16:42:25",
       "state": "idle",
-      "task": "Read HEARTBEAT.md if it exists (workspace context). Follow it strictly. Do not infer or repeat old tasks from prior chats. If nothing needs attention, reply HEA",
+      "task": "[Tue 2026-03-10 16:39 GMT+8] [Subagent Context] You are running as a subagent (depth 1/1). Results auto-announce to your requester; do not busy-poll for status.",
+      "skills": [],
+      "available_skills": [
+        "clawhub",
+        "coding-agent",
+        "gh-issues",
+        "github",
+        "healthcheck",
+        "session-logs",
+        "skill-creator",
+        "tmux",
+        "voice-call",
+        "weather",
+        "polymarket-api",
+        "trader-analysis"
+      ]
+    },
+    {
+      "agent": "twitter-ops",
+      "session_key": "agent:twitter-ops:main",
+      "updated_at_ms": 1773132145199,
+      "updated_at_local": "2026-03-10 16:42:25",
+      "state": "idle",
+      "task": "[Tue 2026-03-10 16:42 GMT+8] OpenClaw runtime context (internal): This context is runtime-generated, not user-authored. Keep internal details private. [Internal",
       "skills": [
         "weather"
       ],
@@ -111,16 +133,6 @@
         "trader-analysis",
         "trading-strategies"
       ]
-    },
-    {
-      "agent": "twitter-ops",
-      "session_key": "agent:twitter-ops:subagent:fcaf77a9-a3bf-435a-9c21-789524213c23",
-      "updated_at_ms": 1773131948670,
-      "updated_at_local": "2026-03-10 16:39:08",
-      "state": "working",
-      "task": "[Tue 2026-03-10 16:39 GMT+8] [Subagent Context] You are running as a subagent (depth 1/1). Results auto-announce to your requester; do not busy-poll for status.",
-      "skills": [],
-      "available_skills": []
     }
   ],
   "notes": [
