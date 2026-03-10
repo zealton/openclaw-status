@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-03-10T11:37:47Z",
-  "generated_at_local": "2026-03-10 19:37:47 ",
+  "generated_at": "2026-03-10T11:38:50Z",
+  "generated_at_local": "2026-03-10 19:38:50 ",
   "stale_after_seconds": 180,
   "host": "LeedeMac-mini.local",
   "openclaw": {
@@ -64,10 +64,10 @@
     {
       "agent": "twitter-ops",
       "session_key": "agent:twitter-ops:telegram:direct:5683890141",
-      "updated_at_ms": 1773142651995,
-      "updated_at_local": "2026-03-10 19:37:31",
-      "state": "working",
-      "task": "还有内容营销层面，这个skill做了什么",
+      "updated_at_ms": 1773142718130,
+      "updated_at_local": "2026-03-10 19:38:38",
+      "state": "idle",
+      "task": "influencer具体是做了什么的",
       "skills": [],
       "available_skills": [
         "clawhub",
