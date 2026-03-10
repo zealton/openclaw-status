@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-03-10T10:59:47Z",
-  "generated_at_local": "2026-03-10 18:59:47 ",
+  "generated_at": "2026-03-10T11:00:50Z",
+  "generated_at_local": "2026-03-10 19:00:50 ",
   "stale_after_seconds": 180,
   "host": "LeedeMac-mini.local",
   "openclaw": {
@@ -63,6 +63,32 @@
   "active_tasks": [
     {
       "agent": "twitter-ops",
+      "session_key": "agent:twitter-ops:telegram:direct:5683890141",
+      "updated_at_ms": 1773140431242,
+      "updated_at_local": "2026-03-10 19:00:31",
+      "state": "idle",
+      "task": "<media:audio>",
+      "skills": [
+        "clawhub",
+        "captcha-auto"
+      ],
+      "available_skills": [
+        "clawhub",
+        "coding-agent",
+        "gh-issues",
+        "github",
+        "healthcheck",
+        "session-logs",
+        "skill-creator",
+        "voice-call",
+        "weather",
+        "polymarket-api",
+        "trader-analysis",
+        "trading-strategies"
+      ]
+    },
+    {
+      "agent": "twitter-ops",
       "session_key": "agent:twitter-ops:subagent:2ad7a135-1a49-47c9-bd0a-40f011cb6bf1",
       "updated_at_ms": 1773140342508,
       "updated_at_local": "2026-03-10 18:59:02",
@@ -82,32 +108,6 @@
         "weather",
         "polymarket-api",
         "trader-analysis"
-      ]
-    },
-    {
-      "agent": "twitter-ops",
-      "session_key": "agent:twitter-ops:telegram:direct:5683890141",
-      "updated_at_ms": 1773140341880,
-      "updated_at_local": "2026-03-10 18:59:01",
-      "state": "idle",
-      "task": "[Tue 2026-03-10 18:58 GMT+8] OpenClaw runtime context (internal): This context is runtime-generated, not user-authored. Keep internal details private. [Internal",
-      "skills": [
-        "clawhub",
-        "captcha-auto"
-      ],
-      "available_skills": [
-        "clawhub",
-        "coding-agent",
-        "gh-issues",
-        "github",
-        "healthcheck",
-        "session-logs",
-        "skill-creator",
-        "voice-call",
-        "weather",
-        "polymarket-api",
-        "trader-analysis",
-        "trading-strategies"
       ]
     },
     {
