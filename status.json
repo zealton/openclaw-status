@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-03-11T00:28:56Z",
-  "generated_at_local": "2026-03-11 08:28:56 ",
+  "generated_at": "2026-03-11T00:30:00Z",
+  "generated_at_local": "2026-03-11 08:30:00 ",
   "stale_after_seconds": 180,
   "host": "LeedeMac-mini.local",
   "openclaw": {
     "running": true,
     "pid": 64153,
-    "model": null
+    "model": "openrouter/anthropic/claude-opus-4.6"
   },
   "telegram": {
     "status": "unknown",
