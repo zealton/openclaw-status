@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-03-11T03:09:08Z",
-  "generated_at_local": "2026-03-11 11:09:08 ",
+  "generated_at": "2026-03-11T03:10:11Z",
+  "generated_at_local": "2026-03-11 11:10:11 ",
   "stale_after_seconds": 180,
   "host": "LeedeMac-mini.local",
   "openclaw": {
@@ -51,14 +51,14 @@
     }
   },
   "recent_log": [
-    "2026-03-11T08:50:13.276+08:00 [telegram] global undici dispatcher autoSelectFamily=true",
     "2026-03-11T08:50:13.278+08:00 [telegram] dnsResultOrder=ipv4first (default-node22)",
     "2026-03-11T09:27:53.438+08:00 [telegram] autoSelectFamily=false (config)",
     "2026-03-11T09:47:17.479+08:00 [telegram] autoSelectFamily=true (default-node22)",
     "2026-03-11T10:06:57.197+08:00 [telegram] autoSelectFamily=false (config)",
     "2026-03-11T10:24:51.772+08:00 [telegram] autoSelectFamily=true (default-node22)",
     "2026-03-11T11:04:28.709+08:00 [reload] config change detected; evaluating reload (meta.lastTouchedAt, hooks.internal.entries.self-improvement)",
-    "2026-03-11T11:04:28.711+08:00 [reload] config hot reload applied (hooks.internal.entries.self-improvement)"
+    "2026-03-11T11:04:28.711+08:00 [reload] config hot reload applied (hooks.internal.entries.self-improvement)",
+    "2026-03-11T11:09:13.175+08:00 [telegram] autoSelectFamily=false (config)"
   ],
   "active_tasks": [
     {
