@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-03-11T00:33:09Z",
-  "generated_at_local": "2026-03-11 08:33:09 ",
+  "generated_at": "2026-03-11T00:34:12Z",
+  "generated_at_local": "2026-03-11 08:34:12 ",
   "stale_after_seconds": 180,
   "host": "LeedeMac-mini.local",
   "openclaw": {
@@ -51,14 +51,14 @@
     }
   },
   "recent_log": [
-    "",
-    "**Email check result:** No new emails since 7:04 PM. The inbox still shows 150 total unread (mostly newsletter/promo backlog). The most recent email is from **Moongate** at 6:30 PM — a marketing email, nothing urgent. No new important items to report.",
-    "2026-03-10T20:38:27.430+08:00 无新邮件，一切平静。下次心跳明早9点后。",
-    "",
     "HEARTBEAT_OK",
     "2026-03-10T23:20:37.209+08:00 [telegram] autoSelectFamily=true (default-node22)",
     "2026-03-10T23:48:56.862+08:00 [telegram] autoSelectFamily=false (config)",
-    "2026-03-11T08:00:40.269+08:00 [telegram] autoSelectFamily=true (default-node22)"
+    "2026-03-11T08:00:40.269+08:00 [telegram] autoSelectFamily=true (default-node22)",
+    "2026-03-11T08:33:14.916+08:00 [reload] config change detected; evaluating reload (meta.lastTouchedAt, agents.defaults.model.primary, agents.defaults.models)",
+    "2026-03-11T08:33:14.920+08:00 [reload] config hot reload applied (agents.defaults.model.primary, agents.defaults.models)",
+    "2026-03-11T08:33:26.650+08:00 [reload] config change detected; evaluating reload (meta.lastTouchedAt, agents.defaults.model.primary, agents.defaults.models.openrouter/anthropic/claude-opus-4.6)",
+    "2026-03-11T08:33:26.652+08:00 [reload] config hot reload applied (agents.defaults.model.primary, agents.defaults.models.openrouter/anthropic/claude-opus-4.6)"
   ],
   "active_tasks": [
     {
