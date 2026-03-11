@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-03-11T00:46:52Z",
-  "generated_at_local": "2026-03-11 08:46:52 ",
+  "generated_at": "2026-03-11T00:47:55Z",
+  "generated_at_local": "2026-03-11 08:47:55 ",
   "stale_after_seconds": 180,
   "host": "LeedeMac-mini.local",
   "openclaw": {
@@ -51,14 +51,14 @@
     }
   },
   "recent_log": [
-    "2026-03-11T08:38:14.344+08:00 [gateway] memory-lancedb: initialized (db: /Users/leelark/.openclaw/memory/lancedb, model: text-embedding-3-small)",
-    "2026-03-11T08:38:14.345+08:00 [voice-call] Webhook server listening on http://127.0.0.1:3334/voice/webhook",
     "2026-03-11T08:38:14.346+08:00 [gateway] [voice-call] Runtime initialized",
     "2026-03-11T08:38:14.347+08:00 [gateway] [voice-call] Webhook URL: http://127.0.0.1:3334/voice/webhook",
     "2026-03-11T08:38:15.612+08:00 [telegram] [default] starting provider (@lark_mini_claw_bot)",
     "2026-03-11T08:38:15.626+08:00 [telegram] autoSelectFamily=true (default-node22)",
     "2026-03-11T08:38:15.629+08:00 [telegram] global undici dispatcher autoSelectFamily=true",
-    "2026-03-11T08:38:15.632+08:00 [telegram] dnsResultOrder=ipv4first (default-node22)"
+    "2026-03-11T08:38:15.632+08:00 [telegram] dnsResultOrder=ipv4first (default-node22)",
+    "2026-03-11T08:46:53.469+08:00 [reload] config change detected; evaluating reload (agents.defaults.model.fallbacks)",
+    "2026-03-11T08:46:53.471+08:00 [reload] config hot reload applied (agents.defaults.model.fallbacks)"
   ],
   "active_tasks": [
     {
