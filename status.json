@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-03-11T11:08:42Z",
-  "generated_at_local": "2026-03-11 19:08:42 ",
+  "generated_at": "2026-03-11T11:53:17Z",
+  "generated_at_local": "2026-03-11 19:53:17 ",
   "stale_after_seconds": 180,
   "host": "LeedeMac-mini.local",
   "openclaw": {
     "running": true,
-    "pid": 98320,
+    "pid": 1629,
     "model": "openrouter/anthropic/claude-opus-4.6"
   },
   "telegram": {
@@ -32,7 +32,7 @@
     "openclaw": {
       "loaded": true,
       "state": "running",
-      "pid": 98320
+      "pid": 1629
     },
     "watchdog": {
       "loaded": true,
@@ -42,7 +42,7 @@
     "caffeinate": {
       "loaded": true,
       "state": "running",
-      "pid": 16234
+      "pid": 1628
     },
     "notion_sync": {
       "loaded": true,
@@ -51,14 +51,14 @@
     }
   },
   "recent_log": [
-    "2026-03-11T16:41:38.503+08:00 [telegram] autoSelectFamily=true (default-node22)",
-    "2026-03-11T16:45:21.962+08:00 [telegram] autoSelectFamily=false (config)",
-    "2026-03-11T17:11:39.532+08:00 [telegram] autoSelectFamily=true (default-node22)",
-    "2026-03-11T17:38:13.639+08:00 [telegram] autoSelectFamily=false (config)",
     "2026-03-11T17:39:10.707+08:00 [telegram] autoSelectFamily=true (default-node22)",
     "2026-03-11T17:43:23.517+08:00 [telegram] autoSelectFamily=false (config)",
     "2026-03-11T18:12:41.725+08:00 [telegram] autoSelectFamily=true (default-node22)",
-    "2026-03-11T18:13:49.858+08:00 [telegram] autoSelectFamily=false (config)"
+    "2026-03-11T18:13:49.858+08:00 [telegram] autoSelectFamily=false (config)",
+    "2026-03-11T19:09:12.633+08:00 [gateway] signal SIGTERM received",
+    "2026-03-11T19:09:12.634+08:00 [gateway] received SIGTERM; shutting down",
+    "2026-03-11T19:09:13.383+08:00 [gateway] memory-lancedb: stopped",
+    "2026-03-11T19:09:13.386+08:00 [gmail-watcher] gmail watcher stopped"
   ],
   "active_tasks": [
     {
