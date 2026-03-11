@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-03-11T02:21:43Z",
-  "generated_at_local": "2026-03-11 10:21:43 ",
+  "generated_at": "2026-03-11T02:22:46Z",
+  "generated_at_local": "2026-03-11 10:22:46 ",
   "stale_after_seconds": 180,
   "host": "LeedeMac-mini.local",
   "openclaw": {
@@ -64,9 +64,9 @@
     {
       "agent": "twitter-ops",
       "session_key": "agent:twitter-ops:main",
-      "updated_at_ms": 1773195611861,
-      "updated_at_local": "2026-03-11 10:20:11",
-      "state": "queued",
+      "updated_at_ms": 1773195746529,
+      "updated_at_local": "2026-03-11 10:22:26",
+      "state": "idle",
       "task": "Read HEARTBEAT.md if it exists (workspace context). Follow it strictly. Do not infer or repeat old tasks from prior chats. If nothing needs attention, reply HEA",
       "skills": [],
       "available_skills": [
