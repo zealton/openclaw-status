@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-03-11T11:55:20Z",
-  "generated_at_local": "2026-03-11 19:55:20 ",
+  "generated_at": "2026-03-11T11:56:20Z",
+  "generated_at_local": "2026-03-11 19:56:20 ",
   "stale_after_seconds": 180,
   "host": "LeedeMac-mini.local",
   "openclaw": {
@@ -36,7 +36,7 @@
     },
     "watchdog": {
       "loaded": true,
-      "state": "not running",
+      "state": "spawn scheduled",
       "pid": null
     },
     "caffeinate": {
