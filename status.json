@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-03-11T12:05:47Z",
-  "generated_at_local": "2026-03-11 20:05:47 ",
+  "generated_at": "2026-03-11T12:06:47Z",
+  "generated_at_local": "2026-03-11 20:06:47 ",
   "stale_after_seconds": 180,
   "host": "LeedeMac-mini.local",
   "openclaw": {
@@ -64,9 +64,9 @@
     {
       "agent": "twitter-ops",
       "session_key": "agent:twitter-ops:telegram:direct:5683890141",
-      "updated_at_ms": 1773230725979,
-      "updated_at_local": "2026-03-11 20:05:25",
-      "state": "working",
+      "updated_at_ms": 1773230777319,
+      "updated_at_local": "2026-03-11 20:06:17",
+      "state": "idle",
       "task": "你现在用什么模型",
       "skills": [],
       "available_skills": [
