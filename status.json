@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-03-11T06:27:32Z",
-  "generated_at_local": "2026-03-11 14:27:32 ",
+  "generated_at": "2026-03-11T06:28:35Z",
+  "generated_at_local": "2026-03-11 14:28:35 ",
   "stale_after_seconds": 180,
   "host": "LeedeMac-mini.local",
   "openclaw": {
-    "running": false,
-    "pid": null,
+    "running": true,
+    "pid": 98157,
     "model": "ollama/qwen3:8b"
   },
   "telegram": {
@@ -30,9 +30,9 @@
   },
   "services": {
     "openclaw": {
-      "loaded": false,
-      "state": "not loaded",
-      "pid": null
+      "loaded": true,
+      "state": "running",
+      "pid": 98157
     },
     "watchdog": {
       "loaded": true,
@@ -109,7 +109,6 @@
     }
   ],
   "notes": [
-    "OpenClaw gateway is not running.",
     "Gateway watchdog checks launchd every 60 seconds."
   ]
 }
