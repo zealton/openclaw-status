@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-03-11T00:12:03Z",
-  "generated_at_local": "2026-03-11 08:12:03 ",
+  "generated_at": "2026-03-11T00:13:07Z",
+  "generated_at_local": "2026-03-11 08:13:07 ",
   "stale_after_seconds": 180,
   "host": "LeedeMac-mini.local",
   "openclaw": {
@@ -64,10 +64,10 @@
     {
       "agent": "twitter-ops",
       "session_key": "agent:twitter-ops:telegram:direct:5683890141",
-      "updated_at_ms": 1773187915491,
-      "updated_at_local": "2026-03-11 08:11:55",
+      "updated_at_ms": 1773187982478,
+      "updated_at_local": "2026-03-11 08:13:02",
       "state": "queued",
-      "task": "深圳天气",
+      "task": "System: [2026-03-11 08:12:16 GMT+8] Exec failed (cool-rid, signal SIGTERM) Read HEARTBEAT.md if it exists (workspace context). Follow it strictly. Do not infer ",
       "skills": [],
       "available_skills": [
         "clawhub",
