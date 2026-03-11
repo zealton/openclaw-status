@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-03-11T17:33:32Z",
-  "generated_at_local": "2026-03-12 01:33:32 ",
+  "generated_at": "2026-03-11T17:34:12Z",
+  "generated_at_local": "2026-03-12 01:34:12 ",
   "stale_after_seconds": 180,
   "host": "LeedeMac-mini.local",
   "openclaw": {
@@ -63,6 +63,29 @@
   "active_tasks": [
     {
       "agent": "twitter-ops",
+      "session_key": "agent:twitter-ops:telegram:direct:5683890141",
+      "updated_at_ms": 1773250423331,
+      "updated_at_local": "2026-03-12 01:33:43",
+      "state": "working",
+      "task": "10:00提醒我 参考交易系统",
+      "skills": [],
+      "available_skills": [
+        "clawhub",
+        "coding-agent",
+        "gh-issues",
+        "github",
+        "healthcheck",
+        "session-logs",
+        "skill-creator",
+        "voice-call",
+        "weather",
+        "polymarket-api",
+        "trader-analysis",
+        "trading-strategies"
+      ]
+    },
+    {
+      "agent": "twitter-ops",
       "session_key": "agent:twitter-ops:main",
       "updated_at_ms": 1773249832734,
       "updated_at_local": "2026-03-12 01:23:52",
@@ -82,29 +105,6 @@
         "weather",
         "polymarket-api",
         "trader-analysis"
-      ]
-    },
-    {
-      "agent": "twitter-ops",
-      "session_key": "agent:twitter-ops:telegram:direct:5683890141",
-      "updated_at_ms": 1773230777319,
-      "updated_at_local": "2026-03-11 20:06:17",
-      "state": "idle",
-      "task": "你现在用什么模型",
-      "skills": [],
-      "available_skills": [
-        "clawhub",
-        "coding-agent",
-        "gh-issues",
-        "github",
-        "healthcheck",
-        "session-logs",
-        "skill-creator",
-        "voice-call",
-        "weather",
-        "polymarket-api",
-        "trader-analysis",
-        "trading-strategies"
       ]
     }
   ],
