@@ -1,20 +1,20 @@
 {
-  "generated_at": "2026-03-11T06:28:35Z",
-  "generated_at_local": "2026-03-11 14:28:35 ",
+  "generated_at": "2026-03-11T06:29:38Z",
+  "generated_at_local": "2026-03-11 14:29:38 ",
   "stale_after_seconds": 180,
   "host": "LeedeMac-mini.local",
   "openclaw": {
     "running": true,
-    "pid": 98157,
-    "model": "ollama/qwen3:8b"
+    "pid": 98320,
+    "model": "openrouter/anthropic/claude-opus-4.6"
   },
   "telegram": {
     "status": "running",
-    "detail": "2026-03-11T11:22:35.916+08:00 [telegram] [default] starting provider (@lark_mini_claw_bot)"
+    "detail": "2026-03-11T14:28:45.098+08:00 [telegram] [default] starting provider (@lark_mini_claw_bot)"
   },
   "browser": {
     "status": "running",
-    "detail": "2026-03-11T11:22:34.513+08:00 [browser/server] Browser control listening on http://127.0.0.1:18791/ (auth=token)"
+    "detail": "2026-03-11T14:28:43.716+08:00 [browser/server] Browser control listening on http://127.0.0.1:18791/ (auth=token)"
   },
   "caffeinate": {
     "status": "running",
@@ -32,7 +32,7 @@
     "openclaw": {
       "loaded": true,
       "state": "running",
-      "pid": 98157
+      "pid": 98320
     },
     "watchdog": {
       "loaded": true,
@@ -51,16 +51,39 @@
     }
   },
   "recent_log": [
-    "2026-03-11T14:24:50.144+08:00 [ws] ⇄ res ✓ config.get 542ms conn=c29acbf6…39a0 id=5a0caa54…a1cc",
-    "2026-03-11T14:24:51.390+08:00 [gateway] config.patch write actor=cli device=a7920832e04fe8e10fb60296bc345f326465e9587e9a25e061838a8902bef7c7 ip=unknown-ip conn=79e2d351-0f1f-4a04-847f-075f5937a6d9 changedPaths=gateway.http restartReason=config.patch",
-    "2026-03-11T14:24:51.914+08:00 [reload] config change detected; evaluating reload (meta.lastTouchedAt, gateway.http)",
-    "2026-03-11T14:24:51.921+08:00 [gateway] signal SIGUSR1 received",
-    "2026-03-11T14:24:51.923+08:00 [gateway] received SIGUSR1; restarting",
-    "2026-03-11T14:24:51.934+08:00 [gateway] memory-lancedb: stopped",
-    "2026-03-11T14:24:51.937+08:00 [gmail-watcher] gmail watcher stopped",
-    "2026-03-11T14:24:51.942+08:00 [gateway] restart mode: full process restart (supervisor restart)"
+    "2026-03-11T14:28:43.949+08:00 [voice-call] Webhook server listening on http://127.0.0.1:3334/voice/webhook",
+    "2026-03-11T14:28:43.950+08:00 [gateway] [voice-call] Runtime initialized",
+    "2026-03-11T14:28:43.950+08:00 [gateway] [voice-call] Webhook URL: http://127.0.0.1:3334/voice/webhook",
+    "2026-03-11T14:28:45.098+08:00 [telegram] [default] starting provider (@lark_mini_claw_bot)",
+    "2026-03-11T14:28:45.111+08:00 [telegram] autoSelectFamily=true (default-node22)",
+    "2026-03-11T14:28:45.114+08:00 [telegram] global undici dispatcher autoSelectFamily=true",
+    "2026-03-11T14:28:45.116+08:00 [telegram] dnsResultOrder=ipv4first (default-node22)",
+    "2026-03-11T14:29:38.101+08:00 [ws] ⇄ res ✓ config.get 514ms conn=a7a92c83…3cd7 id=fbf99036…deac"
   ],
   "active_tasks": [
+    {
+      "agent": "twitter-ops",
+      "session_key": "agent:twitter-ops:telegram:direct:5683890141",
+      "updated_at_ms": 1773210539978,
+      "updated_at_local": "2026-03-11 14:28:59",
+      "state": "idle",
+      "task": "hi",
+      "skills": [],
+      "available_skills": [
+        "clawhub",
+        "coding-agent",
+        "gh-issues",
+        "github",
+        "healthcheck",
+        "session-logs",
+        "skill-creator",
+        "voice-call",
+        "weather",
+        "polymarket-api",
+        "trader-analysis",
+        "trading-strategies"
+      ]
+    },
     {
       "agent": "twitter-ops",
       "session_key": "agent:twitter-ops:main",
@@ -82,29 +105,6 @@
         "weather",
         "polymarket-api",
         "trader-analysis"
-      ]
-    },
-    {
-      "agent": "twitter-ops",
-      "session_key": "agent:twitter-ops:telegram:direct:5683890141",
-      "updated_at_ms": 1773200396836,
-      "updated_at_local": "2026-03-11 11:39:56",
-      "state": "idle",
-      "task": "再次确认一下，你不会查询我的邮箱",
-      "skills": [],
-      "available_skills": [
-        "clawhub",
-        "coding-agent",
-        "gh-issues",
-        "github",
-        "healthcheck",
-        "session-logs",
-        "skill-creator",
-        "voice-call",
-        "weather",
-        "polymarket-api",
-        "trader-analysis",
-        "trading-strategies"
       ]
     }
   ],
