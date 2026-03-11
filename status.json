@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-03-11T20:22:42Z",
-  "generated_at_local": "2026-03-12 04:22:42 ",
+  "generated_at": "2026-03-11T20:23:46Z",
+  "generated_at_local": "2026-03-12 04:23:46 ",
   "stale_after_seconds": 180,
   "host": "LeedeMac-mini.local",
   "openclaw": {
@@ -61,29 +61,6 @@
     "2026-03-12T03:45:27.260+08:00 [telegram] autoSelectFamily=false (config)"
   ],
   "active_tasks": [
-    {
-      "agent": "twitter-ops",
-      "session_key": "agent:twitter-ops:main",
-      "updated_at_ms": 1773258828112,
-      "updated_at_local": "2026-03-12 03:53:48",
-      "state": "error",
-      "task": "Read HEARTBEAT.md if it exists (workspace context). Follow it strictly. Do not infer or repeat old tasks from prior chats. If nothing needs attention, reply HEA",
-      "skills": [],
-      "available_skills": [
-        "clawhub",
-        "coding-agent",
-        "gh-issues",
-        "github",
-        "healthcheck",
-        "session-logs",
-        "skill-creator",
-        "tmux",
-        "voice-call",
-        "weather",
-        "polymarket-api",
-        "trader-analysis"
-      ]
-    },
     {
       "agent": "twitter-ops",
       "session_key": "agent:twitter-ops:telegram:direct:5683890141",
