@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-03-11T03:20:46Z",
-  "generated_at_local": "2026-03-11 11:20:46 ",
+  "generated_at": "2026-03-11T03:21:49Z",
+  "generated_at_local": "2026-03-11 11:21:49 ",
   "stale_after_seconds": 180,
   "host": "LeedeMac-mini.local",
   "openclaw": {
@@ -51,8 +51,8 @@
     }
   },
   "recent_log": [
-    "2026-03-11T11:16:50.523+08:00 [gateway] signal SIGTERM received",
-    "2026-03-11T11:16:50.525+08:00 [gateway] received SIGTERM; shutting down",
+    "│                                                            │",
+    "├────────────────────────────────────────────────────────────╯",
     "│",
     "◇  Config ───────────────────────────────────────────────────╮",
     "│                                                            │",
