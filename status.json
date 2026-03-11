@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-03-11T00:34:12Z",
-  "generated_at_local": "2026-03-11 08:34:12 ",
+  "generated_at": "2026-03-11T00:35:15Z",
+  "generated_at_local": "2026-03-11 08:35:15 ",
   "stale_after_seconds": 180,
   "host": "LeedeMac-mini.local",
   "openclaw": {
@@ -51,14 +51,14 @@
     }
   },
   "recent_log": [
-    "HEARTBEAT_OK",
-    "2026-03-10T23:20:37.209+08:00 [telegram] autoSelectFamily=true (default-node22)",
-    "2026-03-10T23:48:56.862+08:00 [telegram] autoSelectFamily=false (config)",
-    "2026-03-11T08:00:40.269+08:00 [telegram] autoSelectFamily=true (default-node22)",
     "2026-03-11T08:33:14.916+08:00 [reload] config change detected; evaluating reload (meta.lastTouchedAt, agents.defaults.model.primary, agents.defaults.models)",
     "2026-03-11T08:33:14.920+08:00 [reload] config hot reload applied (agents.defaults.model.primary, agents.defaults.models)",
     "2026-03-11T08:33:26.650+08:00 [reload] config change detected; evaluating reload (meta.lastTouchedAt, agents.defaults.model.primary, agents.defaults.models.openrouter/anthropic/claude-opus-4.6)",
-    "2026-03-11T08:33:26.652+08:00 [reload] config hot reload applied (agents.defaults.model.primary, agents.defaults.models.openrouter/anthropic/claude-opus-4.6)"
+    "2026-03-11T08:33:26.652+08:00 [reload] config hot reload applied (agents.defaults.model.primary, agents.defaults.models.openrouter/anthropic/claude-opus-4.6)",
+    "2026-03-11T08:34:52.853+08:00 [reload] config change detected; evaluating reload (meta.lastTouchedAt, agents.defaults.model.primary)",
+    "2026-03-11T08:34:52.855+08:00 [reload] config hot reload applied (agents.defaults.model.primary)",
+    "2026-03-11T08:35:01.083+08:00 [reload] config change detected; evaluating reload (meta.lastTouchedAt, agents.defaults.model.primary)",
+    "2026-03-11T08:35:01.084+08:00 [reload] config hot reload applied (agents.defaults.model.primary)"
   ],
   "active_tasks": [
     {
