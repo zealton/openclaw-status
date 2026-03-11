@@ -10,6 +10,7 @@ from typing import List, Optional
 
 ROOT = pathlib.Path("/Users/leelark/openclaw-status")
 OUT = ROOT / "status.json"
+CONFIG = pathlib.Path("/Users/leelark/.openclaw/openclaw.json")
 GATEWAY_LOG = pathlib.Path("/Users/leelark/.openclaw/logs/gateway.log")
 WATCHDOG_LOG = pathlib.Path("/Users/leelark/.openclaw/logs/gateway-watchdog.log")
 CAFFEINATE_STDERR = pathlib.Path("/Users/leelark/.openclaw/logs/caffeinate.stderr.log")
@@ -53,6 +54,21 @@ def last_matching(lines: List[str], needle: str) -> Optional[str]:
         if needle in line:
             return line
     return None
+
+
+def configured_primary_model() -> Optional[str]:
+    if not CONFIG.exists():
+        return None
+    try:
+        data = json.loads(CONFIG.read_text())
+    except Exception:
+        return None
+    return (
+        data.get("agents", {})
+        .get("defaults", {})
+        .get("model", {})
+        .get("primary")
+    )
 
 
 def summarize_user_text(raw: str) -> str:
@@ -165,6 +181,17 @@ def extract_active_tasks() -> List[dict]:
                         break
                 if last_user:
                     break
+            available = [
+                entry.get("name")
+                for entry in meta.get("skillsSnapshot", {}).get("entries", [])
+                if isinstance(entry, dict) and entry.get("name")
+            ]
+            if not available:
+                available = [
+                    entry.get("name")
+                    for entry in meta.get("systemPromptReport", {}).get("skills", {}).get("entries", [])
+                    if isinstance(entry, dict) and entry.get("name")
+                ]
             tasks.append(
                 {
                     "agent": session_key.split(":")[1] if ":" in session_key else "unknown",
@@ -174,11 +201,7 @@ def extract_active_tasks() -> List[dict]:
                     "state": infer_task_state(events),
                     "task": last_user or "No recent user task found",
                     "skills": extract_recent_skills(events),
-                    "available_skills": [
-                        entry.get("name")
-                        for entry in meta.get("skillsSnapshot", {}).get("entries", [])
-                        if isinstance(entry, dict) and entry.get("name")
-                    ][:12],
+                    "available_skills": available[:12],
                 }
             )
     tasks.sort(key=lambda item: item["updated_at_ms"], reverse=True)
@@ -188,9 +211,10 @@ def extract_active_tasks() -> List[dict]:
 def main() -> int:
     services = {name: launchctl_info(label) for name, label in LABELS.items()}
     gateway_lines = tail(GATEWAY_LOG, 80)
+    gateway_model_lines = tail(GATEWAY_LOG, 4000)
 
-    model_line = last_matching(gateway_lines, "agent model:")
-    model = None
+    model_line = last_matching(gateway_model_lines, "agent model:")
+    model = configured_primary_model()
     if model_line:
         model = model_line.split("agent model:", 1)[-1].strip()
 
