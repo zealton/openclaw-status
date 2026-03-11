@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-03-11T06:47:31Z",
-  "generated_at_local": "2026-03-11 14:47:31 ",
+  "generated_at": "2026-03-11T06:48:34Z",
+  "generated_at_local": "2026-03-11 14:48:34 ",
   "stale_after_seconds": 180,
   "host": "LeedeMac-mini.local",
   "openclaw": {
@@ -66,7 +66,7 @@
       "session_key": "agent:twitter-ops:telegram:direct:5683890141",
       "updated_at_ms": 1773211637041,
       "updated_at_local": "2026-03-11 14:47:17",
-      "state": "queued",
+      "state": "working",
       "task": "你哪个self improve的skill有了解到吗",
       "skills": [],
       "available_skills": [
