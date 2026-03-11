@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-03-11T19:37:42Z",
-  "generated_at_local": "2026-03-12 03:37:42 ",
+  "generated_at": "2026-03-11T19:38:47Z",
+  "generated_at_local": "2026-03-12 03:38:47 ",
   "stale_after_seconds": 180,
   "host": "LeedeMac-mini.local",
   "openclaw": {
@@ -51,14 +51,14 @@
     }
   },
   "recent_log": [
-    "2026-03-11T19:53:46.416+08:00 [telegram] [default] starting provider (@lark_mini_claw_bot)",
     "2026-03-11T19:53:46.441+08:00 [telegram] autoSelectFamily=true (default-node22)",
     "2026-03-11T19:53:46.444+08:00 [telegram] global undici dispatcher autoSelectFamily=true",
     "2026-03-11T19:53:46.447+08:00 [telegram] dnsResultOrder=ipv4first (default-node22)",
     "2026-03-11T19:56:49.389+08:00 [ws] ⇄ res ✓ config.get 648ms conn=bc4d2c20…2930 id=c957bb20…628e",
     "2026-03-12T00:55:55.307+08:00 [telegram] autoSelectFamily=false (config)",
     "2026-03-12T01:34:51.463+08:00 [gateway] cron: job created",
-    "2026-03-12T01:35:00.007+08:00 [telegram] autoSelectFamily=true (default-node22)"
+    "2026-03-12T01:35:00.007+08:00 [telegram] autoSelectFamily=true (default-node22)",
+    "2026-03-12T03:38:10.565+08:00 [telegram] autoSelectFamily=false (config)"
   ],
   "active_tasks": [
     {
