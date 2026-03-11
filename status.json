@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-03-11T03:39:43Z",
-  "generated_at_local": "2026-03-11 11:39:43 ",
+  "generated_at": "2026-03-11T03:40:46Z",
+  "generated_at_local": "2026-03-11 11:40:46 ",
   "stale_after_seconds": 180,
   "host": "LeedeMac-mini.local",
   "openclaw": {
@@ -51,16 +51,39 @@
     }
   },
   "recent_log": [
-    "2026-03-11T11:22:34.739+08:00 [voice-call] Webhook server listening on http://127.0.0.1:3334/voice/webhook",
     "2026-03-11T11:22:34.740+08:00 [gateway] [voice-call] Runtime initialized",
     "2026-03-11T11:22:34.740+08:00 [gateway] [voice-call] Webhook URL: http://127.0.0.1:3334/voice/webhook",
     "2026-03-11T11:22:35.916+08:00 [telegram] [default] starting provider (@lark_mini_claw_bot)",
     "2026-03-11T11:22:35.928+08:00 [telegram] autoSelectFamily=true (default-node22)",
     "2026-03-11T11:22:35.931+08:00 [telegram] global undici dispatcher autoSelectFamily=true",
     "2026-03-11T11:22:35.932+08:00 [telegram] dnsResultOrder=ipv4first (default-node22)",
-    "2026-03-11T11:27:51.588+08:00 [telegram] autoSelectFamily=false (config)"
+    "2026-03-11T11:27:51.588+08:00 [telegram] autoSelectFamily=false (config)",
+    "2026-03-11T11:39:58.782+08:00 [telegram] autoSelectFamily=true (default-node22)"
   ],
   "active_tasks": [
+    {
+      "agent": "twitter-ops",
+      "session_key": "agent:twitter-ops:telegram:direct:5683890141",
+      "updated_at_ms": 1773200396836,
+      "updated_at_local": "2026-03-11 11:39:56",
+      "state": "idle",
+      "task": "再次确认一下，你不会查询我的邮箱",
+      "skills": [],
+      "available_skills": [
+        "clawhub",
+        "coding-agent",
+        "gh-issues",
+        "github",
+        "healthcheck",
+        "session-logs",
+        "skill-creator",
+        "voice-call",
+        "weather",
+        "polymarket-api",
+        "trader-analysis",
+        "trading-strategies"
+      ]
+    },
     {
       "agent": "twitter-ops",
       "session_key": "agent:twitter-ops:main",
@@ -82,29 +105,6 @@
         "weather",
         "polymarket-api",
         "trader-analysis"
-      ]
-    },
-    {
-      "agent": "twitter-ops",
-      "session_key": "agent:twitter-ops:telegram:direct:5683890141",
-      "updated_at_ms": 1773188147242,
-      "updated_at_local": "2026-03-11 08:15:47",
-      "state": "idle",
-      "task": "深圳天气",
-      "skills": [],
-      "available_skills": [
-        "clawhub",
-        "coding-agent",
-        "gh-issues",
-        "github",
-        "healthcheck",
-        "session-logs",
-        "skill-creator",
-        "voice-call",
-        "weather",
-        "polymarket-api",
-        "trader-analysis",
-        "trading-strategies"
       ]
     }
   ],
