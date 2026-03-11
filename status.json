@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-03-11T06:59:05Z",
-  "generated_at_local": "2026-03-11 14:59:05 ",
+  "generated_at": "2026-03-11T07:00:08Z",
+  "generated_at_local": "2026-03-11 15:00:08 ",
   "stale_after_seconds": 180,
   "host": "LeedeMac-mini.local",
   "openclaw": {
@@ -51,22 +51,22 @@
     }
   },
   "recent_log": [
-    "2026-03-11T14:28:45.111+08:00 [telegram] autoSelectFamily=true (default-node22)",
     "2026-03-11T14:28:45.114+08:00 [telegram] global undici dispatcher autoSelectFamily=true",
     "2026-03-11T14:28:45.116+08:00 [telegram] dnsResultOrder=ipv4first (default-node22)",
     "2026-03-11T14:29:38.101+08:00 [ws] ⇄ res ✓ config.get 514ms conn=a7a92c83…3cd7 id=fbf99036…deac",
     "2026-03-11T14:45:24.540+08:00 [telegram] autoSelectFamily=false (config)",
     "2026-03-11T14:48:35.598+08:00 [telegram] autoSelectFamily=true (default-node22)",
     "2026-03-11T14:50:52.595+08:00 [telegram] autoSelectFamily=false (config)",
-    "2026-03-11T14:51:19.335+08:00 [telegram] autoSelectFamily=true (default-node22)"
+    "2026-03-11T14:51:19.335+08:00 [telegram] autoSelectFamily=true (default-node22)",
+    "2026-03-11T14:59:08.416+08:00 [telegram] autoSelectFamily=false (config)"
   ],
   "active_tasks": [
     {
       "agent": "twitter-ops",
       "session_key": "agent:twitter-ops:main",
-      "updated_at_ms": 1773212323708,
-      "updated_at_local": "2026-03-11 14:58:43",
-      "state": "working",
+      "updated_at_ms": 1773212358699,
+      "updated_at_local": "2026-03-11 14:59:18",
+      "state": "idle",
       "task": "Read HEARTBEAT.md if it exists (workspace context). Follow it strictly. Do not infer or repeat old tasks from prior chats. If nothing needs attention, reply HEA",
       "skills": [],
       "available_skills": [
