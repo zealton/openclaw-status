@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-03-11T12:23:41Z",
-  "generated_at_local": "2026-03-11 20:23:41 ",
+  "generated_at": "2026-03-11T12:24:40Z",
+  "generated_at_local": "2026-03-11 20:24:40 ",
   "stale_after_seconds": 180,
   "host": "LeedeMac-mini.local",
   "openclaw": {
@@ -63,6 +63,29 @@
   "active_tasks": [
     {
       "agent": "twitter-ops",
+      "session_key": "agent:twitter-ops:main",
+      "updated_at_ms": 1773231849202,
+      "updated_at_local": "2026-03-11 20:24:09",
+      "state": "idle",
+      "task": "Read HEARTBEAT.md if it exists (workspace context). Follow it strictly. Do not infer or repeat old tasks from prior chats. If nothing needs attention, reply HEA",
+      "skills": [],
+      "available_skills": [
+        "clawhub",
+        "coding-agent",
+        "gh-issues",
+        "github",
+        "healthcheck",
+        "session-logs",
+        "skill-creator",
+        "tmux",
+        "voice-call",
+        "weather",
+        "polymarket-api",
+        "trader-analysis"
+      ]
+    },
+    {
+      "agent": "twitter-ops",
       "session_key": "agent:twitter-ops:telegram:direct:5683890141",
       "updated_at_ms": 1773230777319,
       "updated_at_local": "2026-03-11 20:06:17",
@@ -82,29 +105,6 @@
         "polymarket-api",
         "trader-analysis",
         "trading-strategies"
-      ]
-    },
-    {
-      "agent": "twitter-ops",
-      "session_key": "agent:twitter-ops:main",
-      "updated_at_ms": 1773226745609,
-      "updated_at_local": "2026-03-11 18:59:05",
-      "state": "idle",
-      "task": "Read HEARTBEAT.md if it exists (workspace context). Follow it strictly. Do not infer or repeat old tasks from prior chats. If nothing needs attention, reply HEA",
-      "skills": [],
-      "available_skills": [
-        "clawhub",
-        "coding-agent",
-        "gh-issues",
-        "github",
-        "healthcheck",
-        "session-logs",
-        "skill-creator",
-        "tmux",
-        "voice-call",
-        "weather",
-        "polymarket-api",
-        "trader-analysis"
       ]
     }
   ],
