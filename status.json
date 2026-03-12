@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-03-12T08:40:54Z",
-  "generated_at_local": "2026-03-12 16:40:54 ",
+  "generated_at": "2026-03-12T08:41:17Z",
+  "generated_at_local": "2026-03-12 16:41:17 ",
   "stale_after_seconds": 180,
   "host": "LeedeMac-mini.local",
   "openclaw": {
@@ -51,14 +51,14 @@
     }
   },
   "recent_log": [
-    "2026-03-12T15:06:17.728+08:00 [telegram] autoSelectFamily=false (config)",
     "2026-03-12T15:14:14.371+08:00 [telegram] autoSelectFamily=true (default-node22)",
     "2026-03-12T15:33:08.903+08:00 [telegram] autoSelectFamily=false (config)",
     "2026-03-12T15:33:37.073+08:00 [telegram] autoSelectFamily=true (default-node22)",
     "2026-03-12T15:40:24.626+08:00 [telegram] autoSelectFamily=false (config)",
     "2026-03-12T16:02:38.195+08:00 [telegram] autoSelectFamily=true (default-node22)",
     "2026-03-12T16:15:35.787+08:00 [telegram] autoSelectFamily=false (config)",
-    "2026-03-12T16:16:39.245+08:00 [telegram] autoSelectFamily=true (default-node22)"
+    "2026-03-12T16:16:39.245+08:00 [telegram] autoSelectFamily=true (default-node22)",
+    "2026-03-12T16:41:12.305+08:00 [telegram] autoSelectFamily=false (config)"
   ],
   "active_tasks": [
     {
