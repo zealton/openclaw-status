@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-03-12T02:01:07Z",
-  "generated_at_local": "2026-03-12 10:01:07 ",
+  "generated_at": "2026-03-12T02:01:42Z",
+  "generated_at_local": "2026-03-12 10:01:42 ",
   "stale_after_seconds": 180,
   "host": "LeedeMac-mini.local",
   "openclaw": {
@@ -51,28 +51,16 @@
     }
   },
   "recent_log": [
-    "2026-03-11T19:53:46.447+08:00 [telegram] dnsResultOrder=ipv4first (default-node22)",
     "2026-03-11T19:56:49.389+08:00 [ws] ⇄ res ✓ config.get 648ms conn=bc4d2c20…2930 id=c957bb20…628e",
     "2026-03-12T00:55:55.307+08:00 [telegram] autoSelectFamily=false (config)",
     "2026-03-12T01:34:51.463+08:00 [gateway] cron: job created",
     "2026-03-12T01:35:00.007+08:00 [telegram] autoSelectFamily=true (default-node22)",
     "2026-03-12T03:38:10.565+08:00 [telegram] autoSelectFamily=false (config)",
     "2026-03-12T03:45:16.902+08:00 [telegram] autoSelectFamily=true (default-node22)",
-    "2026-03-12T03:45:27.260+08:00 [telegram] autoSelectFamily=false (config)"
+    "2026-03-12T03:45:27.260+08:00 [telegram] autoSelectFamily=false (config)",
+    "2026-03-12T10:01:17.719+08:00 [telegram] autoSelectFamily=true (default-node22)"
   ],
   "active_tasks": [
-    {
-      "agent": "twitter-ops",
-      "session_key": "agent:twitter-ops:cron:d8832eac-7c05-434f-bb51-1b8c12600350",
-      "updated_at_ms": 1773280843264,
-      "updated_at_local": "2026-03-12 10:00:43",
-      "state": "working",
-      "task": "[cron:d8832eac-7c05-434f-bb51-1b8c12600350 trading-system-reminder] 提醒：参考交易系统 Current time: Thursday, March 12th, 2026 — 10:00 AM (Asia/Shanghai) / 2026-03-12 0",
-      "skills": [
-        "trading-strategies"
-      ],
-      "available_skills": []
-    },
     {
       "agent": "twitter-ops",
       "session_key": "agent:twitter-ops:main",
