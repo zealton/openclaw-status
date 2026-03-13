@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-03-13T06:47:03Z",
-  "generated_at_local": "2026-03-13 14:47:03 ",
+  "generated_at": "2026-03-13T06:47:44Z",
+  "generated_at_local": "2026-03-13 14:47:44 ",
   "stale_after_seconds": 180,
   "host": "LeedeMac-mini.local",
   "openclaw": {
@@ -63,6 +63,31 @@
   "active_tasks": [
     {
       "agent": "twitter-ops",
+      "session_key": "agent:twitter-ops:telegram:direct:5683890141",
+      "updated_at_ms": 1773384459490,
+      "updated_at_local": "2026-03-13 14:47:39",
+      "state": "queued",
+      "task": "就是操作claude 的cowork那个tab",
+      "skills": [
+        "lark_twitter"
+      ],
+      "available_skills": [
+        "clawhub",
+        "coding-agent",
+        "gh-issues",
+        "github",
+        "healthcheck",
+        "session-logs",
+        "skill-creator",
+        "voice-call",
+        "weather",
+        "polymarket-api",
+        "trader-analysis",
+        "trading-strategies"
+      ]
+    },
+    {
+      "agent": "twitter-ops",
       "session_key": "agent:twitter-ops:main",
       "updated_at_ms": 1773384213464,
       "updated_at_local": "2026-03-13 14:43:33",
@@ -82,31 +107,6 @@
         "voice-call",
         "weather",
         "self-improvement"
-      ]
-    },
-    {
-      "agent": "twitter-ops",
-      "session_key": "agent:twitter-ops:telegram:direct:5683890141",
-      "updated_at_ms": 1773374252563,
-      "updated_at_local": "2026-03-13 11:57:32",
-      "state": "idle",
-      "task": "我说的是claude cowork上面的晨会检查skill",
-      "skills": [
-        "lark_twitter"
-      ],
-      "available_skills": [
-        "clawhub",
-        "coding-agent",
-        "gh-issues",
-        "github",
-        "healthcheck",
-        "session-logs",
-        "skill-creator",
-        "voice-call",
-        "weather",
-        "polymarket-api",
-        "trader-analysis",
-        "trading-strategies"
       ]
     }
   ],
