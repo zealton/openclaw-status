@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-03-13T04:42:41Z",
-  "generated_at_local": "2026-03-13 12:42:41 ",
+  "generated_at": "2026-03-13T04:43:42Z",
+  "generated_at_local": "2026-03-13 12:43:42 ",
   "stale_after_seconds": 180,
   "host": "LeedeMac-mini.local",
   "openclaw": {
@@ -63,11 +63,11 @@
   "active_tasks": [
     {
       "agent": "twitter-ops",
-      "session_key": "agent:twitter-ops:subagent:760be978-2c81-494c-9bb5-4c4acb5d9a95",
-      "updated_at_ms": 1773375240079,
-      "updated_at_local": "2026-03-13 12:14:00",
+      "session_key": "agent:twitter-ops:main",
+      "updated_at_ms": 1773377011488,
+      "updated_at_local": "2026-03-13 12:43:31",
       "state": "idle",
-      "task": "[Subagent Context] You are running as a subagent (depth 1/1). Results auto-announce to your requester; do not busy-poll for status. [Subagent Task]: Check the c",
+      "task": "[Fri 2026-03-13 12:13 GMT+8] OpenClaw runtime context (internal): This context is runtime-generated, not user-authored. Keep internal details private. [Internal",
       "skills": [],
       "available_skills": [
         "clawhub",
@@ -86,11 +86,11 @@
     },
     {
       "agent": "twitter-ops",
-      "session_key": "agent:twitter-ops:main",
-      "updated_at_ms": 1773375240061,
+      "session_key": "agent:twitter-ops:subagent:760be978-2c81-494c-9bb5-4c4acb5d9a95",
+      "updated_at_ms": 1773375240079,
       "updated_at_local": "2026-03-13 12:14:00",
       "state": "idle",
-      "task": "[Fri 2026-03-13 12:13 GMT+8] OpenClaw runtime context (internal): This context is runtime-generated, not user-authored. Keep internal details private. [Internal",
+      "task": "[Subagent Context] You are running as a subagent (depth 1/1). Results auto-announce to your requester; do not busy-poll for status. [Subagent Task]: Check the c",
       "skills": [],
       "available_skills": [
         "clawhub",
