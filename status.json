@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-03-13T11:31:53Z",
-  "generated_at_local": "2026-03-13 19:31:53 ",
+  "generated_at": "2026-03-13T11:32:10Z",
+  "generated_at_local": "2026-03-13 19:32:10 ",
   "stale_after_seconds": 180,
   "host": "LeedeMac-mini.local",
   "openclaw": {
@@ -64,10 +64,10 @@
     {
       "agent": "telegram-lite",
       "session_key": "agent:telegram-lite:telegram:direct:5683890141",
-      "updated_at_ms": 1773401196555,
-      "updated_at_local": "2026-03-13 19:26:36",
-      "state": "idle",
-      "task": "这个是私信，我已经把你拉到一个telegram的群里面的了",
+      "updated_at_ms": 1773401523571,
+      "updated_at_local": "2026-03-13 19:32:03",
+      "state": "error",
+      "task": "你现在什么模型",
       "skills": [],
       "available_skills": [
         "clawhub",
