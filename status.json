@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-03-13T12:30:51Z",
-  "generated_at_local": "2026-03-13 20:30:51 ",
+  "generated_at": "2026-03-13T12:31:16Z",
+  "generated_at_local": "2026-03-13 20:31:16 ",
   "stale_after_seconds": 180,
   "host": "LeedeMac-mini.local",
   "openclaw": {
@@ -66,7 +66,7 @@
       "session_key": "agent:telegram-lite:telegram:direct:5683890141",
       "updated_at_ms": 1773405045683,
       "updated_at_local": "2026-03-13 20:30:45",
-      "state": "queued",
+      "state": "working",
       "task": "Privacy mode 是off的，你肯定能",
       "skills": [],
       "available_skills": [
