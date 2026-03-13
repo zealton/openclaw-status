@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-03-13T12:11:15Z",
-  "generated_at_local": "2026-03-13 20:11:15 ",
+  "generated_at": "2026-03-13T12:11:54Z",
+  "generated_at_local": "2026-03-13 20:11:54 ",
   "stale_after_seconds": 180,
   "host": "LeedeMac-mini.local",
   "openclaw": {
@@ -51,14 +51,14 @@
     }
   },
   "recent_log": [
-    "2026-03-13T20:10:04.501+08:00 [voice-call] Webhook server listening on http://127.0.0.1:3334/voice/webhook",
-    "2026-03-13T20:10:04.502+08:00 [gateway] [voice-call] Runtime initialized",
-    "2026-03-13T20:10:04.503+08:00 [gateway] [voice-call] Webhook URL: http://127.0.0.1:3334/voice/webhook",
-    "2026-03-13T20:10:05.701+08:00 [telegram] [default] starting provider (@lark_mini_claw_bot)",
-    "2026-03-13T20:10:05.712+08:00 [telegram] autoSelectFamily=true (default-node22)",
     "2026-03-13T20:10:05.716+08:00 [telegram] global undici dispatcher autoSelectFamily=true",
     "2026-03-13T20:10:05.718+08:00 [telegram] dnsResultOrder=ipv4first (default-node22)",
-    "2026-03-13T20:10:22.825+08:00 [plugins] memory-lancedb: plugin registered (db: /Users/leelark/.openclaw/memory/lancedb, lazy init)"
+    "2026-03-13T20:10:22.825+08:00 [plugins] memory-lancedb: plugin registered (db: /Users/leelark/.openclaw/memory/lancedb, lazy init)",
+    "2026-03-13T20:11:48.026+08:00 [telegram] Group migrated: \"SG Party 2025\" -4947354395 → -1003889106164",
+    "2026-03-13T20:11:48.030+08:00 [telegram] Migrating group config from -4947354395 to -1003889106164",
+    "2026-03-13T20:11:48.089+08:00 [telegram] Group config migrated and saved successfully",
+    "2026-03-13T20:11:48.606+08:00 [reload] config change detected; evaluating reload (meta.lastTouchedAt)",
+    "2026-03-13T20:11:48.612+08:00 [reload] config change applied (dynamic reads: meta.lastTouchedAt)"
   ],
   "active_tasks": [
     {
