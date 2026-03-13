@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-03-13T12:25:36Z",
-  "generated_at_local": "2026-03-13 20:25:36 ",
+  "generated_at": "2026-03-13T12:26:01Z",
+  "generated_at_local": "2026-03-13 20:26:01 ",
   "stale_after_seconds": 180,
   "host": "LeedeMac-mini.local",
   "openclaw": {
@@ -64,9 +64,9 @@
     {
       "agent": "telegram-lite",
       "session_key": "agent:telegram-lite:telegram:direct:5683890141",
-      "updated_at_ms": 1773404706753,
-      "updated_at_local": "2026-03-13 20:25:06",
-      "state": "working",
+      "updated_at_ms": 1773404750614,
+      "updated_at_local": "2026-03-13 20:25:50",
+      "state": "idle",
       "task": "给你信息点赞那个信息，用emoji在信息上反馈吧",
       "skills": [],
       "available_skills": [
