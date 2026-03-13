@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-03-13T11:22:42Z",
-  "generated_at_local": "2026-03-13 19:22:42 ",
+  "generated_at": "2026-03-13T11:23:29Z",
+  "generated_at_local": "2026-03-13 19:23:29 ",
   "stale_after_seconds": 180,
   "host": "LeedeMac-mini.local",
   "openclaw": {
@@ -64,10 +64,10 @@
     {
       "agent": "telegram-lite",
       "session_key": "agent:telegram-lite:telegram:direct:5683890141",
-      "updated_at_ms": 1773400687248,
-      "updated_at_local": "2026-03-13 19:18:07",
-      "state": "idle",
-      "task": "香港天气",
+      "updated_at_ms": 1773400969488,
+      "updated_at_local": "2026-03-13 19:22:49",
+      "state": "queued",
+      "task": "你需要提醒一下群里的 @xstex2（他叫Albert，你要记住了），提醒需要给到情绪价值，要真诚",
       "skills": [],
       "available_skills": [
         "clawhub",
