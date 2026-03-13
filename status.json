@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-03-13T03:06:37Z",
-  "generated_at_local": "2026-03-13 11:06:37 ",
+  "generated_at": "2026-03-13T03:07:04Z",
+  "generated_at_local": "2026-03-13 11:07:04 ",
   "stale_after_seconds": 180,
   "host": "LeedeMac-mini.local",
   "openclaw": {
@@ -63,6 +63,16 @@
   "active_tasks": [
     {
       "agent": "twitter-ops",
+      "session_key": "agent:twitter-ops:subagent:5ec876af-692e-4c53-9788-9bc0f0bf3c87",
+      "updated_at_ms": 1773371215887,
+      "updated_at_local": "2026-03-13 11:06:55",
+      "state": "working",
+      "task": "[Fri 2026-03-13 11:02 GMT+8] [Subagent Context] You are running as a subagent (depth 1/1). Results auto-announce to your requester; do not busy-poll for status.",
+      "skills": [],
+      "available_skills": []
+    },
+    {
+      "agent": "twitter-ops",
       "session_key": "agent:twitter-ops:telegram:direct:5683890141",
       "updated_at_ms": 1773370987920,
       "updated_at_local": "2026-03-13 11:03:07",
@@ -85,16 +95,6 @@
         "trader-analysis",
         "trading-strategies"
       ]
-    },
-    {
-      "agent": "twitter-ops",
-      "session_key": "agent:twitter-ops:subagent:5ec876af-692e-4c53-9788-9bc0f0bf3c87",
-      "updated_at_ms": 1773370941066,
-      "updated_at_local": "2026-03-13 11:02:21",
-      "state": "working",
-      "task": "[Fri 2026-03-13 11:02 GMT+8] [Subagent Context] You are running as a subagent (depth 1/1). Results auto-announce to your requester; do not busy-poll for status.",
-      "skills": [],
-      "available_skills": []
     },
     {
       "agent": "twitter-ops",
