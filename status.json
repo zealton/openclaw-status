@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-03-13T03:04:30Z",
-  "generated_at_local": "2026-03-13 11:04:30 ",
+  "generated_at": "2026-03-13T03:04:58Z",
+  "generated_at_local": "2026-03-13 11:04:58 ",
   "stale_after_seconds": 180,
   "host": "LeedeMac-mini.local",
   "openclaw": {
@@ -51,14 +51,14 @@
     }
   },
   "recent_log": [
-    "",
     "HEARTBEAT_OK",
     "2026-03-13T09:50:52.781+08:00 [telegram] autoSelectFamily=true (default-node22)",
     "2026-03-13T10:07:27.268+08:00 [telegram] autoSelectFamily=false (config)",
     "2026-03-13T10:08:23.891+08:00 [telegram] autoSelectFamily=true (default-node22)",
     "2026-03-13T10:12:22.029+08:00 [telegram] autoSelectFamily=false (config)",
     "2026-03-13T10:58:44.951+08:00 [telegram] autoSelectFamily=true (default-node22)",
-    "2026-03-13T11:02:05.538+08:00 [ws] ⇄ res ✗ sessions.patch 3ms errorCode=INVALID_REQUEST errorMessage=model not allowed: openrouter/anthropic/claude-sonnet-4 conn=7ecf0d42…3263 id=9d8a7097…05f4"
+    "2026-03-13T11:02:05.538+08:00 [ws] ⇄ res ✗ sessions.patch 3ms errorCode=INVALID_REQUEST errorMessage=model not allowed: openrouter/anthropic/claude-sonnet-4 conn=7ecf0d42…3263 id=9d8a7097…05f4",
+    "2026-03-13T11:04:54.139+08:00 [telegram] autoSelectFamily=false (config)"
   ],
   "active_tasks": [
     {
