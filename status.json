@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-03-13T06:57:36Z",
-  "generated_at_local": "2026-03-13 14:57:36 ",
+  "generated_at": "2026-03-13T06:58:15Z",
+  "generated_at_local": "2026-03-13 14:58:15 ",
   "stale_after_seconds": 180,
   "host": "LeedeMac-mini.local",
   "openclaw": {
@@ -51,23 +51,23 @@
     }
   },
   "recent_log": [
-    "2026-03-13T13:28:28.812+08:00 [telegram] autoSelectFamily=true (default-node22)",
     "2026-03-13T13:54:12.662+08:00 [gateway] update available (latest): v2026.3.12 (current v2026.3.8). Run: openclaw update",
     "2026-03-13T14:11:19.744+08:00 [telegram] autoSelectFamily=false (config)",
     "2026-03-13T14:12:30.025+08:00 [telegram] autoSelectFamily=true (default-node22)",
     "2026-03-13T14:20:51.187+08:00 [telegram] autoSelectFamily=false (config)",
     "2026-03-13T14:50:39.047+08:00 [telegram] autoSelectFamily=true (default-node22)",
     "2026-03-13T14:52:20.130+08:00 [telegram] autoSelectFamily=false (config)",
-    "2026-03-13T14:54:38.324+08:00 typing TTL reached (2m); stopping typing indicator"
+    "2026-03-13T14:54:38.324+08:00 typing TTL reached (2m); stopping typing indicator",
+    "2026-03-13T14:58:12.327+08:00 [telegram] autoSelectFamily=true (default-node22)"
   ],
   "active_tasks": [
     {
       "agent": "twitter-ops",
       "session_key": "agent:twitter-ops:telegram:direct:5683890141",
-      "updated_at_ms": 1773384927608,
-      "updated_at_local": "2026-03-13 14:55:27",
-      "state": "working",
-      "task": "你可以的",
+      "updated_at_ms": 1773385092764,
+      "updated_at_local": "2026-03-13 14:58:12",
+      "state": "queued",
+      "task": "System: [2026-03-13 14:57:53 GMT+8] Exec completed (fast-sho, code 0) :: eal Auto-Sell 失败**: BNKR token 卖出交易失败 — `nonce has already been used`，需要检查 nonce 管理逻辑 #",
       "skills": [
         "coding-agent"
       ],
