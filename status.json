@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-03-13T12:32:57Z",
-  "generated_at_local": "2026-03-13 20:32:57 ",
+  "generated_at": "2026-03-13T12:33:23Z",
+  "generated_at_local": "2026-03-13 20:33:23 ",
   "stale_after_seconds": 180,
   "host": "LeedeMac-mini.local",
   "openclaw": {
@@ -64,9 +64,9 @@
     {
       "agent": "telegram-lite",
       "session_key": "agent:telegram-lite:telegram:direct:5683890141",
-      "updated_at_ms": 1773405045683,
-      "updated_at_local": "2026-03-13 20:30:45",
-      "state": "working",
+      "updated_at_ms": 1773405185282,
+      "updated_at_local": "2026-03-13 20:33:05",
+      "state": "idle",
       "task": "Privacy mode 是off的，你肯定能",
       "skills": [],
       "available_skills": [
