@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-03-13T03:42:46Z",
-  "generated_at_local": "2026-03-13 11:42:46 ",
+  "generated_at": "2026-03-13T03:43:31Z",
+  "generated_at_local": "2026-03-13 11:43:31 ",
   "stale_after_seconds": 180,
   "host": "LeedeMac-mini.local",
   "openclaw": {
@@ -63,6 +63,29 @@
   "active_tasks": [
     {
       "agent": "twitter-ops",
+      "session_key": "agent:twitter-ops:main",
+      "updated_at_ms": 1773373411468,
+      "updated_at_local": "2026-03-13 11:43:31",
+      "state": "idle",
+      "task": "[Fri 2026-03-13 09:26 GMT+8] OpenClaw runtime context (internal): This context is runtime-generated, not user-authored. Keep internal details private. [Internal",
+      "skills": [],
+      "available_skills": [
+        "clawhub",
+        "coding-agent",
+        "gh-issues",
+        "github",
+        "healthcheck",
+        "session-logs",
+        "skill-creator",
+        "tmux",
+        "video-frames",
+        "voice-call",
+        "weather",
+        "self-improvement"
+      ]
+    },
+    {
+      "agent": "twitter-ops",
       "session_key": "agent:twitter-ops:subagent:5ec876af-692e-4c53-9788-9bc0f0bf3c87",
       "updated_at_ms": 1773371701845,
       "updated_at_local": "2026-03-13 11:15:01",
@@ -107,29 +130,6 @@
         "polymarket-api",
         "trader-analysis",
         "trading-strategies"
-      ]
-    },
-    {
-      "agent": "twitter-ops",
-      "session_key": "agent:twitter-ops:main",
-      "updated_at_ms": 1773370462346,
-      "updated_at_local": "2026-03-13 10:54:22",
-      "state": "idle",
-      "task": "[Fri 2026-03-13 09:26 GMT+8] OpenClaw runtime context (internal): This context is runtime-generated, not user-authored. Keep internal details private. [Internal",
-      "skills": [],
-      "available_skills": [
-        "clawhub",
-        "coding-agent",
-        "gh-issues",
-        "github",
-        "healthcheck",
-        "session-logs",
-        "skill-creator",
-        "tmux",
-        "video-frames",
-        "voice-call",
-        "weather",
-        "self-improvement"
       ]
     }
   ],
