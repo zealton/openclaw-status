@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-03-13T10:37:10Z",
-  "generated_at_local": "2026-03-13 18:37:10 ",
+  "generated_at": "2026-03-13T10:38:10Z",
+  "generated_at_local": "2026-03-13 18:38:10 ",
   "stale_after_seconds": 180,
   "host": "LeedeMac-mini.local",
   "openclaw": {
@@ -51,21 +51,21 @@
     }
   },
   "recent_log": [
-    "2026-03-13T18:24:01.821+08:00 [telegram] autoSelectFamily=true (default-node22)",
-    "2026-03-13T18:24:01.825+08:00 [telegram] global undici dispatcher autoSelectFamily=true",
-    "2026-03-13T18:24:01.828+08:00 [telegram] dnsResultOrder=ipv4first (default-node22)",
-    "2026-03-13T18:34:36.511+08:00 typing TTL reached (2m); stopping typing indicator",
-    "2026-03-13T18:35:44.828+08:00 [reload] config change detected; evaluating reload (meta.lastTouchedAt, agents.defaults.model.primary)",
     "2026-03-13T18:35:44.830+08:00 [reload] config hot reload applied (agents.defaults.model.primary)",
     "2026-03-13T18:36:46.974+08:00 [ws] ⇄ res ✓ agent.wait 68065ms conn=fbb97709…371d id=9b11ff2d…af79",
-    "2026-03-13T18:36:47.022+08:00 到时间了，提醒Albert吃饭"
+    "2026-03-13T18:36:47.022+08:00 到时间了，提醒Albert吃饭",
+    "2026-03-13T18:37:47.178+08:00 [warn] Subagent announce completion direct announce agent call transient failure, retrying 2/4 in 5s: gateway timeout after 60000ms",
+    "Gateway target: ws://127.0.0.1:18789",
+    "Source: local loopback",
+    "Config: /Users/leelark/.openclaw/openclaw.json",
+    "Bind: loopback"
   ],
   "active_tasks": [
     {
       "agent": "twitter-ops",
       "session_key": "agent:twitter-ops:telegram:group:-4947354395",
-      "updated_at_ms": 1773398212105,
-      "updated_at_local": "2026-03-13 18:36:52",
+      "updated_at_ms": 1773398255140,
+      "updated_at_local": "2026-03-13 18:37:35",
       "state": "queued",
       "task": "[Fri 2026-03-13 18:36 GMT+8] OpenClaw runtime context (internal): This context is runtime-generated, not user-authored. Keep internal details private. [Internal",
       "skills": [],
