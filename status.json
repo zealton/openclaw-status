@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-03-13T11:43:27Z",
-  "generated_at_local": "2026-03-13 19:43:27 ",
+  "generated_at": "2026-03-13T11:43:46Z",
+  "generated_at_local": "2026-03-13 19:43:46 ",
   "stale_after_seconds": 180,
   "host": "LeedeMac-mini.local",
   "openclaw": {
@@ -10,7 +10,7 @@
   },
   "telegram": {
     "status": "running",
-    "detail": "2026-03-13T19:41:29.025+08:00 [telegram] [default] starting provider (@lark_mini_claw_bot)"
+    "detail": "2026-03-13T19:43:37.373+08:00 [telegram] [default] starting provider (@lark_mini_claw_bot)"
   },
   "browser": {
     "status": "running",
@@ -51,14 +51,14 @@
     }
   },
   "recent_log": [
-    "2026-03-13T19:41:27.810+08:00 [gateway] memory-lancedb: initialized (db: /Users/leelark/.openclaw/memory/lancedb, model: text-embedding-3-small)",
-    "2026-03-13T19:41:27.811+08:00 [voice-call] Webhook server listening on http://127.0.0.1:3334/voice/webhook",
-    "2026-03-13T19:41:27.813+08:00 [gateway] [voice-call] Runtime initialized",
-    "2026-03-13T19:41:27.813+08:00 [gateway] [voice-call] Webhook URL: http://127.0.0.1:3334/voice/webhook",
     "2026-03-13T19:41:29.025+08:00 [telegram] [default] starting provider (@lark_mini_claw_bot)",
     "2026-03-13T19:41:29.039+08:00 [telegram] autoSelectFamily=true (default-node22)",
     "2026-03-13T19:41:29.042+08:00 [telegram] global undici dispatcher autoSelectFamily=true",
-    "2026-03-13T19:41:29.044+08:00 [telegram] dnsResultOrder=ipv4first (default-node22)"
+    "2026-03-13T19:41:29.044+08:00 [telegram] dnsResultOrder=ipv4first (default-node22)",
+    "2026-03-13T19:43:36.181+08:00 [reload] config change detected; evaluating reload (bindings, channels.telegram.groups.-4947354395)",
+    "2026-03-13T19:43:36.185+08:00 [gateway/channels] restarting telegram channel",
+    "2026-03-13T19:43:36.188+08:00 [reload] config hot reload applied (channels.telegram.groups.-4947354395)",
+    "2026-03-13T19:43:37.373+08:00 [telegram] [default] starting provider (@lark_mini_claw_bot)"
   ],
   "active_tasks": [
     {
