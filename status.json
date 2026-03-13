@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-03-13T10:18:14Z",
-  "generated_at_local": "2026-03-13 18:18:14 ",
+  "generated_at": "2026-03-13T10:19:11Z",
+  "generated_at_local": "2026-03-13 18:19:11 ",
   "stale_after_seconds": 180,
   "host": "LeedeMac-mini.local",
   "openclaw": {
@@ -63,6 +63,31 @@
   "active_tasks": [
     {
       "agent": "twitter-ops",
+      "session_key": "agent:twitter-ops:telegram:direct:5683890141",
+      "updated_at_ms": 1773397108874,
+      "updated_at_local": "2026-03-13 18:18:28",
+      "state": "unknown",
+      "task": "模型你换成本地的qwen吧",
+      "skills": [
+        "coding-agent"
+      ],
+      "available_skills": [
+        "clawhub",
+        "coding-agent",
+        "gh-issues",
+        "github",
+        "healthcheck",
+        "session-logs",
+        "skill-creator",
+        "voice-call",
+        "weather",
+        "polymarket-api",
+        "trader-analysis",
+        "trading-strategies"
+      ]
+    },
+    {
+      "agent": "twitter-ops",
       "session_key": "agent:twitter-ops:main",
       "updated_at_ms": 1773396061147,
       "updated_at_local": "2026-03-13 18:01:01",
@@ -82,31 +107,6 @@
         "voice-call",
         "weather",
         "self-improvement"
-      ]
-    },
-    {
-      "agent": "twitter-ops",
-      "session_key": "agent:twitter-ops:telegram:direct:5683890141",
-      "updated_at_ms": 1773390060194,
-      "updated_at_local": "2026-03-13 16:21:00",
-      "state": "unknown",
-      "task": "模型你换成本地的qwen吧",
-      "skills": [
-        "coding-agent"
-      ],
-      "available_skills": [
-        "clawhub",
-        "coding-agent",
-        "gh-issues",
-        "github",
-        "healthcheck",
-        "session-logs",
-        "skill-creator",
-        "voice-call",
-        "weather",
-        "polymarket-api",
-        "trader-analysis",
-        "trading-strategies"
       ]
     }
   ],
