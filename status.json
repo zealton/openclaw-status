@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-03-13T08:30:55Z",
-  "generated_at_local": "2026-03-13 16:30:55 ",
+  "generated_at": "2026-03-13T08:31:34Z",
+  "generated_at_local": "2026-03-13 16:31:34 ",
   "stale_after_seconds": 180,
   "host": "LeedeMac-mini.local",
   "openclaw": {
@@ -64,10 +64,10 @@
     {
       "agent": "twitter-ops",
       "session_key": "agent:twitter-ops:main",
-      "updated_at_ms": 1773390653014,
-      "updated_at_local": "2026-03-13 16:30:53",
-      "state": "queued",
-      "task": "Read HEARTBEAT.md if it exists (workspace context). Follow it strictly. Do not infer or repeat old tasks from prior chats. If nothing needs attention, reply HEA",
+      "updated_at_ms": 1773390665206,
+      "updated_at_local": "2026-03-13 16:31:05",
+      "state": "idle",
+      "task": "[Fri 2026-03-13 12:13 GMT+8] OpenClaw runtime context (internal): This context is runtime-generated, not user-authored. Keep internal details private. [Internal",
       "skills": [],
       "available_skills": [
         "clawhub",
