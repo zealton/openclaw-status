@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-03-13T12:36:32Z",
-  "generated_at_local": "2026-03-13 20:36:32 ",
+  "generated_at": "2026-03-13T12:37:36Z",
+  "generated_at_local": "2026-03-13 20:37:36 ",
   "stale_after_seconds": 180,
   "host": "LeedeMac-mini.local",
   "openclaw": {
@@ -51,14 +51,14 @@
     }
   },
   "recent_log": [
-    "2026-03-13T20:36:10.210+08:00 [gateway] memory-lancedb: initialized (db: /Users/leelark/.openclaw/memory/lancedb, model: text-embedding-3-small)",
     "2026-03-13T20:36:10.213+08:00 [voice-call] Webhook server listening on http://127.0.0.1:3334/voice/webhook",
     "2026-03-13T20:36:10.214+08:00 [gateway] [voice-call] Runtime initialized",
     "2026-03-13T20:36:10.214+08:00 [gateway] [voice-call] Webhook URL: http://127.0.0.1:3334/voice/webhook",
     "2026-03-13T20:36:11.447+08:00 [telegram] [default] starting provider (@lark_mini_claw_bot)",
     "2026-03-13T20:36:11.459+08:00 [telegram] autoSelectFamily=true (default-node22)",
     "2026-03-13T20:36:11.462+08:00 [telegram] global undici dispatcher autoSelectFamily=true",
-    "2026-03-13T20:36:11.464+08:00 [telegram] dnsResultOrder=ipv4first (default-node22)"
+    "2026-03-13T20:36:11.464+08:00 [telegram] dnsResultOrder=ipv4first (default-node22)",
+    "2026-03-13T20:37:19.724+08:00 [telegram] autoSelectFamily=false (config)"
   ],
   "active_tasks": [
     {
