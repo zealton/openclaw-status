@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-03-13T11:54:19Z",
-  "generated_at_local": "2026-03-13 19:54:19 ",
+  "generated_at": "2026-03-13T11:55:01Z",
+  "generated_at_local": "2026-03-13 19:55:01 ",
   "stale_after_seconds": 180,
   "host": "LeedeMac-mini.local",
   "openclaw": {
@@ -51,23 +51,23 @@
     }
   },
   "recent_log": [
-    "2026-03-13T19:53:40.836+08:00 [gateway] memory-lancedb: initialized (db: /Users/leelark/.openclaw/memory/lancedb, model: text-embedding-3-small)",
     "2026-03-13T19:53:40.838+08:00 [voice-call] Webhook server listening on http://127.0.0.1:3334/voice/webhook",
     "2026-03-13T19:53:40.839+08:00 [gateway] [voice-call] Runtime initialized",
     "2026-03-13T19:53:40.840+08:00 [gateway] [voice-call] Webhook URL: http://127.0.0.1:3334/voice/webhook",
     "2026-03-13T19:53:42.464+08:00 [telegram] [default] starting provider (@lark_mini_claw_bot)",
     "2026-03-13T19:53:42.477+08:00 [telegram] autoSelectFamily=true (default-node22)",
     "2026-03-13T19:53:42.479+08:00 [telegram] global undici dispatcher autoSelectFamily=true",
-    "2026-03-13T19:53:42.481+08:00 [telegram] dnsResultOrder=ipv4first (default-node22)"
+    "2026-03-13T19:53:42.481+08:00 [telegram] dnsResultOrder=ipv4first (default-node22)",
+    "2026-03-13T19:54:20.419+08:00 [plugins] memory-lancedb: plugin registered (db: /Users/leelark/.openclaw/memory/lancedb, lazy init)"
   ],
   "active_tasks": [
     {
       "agent": "telegram-lite",
       "session_key": "agent:telegram-lite:telegram:group:-4947354395",
-      "updated_at_ms": 1773402788665,
-      "updated_at_local": "2026-03-13 19:53:08",
+      "updated_at_ms": 1773402885814,
+      "updated_at_local": "2026-03-13 19:54:45",
       "state": "queued",
-      "task": "收到,但是艾特我的时候用@xstex2",
+      "task": "签完收工",
       "skills": [],
       "available_skills": [
         "clawhub",
@@ -87,10 +87,10 @@
     {
       "agent": "telegram-lite",
       "session_key": "agent:telegram-lite:telegram:direct:5683890141",
-      "updated_at_ms": 1773402715476,
-      "updated_at_local": "2026-03-13 19:51:55",
-      "state": "idle",
-      "task": "需要对方回复的消息你可以pin一下，然后对方回复确认了，你再unpin吧，这个流程你也记录一下吧",
+      "updated_at_ms": 1773402859847,
+      "updated_at_local": "2026-03-13 19:54:19",
+      "state": "working",
+      "task": "刚刚群里别人回复你的信息处理一下吧",
       "skills": [],
       "available_skills": [
         "clawhub",
