@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-03-13T03:01:20Z",
-  "generated_at_local": "2026-03-13 11:01:20 ",
+  "generated_at": "2026-03-13T03:01:48Z",
+  "generated_at_local": "2026-03-13 11:01:48 ",
   "stale_after_seconds": 180,
   "host": "LeedeMac-mini.local",
   "openclaw": {
@@ -64,10 +64,10 @@
     {
       "agent": "twitter-ops",
       "session_key": "agent:twitter-ops:telegram:direct:5683890141",
-      "updated_at_ms": 1773370737597,
-      "updated_at_local": "2026-03-13 10:58:57",
-      "state": "working",
-      "task": "帮我运行一下claude cowork那个晨会检查地址",
+      "updated_at_ms": 1773370894635,
+      "updated_at_local": "2026-03-13 11:01:34",
+      "state": "queued",
+      "task": "说错了是skill",
       "skills": [],
       "available_skills": [
         "clawhub",
