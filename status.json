@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-03-13T10:52:57Z",
-  "generated_at_local": "2026-03-13 18:52:57 ",
+  "generated_at": "2026-03-13T10:53:56Z",
+  "generated_at_local": "2026-03-13 18:53:56 ",
   "stale_after_seconds": 180,
   "host": "LeedeMac-mini.local",
   "openclaw": {
@@ -51,25 +51,38 @@
     }
   },
   "recent_log": [
-    "2026-03-13T18:42:50.394+08:00 [gateway] [voice-call] Webhook URL: http://127.0.0.1:3334/voice/webhook",
     "2026-03-13T18:42:51.571+08:00 [telegram] [default] starting provider (@lark_mini_claw_bot)",
     "2026-03-13T18:42:51.582+08:00 [telegram] autoSelectFamily=true (default-node22)",
     "2026-03-13T18:42:51.585+08:00 [telegram] global undici dispatcher autoSelectFamily=true",
     "2026-03-13T18:42:51.589+08:00 [telegram] dnsResultOrder=ipv4first (default-node22)",
     "2026-03-13T18:46:23.320+08:00 [reload] config change detected; evaluating reload (meta.lastTouchedAt, agents.defaults.model.primary, agents.defaults.models.ollama/qwen3.5:9b)",
     "2026-03-13T18:46:23.323+08:00 [reload] config hot reload applied (agents.defaults.model.primary, agents.defaults.models.ollama/qwen3.5:9b)",
-    "2026-03-13T18:52:12.932+08:00 typing TTL reached (2m); stopping typing indicator"
+    "2026-03-13T18:52:12.932+08:00 typing TTL reached (2m); stopping typing indicator",
+    "2026-03-13T18:53:21.107+08:00 [telegram] sendMessage ok chat=5683890141 message=527"
   ],
   "active_tasks": [
     {
       "agent": "twitter-ops",
       "session_key": "agent:twitter-ops:telegram:direct:5683890141",
-      "updated_at_ms": 1773399012893,
-      "updated_at_local": "2026-03-13 18:50:12",
-      "state": "working",
-      "task": "你现在用什么模型",
+      "updated_at_ms": 1773399201134,
+      "updated_at_local": "2026-03-13 18:53:21",
+      "state": "queued",
+      "task": "你目前在哪个群里面",
       "skills": [],
-      "available_skills": []
+      "available_skills": [
+        "clawhub",
+        "coding-agent",
+        "gh-issues",
+        "github",
+        "healthcheck",
+        "session-logs",
+        "skill-creator",
+        "tmux",
+        "video-frames",
+        "voice-call",
+        "weather",
+        "self-improvement"
+      ]
     },
     {
       "agent": "twitter-ops",
