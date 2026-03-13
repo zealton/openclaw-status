@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-03-13T11:58:11Z",
-  "generated_at_local": "2026-03-13 19:58:11 ",
+  "generated_at": "2026-03-13T11:58:35Z",
+  "generated_at_local": "2026-03-13 19:58:35 ",
   "stale_after_seconds": 180,
   "host": "LeedeMac-mini.local",
   "openclaw": {
@@ -64,9 +64,9 @@
     {
       "agent": "telegram-lite",
       "session_key": "agent:telegram-lite:telegram:group:-4947354395",
-      "updated_at_ms": 1773403080125,
-      "updated_at_local": "2026-03-13 19:58:00",
-      "state": "queued",
+      "updated_at_ms": 1773403114222,
+      "updated_at_local": "2026-03-13 19:58:34",
+      "state": "idle",
       "task": "阵痛期",
       "skills": [],
       "available_skills": [
@@ -89,7 +89,7 @@
       "session_key": "agent:telegram-lite:telegram:direct:5683890141",
       "updated_at_ms": 1773403075597,
       "updated_at_local": "2026-03-13 19:57:55",
-      "state": "queued",
+      "state": "working",
       "task": "怎么你突然在群里 说了 “This is a screenshot of a conversation. It appears to be from the MiniOpenClaw bot with a user. Let me analyze what it says: Albert周末的bot交易量需要稍微降一降",
       "skills": [],
       "available_skills": [
