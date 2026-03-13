@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-03-13T10:34:01Z",
-  "generated_at_local": "2026-03-13 18:34:01 ",
+  "generated_at": "2026-03-13T10:35:00Z",
+  "generated_at_local": "2026-03-13 18:35:00 ",
   "stale_after_seconds": 180,
   "host": "LeedeMac-mini.local",
   "openclaw": {
@@ -51,16 +51,39 @@
     }
   },
   "recent_log": [
-    "2026-03-13T18:24:00.587+08:00 [gateway] memory-lancedb: initialized (db: /Users/leelark/.openclaw/memory/lancedb, model: text-embedding-3-small)",
     "2026-03-13T18:24:00.588+08:00 [voice-call] Webhook server listening on http://127.0.0.1:3334/voice/webhook",
     "2026-03-13T18:24:00.590+08:00 [gateway] [voice-call] Runtime initialized",
     "2026-03-13T18:24:00.590+08:00 [gateway] [voice-call] Webhook URL: http://127.0.0.1:3334/voice/webhook",
     "2026-03-13T18:24:01.810+08:00 [telegram] [default] starting provider (@lark_mini_claw_bot)",
     "2026-03-13T18:24:01.821+08:00 [telegram] autoSelectFamily=true (default-node22)",
     "2026-03-13T18:24:01.825+08:00 [telegram] global undici dispatcher autoSelectFamily=true",
-    "2026-03-13T18:24:01.828+08:00 [telegram] dnsResultOrder=ipv4first (default-node22)"
+    "2026-03-13T18:24:01.828+08:00 [telegram] dnsResultOrder=ipv4first (default-node22)",
+    "2026-03-13T18:34:36.511+08:00 typing TTL reached (2m); stopping typing indicator"
   ],
   "active_tasks": [
+    {
+      "agent": "twitter-ops",
+      "session_key": "agent:twitter-ops:telegram:group:-4947354395",
+      "updated_at_ms": 1773398083927,
+      "updated_at_local": "2026-03-13 18:34:43",
+      "state": "queued",
+      "task": "1 分钟后提醒 albert 吃饭 @lark_mini_claw_bot",
+      "skills": [],
+      "available_skills": [
+        "clawhub",
+        "coding-agent",
+        "gh-issues",
+        "github",
+        "healthcheck",
+        "session-logs",
+        "skill-creator",
+        "tmux",
+        "video-frames",
+        "voice-call",
+        "weather",
+        "self-improvement"
+      ]
+    },
     {
       "agent": "twitter-ops",
       "session_key": "agent:twitter-ops:telegram:direct:5683890141",
@@ -84,29 +107,6 @@
         "polymarket-api",
         "trader-analysis",
         "trading-strategies"
-      ]
-    },
-    {
-      "agent": "twitter-ops",
-      "session_key": "agent:twitter-ops:telegram:group:-4947354395",
-      "updated_at_ms": 1773397940939,
-      "updated_at_local": "2026-03-13 18:32:20",
-      "state": "idle",
-      "task": "@lark_mini_claw_bot which model",
-      "skills": [],
-      "available_skills": [
-        "clawhub",
-        "coding-agent",
-        "gh-issues",
-        "github",
-        "healthcheck",
-        "session-logs",
-        "skill-creator",
-        "tmux",
-        "video-frames",
-        "voice-call",
-        "weather",
-        "self-improvement"
       ]
     },
     {
