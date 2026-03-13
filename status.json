@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-03-13T11:17:16Z",
-  "generated_at_local": "2026-03-13 19:17:16 ",
+  "generated_at": "2026-03-13T11:18:14Z",
+  "generated_at_local": "2026-03-13 19:18:14 ",
   "stale_after_seconds": 180,
   "host": "LeedeMac-mini.local",
   "openclaw": {
@@ -51,23 +51,23 @@
     }
   },
   "recent_log": [
-    "2026-03-13T19:14:07.692+08:00 [telegram] [default] starting provider (@lark_mini_claw_bot)",
     "2026-03-13T19:14:07.703+08:00 [telegram] autoSelectFamily=true (default-node22)",
     "2026-03-13T19:14:07.707+08:00 [telegram] global undici dispatcher autoSelectFamily=true",
     "2026-03-13T19:14:07.709+08:00 [telegram] dnsResultOrder=ipv4first (default-node22)",
     "2026-03-13T19:15:16.666+08:00 [telegram] autoSelectFamily=false (config)",
     "2026-03-13T19:15:18.213+08:00 [plugins] memory-lancedb: plugin registered (db: /Users/leelark/.openclaw/memory/lancedb, lazy init)",
     "2026-03-13T19:16:23.260+08:00 [telegram] autoSelectFamily=true (default-node22)",
-    "2026-03-13T19:16:32.947+08:00 [ws] ⇄ res ✓ channels.status 1212ms conn=415059db…e045 id=d807cba0…cc8e"
+    "2026-03-13T19:16:32.947+08:00 [ws] ⇄ res ✓ channels.status 1212ms conn=415059db…e045 id=d807cba0…cc8e",
+    "2026-03-13T19:18:10.552+08:00 [telegram] sendMessage ok chat=5683890141 message=558"
   ],
   "active_tasks": [
     {
       "agent": "telegram-lite",
       "session_key": "agent:telegram-lite:telegram:direct:5683890141",
-      "updated_at_ms": 1773400582235,
-      "updated_at_local": "2026-03-13 19:16:22",
+      "updated_at_ms": 1773400687248,
+      "updated_at_local": "2026-03-13 19:18:07",
       "state": "idle",
-      "task": "test",
+      "task": "香港天气",
       "skills": [],
       "available_skills": [
         "clawhub",
