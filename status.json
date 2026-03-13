@@ -1,20 +1,20 @@
 {
-  "generated_at": "2026-03-13T10:42:25Z",
-  "generated_at_local": "2026-03-13 18:42:25 ",
+  "generated_at": "2026-03-13T10:43:26Z",
+  "generated_at_local": "2026-03-13 18:43:26 ",
   "stale_after_seconds": 180,
   "host": "LeedeMac-mini.local",
   "openclaw": {
     "running": true,
-    "pid": 17679,
-    "model": "openrouter/anthropic/claude-opus-4.6"
+    "pid": 22675,
+    "model": "ollama/qwen3:8b"
   },
   "telegram": {
     "status": "running",
-    "detail": "2026-03-13T18:24:01.810+08:00 [telegram] [default] starting provider (@lark_mini_claw_bot)"
+    "detail": "2026-03-13T18:42:51.571+08:00 [telegram] [default] starting provider (@lark_mini_claw_bot)"
   },
   "browser": {
     "status": "running",
-    "detail": "2026-03-13T18:24:00.306+08:00 [browser/server] Browser control listening on http://127.0.0.1:18791/ (auth=token)"
+    "detail": "2026-03-13T18:42:50.097+08:00 [browser/server] Browser control listening on http://127.0.0.1:18791/ (auth=token)"
   },
   "caffeinate": {
     "status": "running",
@@ -32,7 +32,7 @@
     "openclaw": {
       "loaded": true,
       "state": "running",
-      "pid": 17679
+      "pid": 22675
     },
     "watchdog": {
       "loaded": true,
@@ -51,14 +51,14 @@
     }
   },
   "recent_log": [
-    "Config: /Users/leelark/.openclaw/openclaw.json",
-    "Bind: loopback",
-    "2026-03-13T18:40:02.196+08:00 [warn] Subagent announce completion direct announce agent call transient failure, retrying 4/4 in 20s: gateway timeout after 60000ms",
-    "Gateway target: ws://127.0.0.1:18789",
-    "Source: local loopback",
-    "Config: /Users/leelark/.openclaw/openclaw.json",
-    "Bind: loopback",
-    "2026-03-13T18:40:34.454+08:00 到时间了，提醒Albert吃饭 🍚"
+    "2026-03-13T18:42:50.391+08:00 [gateway] memory-lancedb: initialized (db: /Users/leelark/.openclaw/memory/lancedb, model: text-embedding-3-small)",
+    "2026-03-13T18:42:50.392+08:00 [voice-call] Webhook server listening on http://127.0.0.1:3334/voice/webhook",
+    "2026-03-13T18:42:50.393+08:00 [gateway] [voice-call] Runtime initialized",
+    "2026-03-13T18:42:50.394+08:00 [gateway] [voice-call] Webhook URL: http://127.0.0.1:3334/voice/webhook",
+    "2026-03-13T18:42:51.571+08:00 [telegram] [default] starting provider (@lark_mini_claw_bot)",
+    "2026-03-13T18:42:51.582+08:00 [telegram] autoSelectFamily=true (default-node22)",
+    "2026-03-13T18:42:51.585+08:00 [telegram] global undici dispatcher autoSelectFamily=true",
+    "2026-03-13T18:42:51.589+08:00 [telegram] dnsResultOrder=ipv4first (default-node22)"
   ],
   "active_tasks": [
     {
@@ -105,31 +105,6 @@
         "voice-call",
         "weather",
         "self-improvement"
-      ]
-    },
-    {
-      "agent": "twitter-ops",
-      "session_key": "agent:twitter-ops:telegram:direct:5683890141",
-      "updated_at_ms": 1773397956485,
-      "updated_at_local": "2026-03-13 18:32:36",
-      "state": "unknown",
-      "task": "模型你换成本地的qwen吧",
-      "skills": [
-        "coding-agent"
-      ],
-      "available_skills": [
-        "clawhub",
-        "coding-agent",
-        "gh-issues",
-        "github",
-        "healthcheck",
-        "session-logs",
-        "skill-creator",
-        "voice-call",
-        "weather",
-        "polymarket-api",
-        "trader-analysis",
-        "trading-strategies"
       ]
     },
     {
