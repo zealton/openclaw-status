@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-03-13T12:00:18Z",
-  "generated_at_local": "2026-03-13 20:00:18 ",
+  "generated_at": "2026-03-13T12:00:41Z",
+  "generated_at_local": "2026-03-13 20:00:41 ",
   "stale_after_seconds": 180,
   "host": "LeedeMac-mini.local",
   "openclaw": {
@@ -63,11 +63,11 @@
   "active_tasks": [
     {
       "agent": "telegram-lite",
-      "session_key": "agent:telegram-lite:telegram:group:-4947354395",
-      "updated_at_ms": 1773403180943,
-      "updated_at_local": "2026-03-13 19:59:40",
-      "state": "idle",
-      "task": "周末再回归一下mainnet全流程咯，下周发公告",
+      "session_key": "agent:telegram-lite:telegram:direct:5683890141",
+      "updated_at_ms": 1773403234455,
+      "updated_at_local": "2026-03-13 20:00:34",
+      "state": "queued",
+      "task": "目前你的人设是什么，在这里 以及 在群里",
       "skills": [],
       "available_skills": [
         "clawhub",
@@ -86,11 +86,11 @@
     },
     {
       "agent": "telegram-lite",
-      "session_key": "agent:telegram-lite:telegram:direct:5683890141",
-      "updated_at_ms": 1773403122619,
-      "updated_at_local": "2026-03-13 19:58:42",
+      "session_key": "agent:telegram-lite:telegram:group:-4947354395",
+      "updated_at_ms": 1773403234118,
+      "updated_at_local": "2026-03-13 20:00:34",
       "state": "idle",
-      "task": "怎么你突然在群里 说了 “This is a screenshot of a conversation. It appears to be from the MiniOpenClaw bot with a user. Let me analyze what it says: Albert周末的bot交易量需要稍微降一降",
+      "task": "好，还有两个TODO是 defilama和mainnet LVMON holder snapshot",
       "skills": [],
       "available_skills": [
         "clawhub",
