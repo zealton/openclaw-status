@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-03-13T11:07:44Z",
-  "generated_at_local": "2026-03-13 19:07:44 ",
+  "generated_at": "2026-03-13T11:08:41Z",
+  "generated_at_local": "2026-03-13 19:08:41 ",
   "stale_after_seconds": 180,
   "host": "LeedeMac-mini.local",
   "openclaw": {
@@ -61,6 +61,29 @@
     "2026-03-13T19:07:32.236+08:00 [telegram] dnsResultOrder=ipv4first (default-node22)"
   ],
   "active_tasks": [
+    {
+      "agent": "main",
+      "session_key": "agent:main:telegram:direct:5683890141",
+      "updated_at_ms": 1773400088887,
+      "updated_at_local": "2026-03-13 19:08:08",
+      "state": "idle",
+      "task": "test",
+      "skills": [],
+      "available_skills": [
+        "clawhub",
+        "coding-agent",
+        "gh-issues",
+        "github",
+        "healthcheck",
+        "session-logs",
+        "skill-creator",
+        "tmux",
+        "video-frames",
+        "voice-call",
+        "weather",
+        "self-improvement"
+      ]
+    },
     {
       "agent": "twitter-ops",
       "session_key": "agent:twitter-ops:telegram:group:-4947354395",
