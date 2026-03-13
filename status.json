@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-03-13T11:55:22Z",
-  "generated_at_local": "2026-03-13 19:55:22 ",
+  "generated_at": "2026-03-13T11:56:05Z",
+  "generated_at_local": "2026-03-13 19:56:05 ",
   "stale_after_seconds": 180,
   "host": "LeedeMac-mini.local",
   "openclaw": {
@@ -63,11 +63,11 @@
   "active_tasks": [
     {
       "agent": "telegram-lite",
-      "session_key": "agent:telegram-lite:telegram:group:-4947354395",
-      "updated_at_ms": 1773402918236,
-      "updated_at_local": "2026-03-13 19:55:18",
-      "state": "queued",
-      "task": "done",
+      "session_key": "agent:telegram-lite:telegram:direct:5683890141",
+      "updated_at_ms": 1773402955254,
+      "updated_at_local": "2026-03-13 19:55:55",
+      "state": "idle",
+      "task": "对方回复你的“收到,但是艾特我的时候用@xstex2”",
       "skills": [],
       "available_skills": [
         "clawhub",
@@ -86,11 +86,11 @@
     },
     {
       "agent": "telegram-lite",
-      "session_key": "agent:telegram-lite:telegram:direct:5683890141",
-      "updated_at_ms": 1773402859847,
-      "updated_at_local": "2026-03-13 19:54:19",
-      "state": "working",
-      "task": "刚刚群里别人回复你的信息处理一下吧",
+      "session_key": "agent:telegram-lite:telegram:group:-4947354395",
+      "updated_at_ms": 1773402945051,
+      "updated_at_local": "2026-03-13 19:55:45",
+      "state": "queued",
+      "task": "done",
       "skills": [],
       "available_skills": [
         "clawhub",
