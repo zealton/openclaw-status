@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-03-13T10:38:13Z",
-  "generated_at_local": "2026-03-13 18:38:13 ",
+  "generated_at": "2026-03-13T10:39:13Z",
+  "generated_at_local": "2026-03-13 18:39:13 ",
   "stale_after_seconds": 180,
   "host": "LeedeMac-mini.local",
   "openclaw": {
@@ -51,10 +51,10 @@
     }
   },
   "recent_log": [
-    "2026-03-13T18:35:44.830+08:00 [reload] config hot reload applied (agents.defaults.model.primary)",
-    "2026-03-13T18:36:46.974+08:00 [ws] ⇄ res ✓ agent.wait 68065ms conn=fbb97709…371d id=9b11ff2d…af79",
-    "2026-03-13T18:36:47.022+08:00 到时间了，提醒Albert吃饭",
-    "2026-03-13T18:37:47.178+08:00 [warn] Subagent announce completion direct announce agent call transient failure, retrying 2/4 in 5s: gateway timeout after 60000ms",
+    "Source: local loopback",
+    "Config: /Users/leelark/.openclaw/openclaw.json",
+    "Bind: loopback",
+    "2026-03-13T18:38:52.186+08:00 [warn] Subagent announce completion direct announce agent call transient failure, retrying 3/4 in 10s: gateway timeout after 60000ms",
     "Gateway target: ws://127.0.0.1:18789",
     "Source: local loopback",
     "Config: /Users/leelark/.openclaw/openclaw.json",
