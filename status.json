@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-03-13T11:50:06Z",
-  "generated_at_local": "2026-03-13 19:50:06 ",
+  "generated_at": "2026-03-13T11:50:49Z",
+  "generated_at_local": "2026-03-13 19:50:49 ",
   "stale_after_seconds": 180,
   "host": "LeedeMac-mini.local",
   "openclaw": {
@@ -64,10 +64,10 @@
     {
       "agent": "telegram-lite",
       "session_key": "agent:telegram-lite:telegram:direct:5683890141",
-      "updated_at_ms": 1773402599007,
-      "updated_at_local": "2026-03-13 19:49:59",
-      "state": "idle",
-      "task": "你需要提醒一下群里Albert， 你的提醒需要给到对方情绪价值，要真诚 Albert需要回复你，你才能确认他真的读了这个信息",
+      "updated_at_ms": 1773402645321,
+      "updated_at_local": "2026-03-13 19:50:45",
+      "state": "queued",
+      "task": "需要对方回复的消息你可以pin一下，然后对方回复确认了，你再unpin吧，这个流程你也记录一下吧",
       "skills": [],
       "available_skills": [
         "clawhub",
@@ -87,10 +87,10 @@
     {
       "agent": "telegram-lite",
       "session_key": "agent:telegram-lite:telegram:group:-4947354395",
-      "updated_at_ms": 1773402585376,
-      "updated_at_local": "2026-03-13 19:49:45",
-      "state": "idle",
-      "task": "@lark_mini_claw_bot 给我转点钱",
+      "updated_at_ms": 1773402643747,
+      "updated_at_local": "2026-03-13 19:50:43",
+      "state": "queued",
+      "task": "再来一个",
       "skills": [],
       "available_skills": [
         "clawhub",
