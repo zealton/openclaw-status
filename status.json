@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-03-13T02:58:11Z",
-  "generated_at_local": "2026-03-13 10:58:11 ",
+  "generated_at": "2026-03-13T02:58:39Z",
+  "generated_at_local": "2026-03-13 10:58:39 ",
   "stale_after_seconds": 180,
   "host": "LeedeMac-mini.local",
   "openclaw": {
@@ -63,6 +63,29 @@
   "active_tasks": [
     {
       "agent": "twitter-ops",
+      "session_key": "agent:twitter-ops:telegram:direct:5683890141",
+      "updated_at_ms": 1773370713328,
+      "updated_at_local": "2026-03-13 10:58:33",
+      "state": "queued",
+      "task": "啥情况",
+      "skills": [],
+      "available_skills": [
+        "clawhub",
+        "coding-agent",
+        "gh-issues",
+        "github",
+        "healthcheck",
+        "session-logs",
+        "skill-creator",
+        "voice-call",
+        "weather",
+        "polymarket-api",
+        "trader-analysis",
+        "trading-strategies"
+      ]
+    },
+    {
+      "agent": "twitter-ops",
       "session_key": "agent:twitter-ops:main",
       "updated_at_ms": 1773370462346,
       "updated_at_local": "2026-03-13 10:54:22",
@@ -82,29 +105,6 @@
         "voice-call",
         "weather",
         "self-improvement"
-      ]
-    },
-    {
-      "agent": "twitter-ops",
-      "session_key": "agent:twitter-ops:telegram:direct:5683890141",
-      "updated_at_ms": 1773324046298,
-      "updated_at_local": "2026-03-12 22:00:46",
-      "state": "idle",
-      "task": "香港天气",
-      "skills": [],
-      "available_skills": [
-        "clawhub",
-        "coding-agent",
-        "gh-issues",
-        "github",
-        "healthcheck",
-        "session-logs",
-        "skill-creator",
-        "voice-call",
-        "weather",
-        "polymarket-api",
-        "trader-analysis",
-        "trading-strategies"
       ]
     }
   ],
