@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-03-13T03:57:29Z",
-  "generated_at_local": "2026-03-13 11:57:29 ",
+  "generated_at": "2026-03-13T03:58:17Z",
+  "generated_at_local": "2026-03-13 11:58:17 ",
   "stale_after_seconds": 180,
   "host": "LeedeMac-mini.local",
   "openclaw": {
@@ -51,22 +51,22 @@
     }
   },
   "recent_log": [
-    "- 6 条 reply 已发送（R96-R101），覆盖 @MangatoETH / @McKinsey / @PiSquared / @shivst3r / @retiredchaddev / @SeismicSys",
     "- 3 条 post 等你审批，已发到 Telegram：",
     "  - P19: 预测市场 / DEATH BETS Act",
     "  - P20: Hyperliquid 合成原油期货",
     "  - P21: Cloudflare AI 重写 Next.js",
     "- 审核页已更新：https://zealton.github.io/lark-twitter-review/",
     "2026-03-13T11:15:00.704+08:00 [telegram] autoSelectFamily=true (default-node22)",
-    "2026-03-13T11:17:20.642+08:00 [telegram] autoSelectFamily=false (config)"
+    "2026-03-13T11:17:20.642+08:00 [telegram] autoSelectFamily=false (config)",
+    "2026-03-13T11:57:34.132+08:00 [telegram] autoSelectFamily=true (default-node22)"
   ],
   "active_tasks": [
     {
       "agent": "twitter-ops",
       "session_key": "agent:twitter-ops:telegram:direct:5683890141",
-      "updated_at_ms": 1773374015728,
-      "updated_at_local": "2026-03-13 11:53:35",
-      "state": "working",
+      "updated_at_ms": 1773374252563,
+      "updated_at_local": "2026-03-13 11:57:32",
+      "state": "idle",
       "task": "我说的是claude cowork上面的晨会检查skill",
       "skills": [
         "lark_twitter"
