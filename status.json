@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-03-13T12:17:35Z",
-  "generated_at_local": "2026-03-13 20:17:35 ",
+  "generated_at": "2026-03-13T12:18:14Z",
+  "generated_at_local": "2026-03-13 20:18:14 ",
   "stale_after_seconds": 180,
   "host": "LeedeMac-mini.local",
   "openclaw": {
@@ -64,9 +64,9 @@
     {
       "agent": "telegram-lite",
       "session_key": "agent:telegram-lite:telegram:direct:5683890141",
-      "updated_at_ms": 1773404245068,
-      "updated_at_local": "2026-03-13 20:17:25",
-      "state": "queued",
+      "updated_at_ms": 1773404294278,
+      "updated_at_local": "2026-03-13 20:18:14",
+      "state": "idle",
       "task": "为什么你群里回复 “The image shows a chat screenshot from \"Lumiterra Universe\" (a Discord-like platform perhaps). It's a conversation where someone named \"Mika\" asked: W",
       "skills": [],
       "available_skills": [
