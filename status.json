@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-03-13T01:50:42Z",
-  "generated_at_local": "2026-03-13 09:50:42 ",
+  "generated_at": "2026-03-13T01:51:22Z",
+  "generated_at_local": "2026-03-13 09:51:22 ",
   "stale_after_seconds": 180,
   "host": "LeedeMac-mini.local",
   "openclaw": {
@@ -51,14 +51,14 @@
     }
   },
   "recent_log": [
-    "",
     "5. **Renamed memory/2026-03-09-1602.md → memory/2026-03-09.md** — no existing 2026-03-09.md was present, so a clean rename was done. No content lost.",
     "2026-03-13T09:26:39.462+08:00 Morning heartbeat done ✅",
     "",
     "- **Calendar:** Clear for next 48h, nothing scheduled.",
     "- **Memory maintenance:** MEMORY.md curated with learnings from the past few days (Lark's preferences, Twitter ops workflow, Whisper setup, past mistakes). Cleaned up the bloated Mar 12 daily log. Fixed the Mar 9 filename. Updated heartbeat state.",
     "",
-    "HEARTBEAT_OK"
+    "HEARTBEAT_OK",
+    "2026-03-13T09:50:52.781+08:00 [telegram] autoSelectFamily=true (default-node22)"
   ],
   "active_tasks": [
     {
