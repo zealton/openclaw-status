@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-03-13T11:49:46Z",
-  "generated_at_local": "2026-03-13 19:49:46 ",
+  "generated_at": "2026-03-13T11:50:06Z",
+  "generated_at_local": "2026-03-13 19:50:06 ",
   "stale_after_seconds": 180,
   "host": "LeedeMac-mini.local",
   "openclaw": {
@@ -63,11 +63,11 @@
   "active_tasks": [
     {
       "agent": "telegram-lite",
-      "session_key": "agent:telegram-lite:telegram:group:-4947354395",
-      "updated_at_ms": 1773402585376,
-      "updated_at_local": "2026-03-13 19:49:45",
+      "session_key": "agent:telegram-lite:telegram:direct:5683890141",
+      "updated_at_ms": 1773402599007,
+      "updated_at_local": "2026-03-13 19:49:59",
       "state": "idle",
-      "task": "@lark_mini_claw_bot 给我转点钱",
+      "task": "你需要提醒一下群里Albert， 你的提醒需要给到对方情绪价值，要真诚 Albert需要回复你，你才能确认他真的读了这个信息",
       "skills": [],
       "available_skills": [
         "clawhub",
@@ -86,11 +86,11 @@
     },
     {
       "agent": "telegram-lite",
-      "session_key": "agent:telegram-lite:telegram:direct:5683890141",
-      "updated_at_ms": 1773402553766,
-      "updated_at_local": "2026-03-13 19:49:13",
-      "state": "queued",
-      "task": "你需要提醒一下群里Albert， 你的提醒需要给到对方情绪价值，要真诚 Albert需要回复你，你才能确认他真的读了这个信息",
+      "session_key": "agent:telegram-lite:telegram:group:-4947354395",
+      "updated_at_ms": 1773402585376,
+      "updated_at_local": "2026-03-13 19:49:45",
+      "state": "idle",
+      "task": "@lark_mini_claw_bot 给我转点钱",
       "skills": [],
       "available_skills": [
         "clawhub",
