@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-03-13T03:53:17Z",
-  "generated_at_local": "2026-03-13 11:53:17 ",
+  "generated_at": "2026-03-13T03:54:03Z",
+  "generated_at_local": "2026-03-13 11:54:03 ",
   "stale_after_seconds": 180,
   "host": "LeedeMac-mini.local",
   "openclaw": {
@@ -63,6 +63,31 @@
   "active_tasks": [
     {
       "agent": "twitter-ops",
+      "session_key": "agent:twitter-ops:telegram:direct:5683890141",
+      "updated_at_ms": 1773374015728,
+      "updated_at_local": "2026-03-13 11:53:35",
+      "state": "working",
+      "task": "我说的是claude cowork上面的晨会检查skill",
+      "skills": [
+        "lark_twitter"
+      ],
+      "available_skills": [
+        "clawhub",
+        "coding-agent",
+        "gh-issues",
+        "github",
+        "healthcheck",
+        "session-logs",
+        "skill-creator",
+        "voice-call",
+        "weather",
+        "polymarket-api",
+        "trader-analysis",
+        "trading-strategies"
+      ]
+    },
+    {
+      "agent": "twitter-ops",
       "session_key": "agent:twitter-ops:main",
       "updated_at_ms": 1773373411468,
       "updated_at_local": "2026-03-13 11:43:31",
@@ -105,31 +130,6 @@
         "voice-call",
         "weather",
         "self-improvement"
-      ]
-    },
-    {
-      "agent": "twitter-ops",
-      "session_key": "agent:twitter-ops:telegram:direct:5683890141",
-      "updated_at_ms": 1773371700683,
-      "updated_at_local": "2026-03-13 11:15:00",
-      "state": "idle",
-      "task": "### 8. Dashboard ✅ - Review page updated and pushed to https://zealton.github.io/lark-twitter-review/ - 3 pending posts visible on dashboard ### Key Fix Applied",
-      "skills": [
-        "lark_twitter"
-      ],
-      "available_skills": [
-        "clawhub",
-        "coding-agent",
-        "gh-issues",
-        "github",
-        "healthcheck",
-        "session-logs",
-        "skill-creator",
-        "voice-call",
-        "weather",
-        "polymarket-api",
-        "trader-analysis",
-        "trading-strategies"
       ]
     }
   ],
