@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-03-13T07:27:47Z",
-  "generated_at_local": "2026-03-13 15:27:47 ",
+  "generated_at": "2026-03-13T07:28:15Z",
+  "generated_at_local": "2026-03-13 15:28:15 ",
   "stale_after_seconds": 180,
   "host": "LeedeMac-mini.local",
   "openclaw": {
@@ -63,6 +63,29 @@
   "active_tasks": [
     {
       "agent": "twitter-ops",
+      "session_key": "agent:twitter-ops:main",
+      "updated_at_ms": 1773386892782,
+      "updated_at_local": "2026-03-13 15:28:12",
+      "state": "queued",
+      "task": "Read HEARTBEAT.md if it exists (workspace context). Follow it strictly. Do not infer or repeat old tasks from prior chats. If nothing needs attention, reply HEA",
+      "skills": [],
+      "available_skills": [
+        "clawhub",
+        "coding-agent",
+        "gh-issues",
+        "github",
+        "healthcheck",
+        "session-logs",
+        "skill-creator",
+        "tmux",
+        "video-frames",
+        "voice-call",
+        "weather",
+        "self-improvement"
+      ]
+    },
+    {
+      "agent": "twitter-ops",
       "session_key": "agent:twitter-ops:telegram:direct:5683890141",
       "updated_at_ms": 1773385294890,
       "updated_at_local": "2026-03-13 15:01:34",
@@ -84,29 +107,6 @@
         "polymarket-api",
         "trader-analysis",
         "trading-strategies"
-      ]
-    },
-    {
-      "agent": "twitter-ops",
-      "session_key": "agent:twitter-ops:main",
-      "updated_at_ms": 1773384213464,
-      "updated_at_local": "2026-03-13 14:43:33",
-      "state": "idle",
-      "task": "[Fri 2026-03-13 12:13 GMT+8] OpenClaw runtime context (internal): This context is runtime-generated, not user-authored. Keep internal details private. [Internal",
-      "skills": [],
-      "available_skills": [
-        "clawhub",
-        "coding-agent",
-        "gh-issues",
-        "github",
-        "healthcheck",
-        "session-logs",
-        "skill-creator",
-        "tmux",
-        "video-frames",
-        "voice-call",
-        "weather",
-        "self-improvement"
       ]
     }
   ],
