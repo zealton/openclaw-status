@@ -1,20 +1,20 @@
 {
-  "generated_at": "2026-03-13T12:17:11Z",
-  "generated_at_local": "2026-03-13 20:17:11 ",
+  "generated_at": "2026-03-13T12:17:35Z",
+  "generated_at_local": "2026-03-13 20:17:35 ",
   "stale_after_seconds": 180,
   "host": "LeedeMac-mini.local",
   "openclaw": {
     "running": true,
-    "pid": 45621,
+    "pid": 47447,
     "model": "openrouter/minimax/minimax-m2.5"
   },
   "telegram": {
     "status": "running",
-    "detail": "2026-03-13T20:10:05.701+08:00 [telegram] [default] starting provider (@lark_mini_claw_bot)"
+    "detail": "2026-03-13T20:17:22.472+08:00 [telegram] [default] starting provider (@lark_mini_claw_bot)"
   },
   "browser": {
     "status": "running",
-    "detail": "2026-03-13T20:10:04.271+08:00 [browser/server] Browser control listening on http://127.0.0.1:18791/ (auth=token)"
+    "detail": "2026-03-13T20:17:20.977+08:00 [browser/server] Browser control listening on http://127.0.0.1:18791/ (auth=token)"
   },
   "caffeinate": {
     "status": "running",
@@ -32,7 +32,7 @@
     "openclaw": {
       "loaded": true,
       "state": "running",
-      "pid": 45621
+      "pid": 47447
     },
     "watchdog": {
       "loaded": true,
@@ -51,23 +51,23 @@
     }
   },
   "recent_log": [
-    "2026-03-13T20:10:05.718+08:00 [telegram] dnsResultOrder=ipv4first (default-node22)",
-    "2026-03-13T20:10:22.825+08:00 [plugins] memory-lancedb: plugin registered (db: /Users/leelark/.openclaw/memory/lancedb, lazy init)",
-    "2026-03-13T20:11:48.026+08:00 [telegram] Group migrated: \"SG Party 2025\" -4947354395 → -1003889106164",
-    "2026-03-13T20:11:48.030+08:00 [telegram] Migrating group config from -4947354395 to -1003889106164",
-    "2026-03-13T20:11:48.089+08:00 [telegram] Group config migrated and saved successfully",
-    "2026-03-13T20:11:48.606+08:00 [reload] config change detected; evaluating reload (meta.lastTouchedAt)",
-    "2026-03-13T20:11:48.612+08:00 [reload] config change applied (dynamic reads: meta.lastTouchedAt)",
-    "2026-03-13T20:14:55.082+08:00 [agents/tool-images] Image resized to fit limits: file_18---723e6419-44ae-4af7-a327-f7fb1f2fa84d.jpg 1280x960px 58.3KB -> 58.2KB (-0.1%)"
+    "2026-03-13T20:17:21.220+08:00 [voice-call] Webhook server listening on http://127.0.0.1:3334/voice/webhook",
+    "2026-03-13T20:17:21.221+08:00 [gateway] [voice-call] Runtime initialized",
+    "2026-03-13T20:17:21.221+08:00 [gateway] [voice-call] Webhook URL: http://127.0.0.1:3334/voice/webhook",
+    "2026-03-13T20:17:22.472+08:00 [telegram] [default] starting provider (@lark_mini_claw_bot)",
+    "2026-03-13T20:17:22.482+08:00 [telegram] autoSelectFamily=true (default-node22)",
+    "2026-03-13T20:17:22.484+08:00 [telegram] global undici dispatcher autoSelectFamily=true",
+    "2026-03-13T20:17:22.487+08:00 [telegram] dnsResultOrder=ipv4first (default-node22)",
+    "2026-03-13T20:17:25.741+08:00 [plugins] memory-lancedb: plugin registered (db: /Users/leelark/.openclaw/memory/lancedb, lazy init)"
   ],
   "active_tasks": [
     {
-      "agent": "main",
-      "session_key": "agent:main:telegram:group:-1003889106164",
-      "updated_at_ms": 1773404103141,
-      "updated_at_local": "2026-03-13 20:15:03",
-      "state": "idle",
-      "task": "<media:image>",
+      "agent": "telegram-lite",
+      "session_key": "agent:telegram-lite:telegram:direct:5683890141",
+      "updated_at_ms": 1773404245068,
+      "updated_at_local": "2026-03-13 20:17:25",
+      "state": "queued",
+      "task": "为什么你群里回复 “The image shows a chat screenshot from \"Lumiterra Universe\" (a Discord-like platform perhaps). It's a conversation where someone named \"Mika\" asked: W",
       "skills": [],
       "available_skills": [
         "clawhub",
@@ -85,12 +85,12 @@
       ]
     },
     {
-      "agent": "telegram-lite",
-      "session_key": "agent:telegram-lite:telegram:direct:5683890141",
-      "updated_at_ms": 1773403858723,
-      "updated_at_local": "2026-03-13 20:10:58",
+      "agent": "main",
+      "session_key": "agent:main:telegram:group:-1003889106164",
+      "updated_at_ms": 1773404103141,
+      "updated_at_local": "2026-03-13 20:15:03",
       "state": "idle",
-      "task": "你能看到群里的历史信息吗，从你加入后开始算起的话",
+      "task": "<media:image>",
       "skills": [],
       "available_skills": [
         "clawhub",
