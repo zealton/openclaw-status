@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-03-13T11:33:14Z",
-  "generated_at_local": "2026-03-13 19:33:14 ",
+  "generated_at": "2026-03-13T11:34:00Z",
+  "generated_at_local": "2026-03-13 19:34:00 ",
   "stale_after_seconds": 180,
   "host": "LeedeMac-mini.local",
   "openclaw": {
@@ -51,23 +51,23 @@
     }
   },
   "recent_log": [
-    "2026-03-13T19:23:37.324+08:00 [ws] ⇄ res ✗ sessions.resolve 1ms errorCode=INVALID_REQUEST errorMessage=No session found: xstex2 conn=b91ca421…c699 id=c9aad582…c5ed",
     "2026-03-13T19:23:37.333+08:00 [ws] ⇄ res ✗ sessions.resolve 2ms errorCode=INVALID_REQUEST errorMessage=No session found: xstex2 conn=636d092d…abbc id=e01bfff9…a673",
     "2026-03-13T19:24:02.029+08:00 [telegram] sendMessage ok chat=5683890141 message=561",
     "2026-03-13T19:24:57.581+08:00 [telegram] autoSelectFamily=false (config)",
     "2026-03-13T19:26:37.101+08:00 [telegram] autoSelectFamily=true (default-node22)",
     "2026-03-13T19:31:16.136+08:00 [reload] config change detected; evaluating reload (meta.lastTouchedAt, agents.defaults.model.primary, agents.defaults.models.minimax/minimax-m2.5)",
     "2026-03-13T19:31:16.138+08:00 [reload] config hot reload applied (agents.defaults.model.primary, agents.defaults.models.minimax/minimax-m2.5)",
-    "2026-03-13T19:32:21.382+08:00 [telegram] sendMessage ok chat=5683890141 message=565"
+    "2026-03-13T19:32:21.382+08:00 [telegram] sendMessage ok chat=5683890141 message=565",
+    "2026-03-13T19:33:57.285+08:00 [telegram] sendMessage ok chat=5683890141 message=569"
   ],
   "active_tasks": [
     {
       "agent": "telegram-lite",
       "session_key": "agent:telegram-lite:telegram:direct:5683890141",
-      "updated_at_ms": 1773401540852,
-      "updated_at_local": "2026-03-13 19:32:20",
+      "updated_at_ms": 1773401636754,
+      "updated_at_local": "2026-03-13 19:33:56",
       "state": "error",
-      "task": "你现在什么模型",
+      "task": "hi",
       "skills": [],
       "available_skills": [
         "clawhub",
