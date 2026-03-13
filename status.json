@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-03-13T12:23:54Z",
-  "generated_at_local": "2026-03-13 20:23:54 ",
+  "generated_at": "2026-03-13T12:24:33Z",
+  "generated_at_local": "2026-03-13 20:24:33 ",
   "stale_after_seconds": 180,
   "host": "LeedeMac-mini.local",
   "openclaw": {
-    "running": true,
-    "pid": 49290,
+    "running": false,
+    "pid": null,
     "model": "openrouter/minimax/minimax-m2.5"
   },
   "telegram": {
@@ -31,8 +31,8 @@
   "services": {
     "openclaw": {
       "loaded": true,
-      "state": "running",
-      "pid": 49290
+      "state": "spawn scheduled",
+      "pid": null
     },
     "watchdog": {
       "loaded": true,
@@ -51,14 +51,14 @@
     }
   },
   "recent_log": [
-    "2026-03-13T20:23:19.356+08:00 [gateway] memory-lancedb: initialized (db: /Users/leelark/.openclaw/memory/lancedb, model: text-embedding-3-small)",
-    "2026-03-13T20:23:19.359+08:00 [voice-call] Webhook server listening on http://127.0.0.1:3334/voice/webhook",
-    "2026-03-13T20:23:19.360+08:00 [gateway] [voice-call] Runtime initialized",
-    "2026-03-13T20:23:19.361+08:00 [gateway] [voice-call] Webhook URL: http://127.0.0.1:3334/voice/webhook",
     "2026-03-13T20:23:20.556+08:00 [telegram] [default] starting provider (@lark_mini_claw_bot)",
     "2026-03-13T20:23:20.568+08:00 [telegram] autoSelectFamily=true (default-node22)",
     "2026-03-13T20:23:20.571+08:00 [telegram] global undici dispatcher autoSelectFamily=true",
-    "2026-03-13T20:23:20.574+08:00 [telegram] dnsResultOrder=ipv4first (default-node22)"
+    "2026-03-13T20:23:20.574+08:00 [telegram] dnsResultOrder=ipv4first (default-node22)",
+    "2026-03-13T20:24:32.239+08:00 [gateway] signal SIGTERM received",
+    "2026-03-13T20:24:32.242+08:00 [gateway] received SIGTERM; shutting down",
+    "2026-03-13T20:24:32.285+08:00 [gateway] memory-lancedb: stopped",
+    "2026-03-13T20:24:32.286+08:00 [gmail-watcher] gmail watcher stopped"
   ],
   "active_tasks": [
     {
@@ -224,6 +224,7 @@
     }
   ],
   "notes": [
+    "OpenClaw gateway is not running.",
     "Gateway watchdog checks launchd every 60 seconds."
   ]
 }
