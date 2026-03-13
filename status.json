@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-03-13T04:20:36Z",
-  "generated_at_local": "2026-03-13 12:20:36 ",
+  "generated_at": "2026-03-13T04:21:30Z",
+  "generated_at_local": "2026-03-13 12:21:30 ",
   "stale_after_seconds": 180,
   "host": "LeedeMac-mini.local",
   "openclaw": {
@@ -51,14 +51,14 @@
     }
   },
   "recent_log": [
-    "2026-03-13T12:13:55.139+08:00 **Calendar Check Result:**",
     "",
     "No calendar events found in the next 48 hours (from now, 2026-03-13 12:13 PM through 2026-03-15 12:13 PM CST).",
     "",
     "EventKit access was granted and all calendars were queried — the schedule is clear.",
     "2026-03-13T12:14:00.068+08:00 Calendar still clear through Saturday. Nothing needs attention.",
     "",
-    "HEARTBEAT_OK"
+    "HEARTBEAT_OK",
+    "2026-03-13T12:21:23.742+08:00 [telegram] autoSelectFamily=false (config)"
   ],
   "active_tasks": [
     {
