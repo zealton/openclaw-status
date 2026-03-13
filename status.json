@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-03-13T12:10:51Z",
-  "generated_at_local": "2026-03-13 20:10:51 ",
+  "generated_at": "2026-03-13T12:11:15Z",
+  "generated_at_local": "2026-03-13 20:11:15 ",
   "stale_after_seconds": 180,
   "host": "LeedeMac-mini.local",
   "openclaw": {
@@ -64,9 +64,9 @@
     {
       "agent": "telegram-lite",
       "session_key": "agent:telegram-lite:telegram:direct:5683890141",
-      "updated_at_ms": 1773403821827,
-      "updated_at_local": "2026-03-13 20:10:21",
-      "state": "working",
+      "updated_at_ms": 1773403858723,
+      "updated_at_local": "2026-03-13 20:10:58",
+      "state": "idle",
       "task": "你能看到群里的历史信息吗，从你加入后开始算起的话",
       "skills": [],
       "available_skills": [
