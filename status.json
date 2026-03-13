@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-03-13T02:24:26Z",
-  "generated_at_local": "2026-03-13 10:24:26 ",
+  "generated_at": "2026-03-13T02:25:01Z",
+  "generated_at_local": "2026-03-13 10:25:01 ",
   "stale_after_seconds": 180,
   "host": "LeedeMac-mini.local",
   "openclaw": {
@@ -91,52 +91,6 @@
       "updated_at_local": "2026-03-13 09:26:39",
       "state": "idle",
       "task": "[Fri 2026-03-13 09:25 GMT+8] [Subagent Context] You are running as a subagent (depth 1/1). Results auto-announce to your requester; do not busy-poll for status.",
-      "skills": [],
-      "available_skills": [
-        "clawhub",
-        "coding-agent",
-        "gh-issues",
-        "github",
-        "healthcheck",
-        "session-logs",
-        "skill-creator",
-        "tmux",
-        "video-frames",
-        "voice-call",
-        "weather",
-        "self-improvement"
-      ]
-    },
-    {
-      "agent": "twitter-ops",
-      "session_key": "agent:twitter-ops:subagent:df65b833-1cad-4ae8-9758-599d77bf3ec0",
-      "updated_at_ms": 1773365135508,
-      "updated_at_local": "2026-03-13 09:25:35",
-      "state": "idle",
-      "task": "[Subagent Context] You are running as a subagent (depth 1/1). Results auto-announce to your requester; do not busy-poll for status. [Subagent Task]: Check the c",
-      "skills": [],
-      "available_skills": [
-        "clawhub",
-        "coding-agent",
-        "gh-issues",
-        "github",
-        "healthcheck",
-        "session-logs",
-        "skill-creator",
-        "tmux",
-        "video-frames",
-        "voice-call",
-        "weather",
-        "self-improvement"
-      ]
-    },
-    {
-      "agent": "twitter-ops",
-      "session_key": "agent:twitter-ops:subagent:43a4f355-62aa-4a26-b06b-4be1f7ac4ab5",
-      "updated_at_ms": 1773365106715,
-      "updated_at_local": "2026-03-13 09:25:06",
-      "state": "idle",
-      "task": "[Fri 2026-03-13 09:24 GMT+8] [Subagent Context] You are running as a subagent (depth 1/1). Results auto-announce to your requester; do not busy-poll for status.",
       "skills": [],
       "available_skills": [
         "clawhub",
