@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-03-13T10:59:17Z",
-  "generated_at_local": "2026-03-13 18:59:17 ",
+  "generated_at": "2026-03-13T11:00:16Z",
+  "generated_at_local": "2026-03-13 19:00:16 ",
   "stale_after_seconds": 180,
   "host": "LeedeMac-mini.local",
   "openclaw": {
@@ -51,16 +51,39 @@
     }
   },
   "recent_log": [
-    "2026-03-13T18:55:41.262+08:00 [voice-call] Webhook server listening on http://127.0.0.1:3334/voice/webhook",
-    "2026-03-13T18:55:41.264+08:00 [gateway] [voice-call] Runtime initialized",
     "2026-03-13T18:55:41.264+08:00 [gateway] [voice-call] Webhook URL: http://127.0.0.1:3334/voice/webhook",
     "2026-03-13T18:55:42.471+08:00 [telegram] [default] starting provider (@lark_mini_claw_bot)",
     "2026-03-13T18:55:42.481+08:00 [telegram] autoSelectFamily=true (default-node22)",
     "2026-03-13T18:55:42.483+08:00 [telegram] global undici dispatcher autoSelectFamily=true",
     "2026-03-13T18:55:42.486+08:00 [telegram] dnsResultOrder=ipv4first (default-node22)",
-    "2026-03-13T18:59:03.951+08:00 [telegram] autoSelectFamily=false (config)"
+    "2026-03-13T18:59:03.951+08:00 [telegram] autoSelectFamily=false (config)",
+    "2026-03-13T18:59:57.954+08:00 [telegram] autoSelectFamily=true (default-node22)",
+    "2026-03-13T19:00:00.027+08:00 [telegram] sendMessage ok chat=5683890141 message=541"
   ],
   "active_tasks": [
+    {
+      "agent": "twitter-ops",
+      "session_key": "agent:twitter-ops:telegram:direct:5683890141",
+      "updated_at_ms": 1773399597415,
+      "updated_at_local": "2026-03-13 18:59:57",
+      "state": "idle",
+      "task": "test",
+      "skills": [],
+      "available_skills": [
+        "clawhub",
+        "coding-agent",
+        "gh-issues",
+        "github",
+        "healthcheck",
+        "session-logs",
+        "skill-creator",
+        "tmux",
+        "video-frames",
+        "voice-call",
+        "weather",
+        "self-improvement"
+      ]
+    },
     {
       "agent": "twitter-ops",
       "session_key": "agent:twitter-ops:telegram:group:-4947354395",
