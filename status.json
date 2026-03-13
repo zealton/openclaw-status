@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-03-13T03:02:24Z",
-  "generated_at_local": "2026-03-13 11:02:24 ",
+  "generated_at": "2026-03-13T03:02:52Z",
+  "generated_at_local": "2026-03-13 11:02:52 ",
   "stale_after_seconds": 180,
   "host": "LeedeMac-mini.local",
   "openclaw": {
@@ -61,6 +61,18 @@
     "2026-03-13T11:02:05.538+08:00 [ws] ⇄ res ✗ sessions.patch 3ms errorCode=INVALID_REQUEST errorMessage=model not allowed: openrouter/anthropic/claude-sonnet-4 conn=7ecf0d42…3263 id=9d8a7097…05f4"
   ],
   "active_tasks": [
+    {
+      "agent": "twitter-ops",
+      "session_key": "agent:twitter-ops:subagent:5ec876af-692e-4c53-9788-9bc0f0bf3c87",
+      "updated_at_ms": 1773370941066,
+      "updated_at_local": "2026-03-13 11:02:21",
+      "state": "working",
+      "task": "[Fri 2026-03-13 11:02 GMT+8] [Subagent Context] You are running as a subagent (depth 1/1). Results auto-announce to your requester; do not busy-poll for status.",
+      "skills": [
+        "lark_twitter"
+      ],
+      "available_skills": []
+    },
     {
       "agent": "twitter-ops",
       "session_key": "agent:twitter-ops:telegram:direct:5683890141",
