@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-03-13T11:14:00Z",
-  "generated_at_local": "2026-03-13 19:14:00 ",
+  "generated_at": "2026-03-13T11:14:05Z",
+  "generated_at_local": "2026-03-13 19:14:05 ",
   "stale_after_seconds": 180,
   "host": "LeedeMac-mini.local",
   "openclaw": {
     "running": true,
-    "pid": 29185,
+    "pid": 30800,
     "model": "ollama/qwen3.5:9b"
   },
   "telegram": {
@@ -32,7 +32,7 @@
     "openclaw": {
       "loaded": true,
       "state": "running",
-      "pid": 29185
+      "pid": 30800
     },
     "watchdog": {
       "loaded": true,
@@ -51,14 +51,14 @@
     }
   },
   "recent_log": [
-    "2026-03-13T19:07:31.000+08:00 [gateway] [voice-call] Runtime initialized",
-    "2026-03-13T19:07:31.001+08:00 [gateway] [voice-call] Webhook URL: http://127.0.0.1:3334/voice/webhook",
-    "2026-03-13T19:07:32.220+08:00 [telegram] [default] starting provider (@lark_mini_claw_bot)",
-    "2026-03-13T19:07:32.230+08:00 [telegram] autoSelectFamily=true (default-node22)",
-    "2026-03-13T19:07:32.234+08:00 [telegram] global undici dispatcher autoSelectFamily=true",
     "2026-03-13T19:07:32.236+08:00 [telegram] dnsResultOrder=ipv4first (default-node22)",
     "2026-03-13T19:12:38.719+08:00 [reload] config change detected; evaluating reload (agents.list, bindings)",
-    "2026-03-13T19:12:38.722+08:00 [reload] config change applied (dynamic reads: agents.list, bindings)"
+    "2026-03-13T19:12:38.722+08:00 [reload] config change applied (dynamic reads: agents.list, bindings)",
+    "2026-03-13T19:14:02.541+08:00 [gateway] signal SIGTERM received",
+    "2026-03-13T19:14:02.546+08:00 [gateway] received SIGTERM; shutting down",
+    "2026-03-13T19:14:02.589+08:00 [gateway] memory-lancedb: stopped",
+    "2026-03-13T19:14:02.591+08:00 [gmail-watcher] gmail watcher stopped",
+    "2026-03-13T19:14:04.991+08:00 [gateway] memory-lancedb: plugin registered (db: /Users/leelark/.openclaw/memory/lancedb, lazy init)"
   ],
   "active_tasks": [
     {
