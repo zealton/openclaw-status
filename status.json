@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-03-13T06:59:42Z",
-  "generated_at_local": "2026-03-13 14:59:42 ",
+  "generated_at": "2026-03-13T07:00:22Z",
+  "generated_at_local": "2026-03-13 15:00:22 ",
   "stale_after_seconds": 180,
   "host": "LeedeMac-mini.local",
   "openclaw": {
@@ -64,10 +64,10 @@
     {
       "agent": "twitter-ops",
       "session_key": "agent:twitter-ops:telegram:direct:5683890141",
-      "updated_at_ms": 1773385092764,
-      "updated_at_local": "2026-03-13 14:58:12",
-      "state": "working",
-      "task": "System: [2026-03-13 14:57:53 GMT+8] Exec completed (fast-sho, code 0) :: eal Auto-Sell 失败**: BNKR token 卖出交易失败 — `nonce has already been used`，需要检查 nonce 管理逻辑 #",
+      "updated_at_ms": 1773385189820,
+      "updated_at_local": "2026-03-13 14:59:49",
+      "state": "idle",
+      "task": "你可以的",
       "skills": [
         "coding-agent"
       ],
