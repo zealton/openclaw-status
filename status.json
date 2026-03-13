@@ -1,20 +1,20 @@
 {
-  "generated_at": "2026-03-13T11:34:17Z",
-  "generated_at_local": "2026-03-13 19:34:17 ",
+  "generated_at": "2026-03-13T11:35:03Z",
+  "generated_at_local": "2026-03-13 19:35:03 ",
   "stale_after_seconds": 180,
   "host": "LeedeMac-mini.local",
   "openclaw": {
     "running": true,
-    "pid": 30800,
-    "model": "ollama/qwen3.5:9b"
+    "pid": 35891,
+    "model": "minimax/minimax-m2.5"
   },
   "telegram": {
     "status": "running",
-    "detail": "2026-03-13T19:14:07.692+08:00 [telegram] [default] starting provider (@lark_mini_claw_bot)"
+    "detail": "2026-03-13T19:34:52.285+08:00 [telegram] [default] starting provider (@lark_mini_claw_bot)"
   },
   "browser": {
     "status": "running",
-    "detail": "2026-03-13T19:14:06.228+08:00 [browser/server] Browser control listening on http://127.0.0.1:18791/ (auth=token)"
+    "detail": "2026-03-13T19:34:50.851+08:00 [browser/server] Browser control listening on http://127.0.0.1:18791/ (auth=token)"
   },
   "caffeinate": {
     "status": "running",
@@ -32,7 +32,7 @@
     "openclaw": {
       "loaded": true,
       "state": "running",
-      "pid": 30800
+      "pid": 35891
     },
     "watchdog": {
       "loaded": true,
@@ -51,14 +51,14 @@
     }
   },
   "recent_log": [
-    "2026-03-13T19:23:37.333+08:00 [ws] ⇄ res ✗ sessions.resolve 2ms errorCode=INVALID_REQUEST errorMessage=No session found: xstex2 conn=636d092d…abbc id=e01bfff9…a673",
-    "2026-03-13T19:24:02.029+08:00 [telegram] sendMessage ok chat=5683890141 message=561",
-    "2026-03-13T19:24:57.581+08:00 [telegram] autoSelectFamily=false (config)",
-    "2026-03-13T19:26:37.101+08:00 [telegram] autoSelectFamily=true (default-node22)",
-    "2026-03-13T19:31:16.136+08:00 [reload] config change detected; evaluating reload (meta.lastTouchedAt, agents.defaults.model.primary, agents.defaults.models.minimax/minimax-m2.5)",
-    "2026-03-13T19:31:16.138+08:00 [reload] config hot reload applied (agents.defaults.model.primary, agents.defaults.models.minimax/minimax-m2.5)",
-    "2026-03-13T19:32:21.382+08:00 [telegram] sendMessage ok chat=5683890141 message=565",
-    "2026-03-13T19:33:57.285+08:00 [telegram] sendMessage ok chat=5683890141 message=569"
+    "2026-03-13T19:34:51.082+08:00 [gateway] memory-lancedb: initialized (db: /Users/leelark/.openclaw/memory/lancedb, model: text-embedding-3-small)",
+    "2026-03-13T19:34:51.083+08:00 [voice-call] Webhook server listening on http://127.0.0.1:3334/voice/webhook",
+    "2026-03-13T19:34:51.084+08:00 [gateway] [voice-call] Runtime initialized",
+    "2026-03-13T19:34:51.085+08:00 [gateway] [voice-call] Webhook URL: http://127.0.0.1:3334/voice/webhook",
+    "2026-03-13T19:34:52.285+08:00 [telegram] [default] starting provider (@lark_mini_claw_bot)",
+    "2026-03-13T19:34:52.297+08:00 [telegram] autoSelectFamily=true (default-node22)",
+    "2026-03-13T19:34:52.299+08:00 [telegram] global undici dispatcher autoSelectFamily=true",
+    "2026-03-13T19:34:52.301+08:00 [telegram] dnsResultOrder=ipv4first (default-node22)"
   ],
   "active_tasks": [
     {
