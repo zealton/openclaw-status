@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-03-13T06:47:44Z",
-  "generated_at_local": "2026-03-13 14:47:44 ",
+  "generated_at": "2026-03-13T06:48:06Z",
+  "generated_at_local": "2026-03-13 14:48:06 ",
   "stale_after_seconds": 180,
   "host": "LeedeMac-mini.local",
   "openclaw": {
@@ -66,7 +66,7 @@
       "session_key": "agent:twitter-ops:telegram:direct:5683890141",
       "updated_at_ms": 1773384459490,
       "updated_at_local": "2026-03-13 14:47:39",
-      "state": "queued",
+      "state": "working",
       "task": "就是操作claude 的cowork那个tab",
       "skills": [
         "lark_twitter"
