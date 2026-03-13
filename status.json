@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-03-13T11:40:18Z",
-  "generated_at_local": "2026-03-13 19:40:18 ",
+  "generated_at": "2026-03-13T11:40:36Z",
+  "generated_at_local": "2026-03-13 19:40:36 ",
   "stale_after_seconds": 180,
   "host": "LeedeMac-mini.local",
   "openclaw": {
@@ -66,7 +66,7 @@
       "session_key": "agent:telegram-lite:telegram:direct:5683890141",
       "updated_at_ms": 1773402014106,
       "updated_at_local": "2026-03-13 19:40:14",
-      "state": "queued",
+      "state": "working",
       "task": "我群里@ 你了",
       "skills": [],
       "available_skills": [
