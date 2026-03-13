@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-03-13T11:51:52Z",
-  "generated_at_local": "2026-03-13 19:51:52 ",
+  "generated_at": "2026-03-13T11:52:13Z",
+  "generated_at_local": "2026-03-13 19:52:13 ",
   "stale_after_seconds": 180,
   "host": "LeedeMac-mini.local",
   "openclaw": {
@@ -63,11 +63,11 @@
   "active_tasks": [
     {
       "agent": "telegram-lite",
-      "session_key": "agent:telegram-lite:telegram:group:-4947354395",
-      "updated_at_ms": 1773402711638,
-      "updated_at_local": "2026-03-13 19:51:51",
+      "session_key": "agent:telegram-lite:telegram:direct:5683890141",
+      "updated_at_ms": 1773402715476,
+      "updated_at_local": "2026-03-13 19:51:55",
       "state": "idle",
-      "task": "lmao",
+      "task": "需要对方回复的消息你可以pin一下，然后对方回复确认了，你再unpin吧，这个流程你也记录一下吧",
       "skills": [],
       "available_skills": [
         "clawhub",
@@ -86,11 +86,11 @@
     },
     {
       "agent": "telegram-lite",
-      "session_key": "agent:telegram-lite:telegram:direct:5683890141",
-      "updated_at_ms": 1773402645321,
-      "updated_at_local": "2026-03-13 19:50:45",
-      "state": "working",
-      "task": "需要对方回复的消息你可以pin一下，然后对方回复确认了，你再unpin吧，这个流程你也记录一下吧",
+      "session_key": "agent:telegram-lite:telegram:group:-4947354395",
+      "updated_at_ms": 1773402711638,
+      "updated_at_local": "2026-03-13 19:51:51",
+      "state": "idle",
+      "task": "lmao",
       "skills": [],
       "available_skills": [
         "clawhub",
