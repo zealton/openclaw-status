@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-03-13T03:04:58Z",
-  "generated_at_local": "2026-03-13 11:04:58 ",
+  "generated_at": "2026-03-13T03:05:34Z",
+  "generated_at_local": "2026-03-13 11:05:34 ",
   "stale_after_seconds": 180,
   "host": "LeedeMac-mini.local",
   "openclaw": {
@@ -93,9 +93,7 @@
       "updated_at_local": "2026-03-13 11:02:21",
       "state": "working",
       "task": "[Fri 2026-03-13 11:02 GMT+8] [Subagent Context] You are running as a subagent (depth 1/1). Results auto-announce to your requester; do not busy-poll for status.",
-      "skills": [
-        "lark_twitter"
-      ],
+      "skills": [],
       "available_skills": []
     },
     {
