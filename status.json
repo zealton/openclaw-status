@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-03-13T12:07:42Z",
-  "generated_at_local": "2026-03-13 20:07:42 ",
+  "generated_at": "2026-03-13T12:08:05Z",
+  "generated_at_local": "2026-03-13 20:08:05 ",
   "stale_after_seconds": 180,
   "host": "LeedeMac-mini.local",
   "openclaw": {
@@ -63,11 +63,11 @@
   "active_tasks": [
     {
       "agent": "telegram-lite",
-      "session_key": "agent:telegram-lite:telegram:group:-4947354395",
-      "updated_at_ms": 1773403271601,
-      "updated_at_local": "2026-03-13 20:01:11",
+      "session_key": "agent:telegram-lite:telegram:direct:5683890141",
+      "updated_at_ms": 1773403683524,
+      "updated_at_local": "2026-03-13 20:08:03",
       "state": "idle",
-      "task": "@lark_mini_claw_bot 汇总一下todo",
+      "task": "你能看到群里的历史信息吗，从你加入后开始算起的话",
       "skills": [],
       "available_skills": [
         "clawhub",
@@ -86,11 +86,11 @@
     },
     {
       "agent": "telegram-lite",
-      "session_key": "agent:telegram-lite:telegram:direct:5683890141",
-      "updated_at_ms": 1773403253559,
-      "updated_at_local": "2026-03-13 20:00:53",
+      "session_key": "agent:telegram-lite:telegram:group:-4947354395",
+      "updated_at_ms": 1773403271601,
+      "updated_at_local": "2026-03-13 20:01:11",
       "state": "idle",
-      "task": "目前你的人设是什么，在这里 以及 在群里",
+      "task": "@lark_mini_claw_bot 汇总一下todo",
       "skills": [],
       "available_skills": [
         "clawhub",
