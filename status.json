@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-03-13T10:36:07Z",
-  "generated_at_local": "2026-03-13 18:36:07 ",
+  "generated_at": "2026-03-13T10:37:06Z",
+  "generated_at_local": "2026-03-13 18:37:06 ",
   "stale_after_seconds": 180,
   "host": "LeedeMac-mini.local",
   "openclaw": {
@@ -51,23 +51,23 @@
     }
   },
   "recent_log": [
-    "2026-03-13T18:24:00.590+08:00 [gateway] [voice-call] Webhook URL: http://127.0.0.1:3334/voice/webhook",
-    "2026-03-13T18:24:01.810+08:00 [telegram] [default] starting provider (@lark_mini_claw_bot)",
     "2026-03-13T18:24:01.821+08:00 [telegram] autoSelectFamily=true (default-node22)",
     "2026-03-13T18:24:01.825+08:00 [telegram] global undici dispatcher autoSelectFamily=true",
     "2026-03-13T18:24:01.828+08:00 [telegram] dnsResultOrder=ipv4first (default-node22)",
     "2026-03-13T18:34:36.511+08:00 typing TTL reached (2m); stopping typing indicator",
     "2026-03-13T18:35:44.828+08:00 [reload] config change detected; evaluating reload (meta.lastTouchedAt, agents.defaults.model.primary)",
-    "2026-03-13T18:35:44.830+08:00 [reload] config hot reload applied (agents.defaults.model.primary)"
+    "2026-03-13T18:35:44.830+08:00 [reload] config hot reload applied (agents.defaults.model.primary)",
+    "2026-03-13T18:36:46.974+08:00 [ws] ⇄ res ✓ agent.wait 68065ms conn=fbb97709…371d id=9b11ff2d…af79",
+    "2026-03-13T18:36:47.022+08:00 到时间了，提醒Albert吃饭"
   ],
   "active_tasks": [
     {
       "agent": "twitter-ops",
       "session_key": "agent:twitter-ops:telegram:group:-4947354395",
-      "updated_at_ms": 1773398143035,
-      "updated_at_local": "2026-03-13 18:35:43",
-      "state": "idle",
-      "task": "1 分钟后提醒 albert 吃饭 @lark_mini_claw_bot",
+      "updated_at_ms": 1773398212105,
+      "updated_at_local": "2026-03-13 18:36:52",
+      "state": "queued",
+      "task": "[Fri 2026-03-13 18:36 GMT+8] OpenClaw runtime context (internal): This context is runtime-generated, not user-authored. Keep internal details private. [Internal",
       "skills": [],
       "available_skills": [
         "clawhub",
@@ -87,12 +87,25 @@
     {
       "agent": "twitter-ops",
       "session_key": "agent:twitter-ops:subagent:d5841314-414e-4031-b4e3-004f3149b33a",
-      "updated_at_ms": 1773398138947,
-      "updated_at_local": "2026-03-13 18:35:38",
-      "state": "working",
+      "updated_at_ms": 1773398206998,
+      "updated_at_local": "2026-03-13 18:36:46",
+      "state": "idle",
       "task": "[Fri 2026-03-13 18:35 GMT+8] [Subagent Context] You are running as a subagent (depth 1/1). Results auto-announce to your requester; do not busy-poll for status.",
       "skills": [],
-      "available_skills": []
+      "available_skills": [
+        "clawhub",
+        "coding-agent",
+        "gh-issues",
+        "github",
+        "healthcheck",
+        "session-logs",
+        "skill-creator",
+        "tmux",
+        "video-frames",
+        "voice-call",
+        "weather",
+        "self-improvement"
+      ]
     },
     {
       "agent": "twitter-ops",
