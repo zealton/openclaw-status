@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-03-13T11:59:38Z",
-  "generated_at_local": "2026-03-13 19:59:38 ",
+  "generated_at": "2026-03-13T12:00:18Z",
+  "generated_at_local": "2026-03-13 20:00:18 ",
   "stale_after_seconds": 180,
   "host": "LeedeMac-mini.local",
   "openclaw": {
@@ -64,9 +64,9 @@
     {
       "agent": "telegram-lite",
       "session_key": "agent:telegram-lite:telegram:group:-4947354395",
-      "updated_at_ms": 1773403167943,
-      "updated_at_local": "2026-03-13 19:59:27",
-      "state": "queued",
+      "updated_at_ms": 1773403180943,
+      "updated_at_local": "2026-03-13 19:59:40",
+      "state": "idle",
       "task": "周末再回归一下mainnet全流程咯，下周发公告",
       "skills": [],
       "available_skills": [
