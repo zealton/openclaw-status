@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-03-13T10:35:04Z",
-  "generated_at_local": "2026-03-13 18:35:04 ",
+  "generated_at": "2026-03-13T10:36:03Z",
+  "generated_at_local": "2026-03-13 18:36:03 ",
   "stale_after_seconds": 180,
   "host": "LeedeMac-mini.local",
   "openclaw": {
@@ -51,22 +51,22 @@
     }
   },
   "recent_log": [
-    "2026-03-13T18:24:00.588+08:00 [voice-call] Webhook server listening on http://127.0.0.1:3334/voice/webhook",
-    "2026-03-13T18:24:00.590+08:00 [gateway] [voice-call] Runtime initialized",
     "2026-03-13T18:24:00.590+08:00 [gateway] [voice-call] Webhook URL: http://127.0.0.1:3334/voice/webhook",
     "2026-03-13T18:24:01.810+08:00 [telegram] [default] starting provider (@lark_mini_claw_bot)",
     "2026-03-13T18:24:01.821+08:00 [telegram] autoSelectFamily=true (default-node22)",
     "2026-03-13T18:24:01.825+08:00 [telegram] global undici dispatcher autoSelectFamily=true",
     "2026-03-13T18:24:01.828+08:00 [telegram] dnsResultOrder=ipv4first (default-node22)",
-    "2026-03-13T18:34:36.511+08:00 typing TTL reached (2m); stopping typing indicator"
+    "2026-03-13T18:34:36.511+08:00 typing TTL reached (2m); stopping typing indicator",
+    "2026-03-13T18:35:44.828+08:00 [reload] config change detected; evaluating reload (meta.lastTouchedAt, agents.defaults.model.primary)",
+    "2026-03-13T18:35:44.830+08:00 [reload] config hot reload applied (agents.defaults.model.primary)"
   ],
   "active_tasks": [
     {
       "agent": "twitter-ops",
       "session_key": "agent:twitter-ops:telegram:group:-4947354395",
-      "updated_at_ms": 1773398083927,
-      "updated_at_local": "2026-03-13 18:34:43",
-      "state": "queued",
+      "updated_at_ms": 1773398143035,
+      "updated_at_local": "2026-03-13 18:35:43",
+      "state": "idle",
       "task": "1 分钟后提醒 albert 吃饭 @lark_mini_claw_bot",
       "skills": [],
       "available_skills": [
@@ -83,6 +83,16 @@
         "weather",
         "self-improvement"
       ]
+    },
+    {
+      "agent": "twitter-ops",
+      "session_key": "agent:twitter-ops:subagent:d5841314-414e-4031-b4e3-004f3149b33a",
+      "updated_at_ms": 1773398138947,
+      "updated_at_local": "2026-03-13 18:35:38",
+      "state": "working",
+      "task": "[Fri 2026-03-13 18:35 GMT+8] [Subagent Context] You are running as a subagent (depth 1/1). Results auto-announce to your requester; do not busy-poll for status.",
+      "skills": [],
+      "available_skills": []
     },
     {
       "agent": "twitter-ops",
