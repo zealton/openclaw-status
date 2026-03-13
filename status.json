@@ -1,20 +1,20 @@
 {
-  "generated_at": "2026-03-13T11:59:15Z",
-  "generated_at_local": "2026-03-13 19:59:15 ",
+  "generated_at": "2026-03-13T11:59:38Z",
+  "generated_at_local": "2026-03-13 19:59:38 ",
   "stale_after_seconds": 180,
   "host": "LeedeMac-mini.local",
   "openclaw": {
     "running": true,
-    "pid": 42272,
+    "pid": 42698,
     "model": "openrouter/minimax/minimax-m2.5"
   },
   "telegram": {
     "status": "running",
-    "detail": "2026-03-13T19:57:39.366+08:00 [telegram] [default] starting provider (@lark_mini_claw_bot)"
+    "detail": "2026-03-13T19:59:24.597+08:00 [telegram] [default] starting provider (@lark_mini_claw_bot)"
   },
   "browser": {
     "status": "running",
-    "detail": "2026-03-13T19:57:37.881+08:00 [browser/server] Browser control listening on http://127.0.0.1:18791/ (auth=token)"
+    "detail": "2026-03-13T19:59:23.155+08:00 [browser/server] Browser control listening on http://127.0.0.1:18791/ (auth=token)"
   },
   "caffeinate": {
     "status": "running",
@@ -32,7 +32,7 @@
     "openclaw": {
       "loaded": true,
       "state": "running",
-      "pid": 42272
+      "pid": 42698
     },
     "watchdog": {
       "loaded": true,
@@ -51,23 +51,23 @@
     }
   },
   "recent_log": [
-    "2026-03-13T19:57:38.149+08:00 [voice-call] Webhook server listening on http://127.0.0.1:3334/voice/webhook",
-    "2026-03-13T19:57:38.150+08:00 [gateway] [voice-call] Runtime initialized",
-    "2026-03-13T19:57:38.151+08:00 [gateway] [voice-call] Webhook URL: http://127.0.0.1:3334/voice/webhook",
-    "2026-03-13T19:57:39.366+08:00 [telegram] [default] starting provider (@lark_mini_claw_bot)",
-    "2026-03-13T19:57:39.378+08:00 [telegram] autoSelectFamily=true (default-node22)",
-    "2026-03-13T19:57:39.381+08:00 [telegram] global undici dispatcher autoSelectFamily=true",
-    "2026-03-13T19:57:39.384+08:00 [telegram] dnsResultOrder=ipv4first (default-node22)",
-    "2026-03-13T19:57:41.976+08:00 [plugins] memory-lancedb: plugin registered (db: /Users/leelark/.openclaw/memory/lancedb, lazy init)"
+    "2026-03-13T19:59:23.393+08:00 [voice-call] Webhook server listening on http://127.0.0.1:3334/voice/webhook",
+    "2026-03-13T19:59:23.394+08:00 [gateway] [voice-call] Runtime initialized",
+    "2026-03-13T19:59:23.395+08:00 [gateway] [voice-call] Webhook URL: http://127.0.0.1:3334/voice/webhook",
+    "2026-03-13T19:59:24.597+08:00 [telegram] [default] starting provider (@lark_mini_claw_bot)",
+    "2026-03-13T19:59:24.608+08:00 [telegram] autoSelectFamily=true (default-node22)",
+    "2026-03-13T19:59:24.611+08:00 [telegram] global undici dispatcher autoSelectFamily=true",
+    "2026-03-13T19:59:24.614+08:00 [telegram] dnsResultOrder=ipv4first (default-node22)",
+    "2026-03-13T19:59:27.986+08:00 [plugins] memory-lancedb: plugin registered (db: /Users/leelark/.openclaw/memory/lancedb, lazy init)"
   ],
   "active_tasks": [
     {
       "agent": "telegram-lite",
-      "session_key": "agent:telegram-lite:telegram:direct:5683890141",
-      "updated_at_ms": 1773403122619,
-      "updated_at_local": "2026-03-13 19:58:42",
-      "state": "idle",
-      "task": "怎么你突然在群里 说了 “This is a screenshot of a conversation. It appears to be from the MiniOpenClaw bot with a user. Let me analyze what it says: Albert周末的bot交易量需要稍微降一降",
+      "session_key": "agent:telegram-lite:telegram:group:-4947354395",
+      "updated_at_ms": 1773403167943,
+      "updated_at_local": "2026-03-13 19:59:27",
+      "state": "queued",
+      "task": "周末再回归一下mainnet全流程咯，下周发公告",
       "skills": [],
       "available_skills": [
         "clawhub",
@@ -86,11 +86,11 @@
     },
     {
       "agent": "telegram-lite",
-      "session_key": "agent:telegram-lite:telegram:group:-4947354395",
-      "updated_at_ms": 1773403114222,
-      "updated_at_local": "2026-03-13 19:58:34",
+      "session_key": "agent:telegram-lite:telegram:direct:5683890141",
+      "updated_at_ms": 1773403122619,
+      "updated_at_local": "2026-03-13 19:58:42",
       "state": "idle",
-      "task": "阵痛期",
+      "task": "怎么你突然在群里 说了 “This is a screenshot of a conversation. It appears to be from the MiniOpenClaw bot with a user. Let me analyze what it says: Albert周末的bot交易量需要稍微降一降",
       "skills": [],
       "available_skills": [
         "clawhub",
