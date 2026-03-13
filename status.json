@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-03-13T11:16:12Z",
-  "generated_at_local": "2026-03-13 19:16:12 ",
+  "generated_at": "2026-03-13T11:17:10Z",
+  "generated_at_local": "2026-03-13 19:17:10 ",
   "stale_after_seconds": 180,
   "host": "LeedeMac-mini.local",
   "openclaw": {
@@ -51,16 +51,39 @@
     }
   },
   "recent_log": [
-    "2026-03-13T19:14:06.475+08:00 [gateway] [voice-call] Runtime initialized",
-    "2026-03-13T19:14:06.476+08:00 [gateway] [voice-call] Webhook URL: http://127.0.0.1:3334/voice/webhook",
     "2026-03-13T19:14:07.692+08:00 [telegram] [default] starting provider (@lark_mini_claw_bot)",
     "2026-03-13T19:14:07.703+08:00 [telegram] autoSelectFamily=true (default-node22)",
     "2026-03-13T19:14:07.707+08:00 [telegram] global undici dispatcher autoSelectFamily=true",
     "2026-03-13T19:14:07.709+08:00 [telegram] dnsResultOrder=ipv4first (default-node22)",
     "2026-03-13T19:15:16.666+08:00 [telegram] autoSelectFamily=false (config)",
-    "2026-03-13T19:15:18.213+08:00 [plugins] memory-lancedb: plugin registered (db: /Users/leelark/.openclaw/memory/lancedb, lazy init)"
+    "2026-03-13T19:15:18.213+08:00 [plugins] memory-lancedb: plugin registered (db: /Users/leelark/.openclaw/memory/lancedb, lazy init)",
+    "2026-03-13T19:16:23.260+08:00 [telegram] autoSelectFamily=true (default-node22)",
+    "2026-03-13T19:16:32.947+08:00 [ws] ⇄ res ✓ channels.status 1212ms conn=415059db…e045 id=d807cba0…cc8e"
   ],
   "active_tasks": [
+    {
+      "agent": "telegram-lite",
+      "session_key": "agent:telegram-lite:telegram:direct:5683890141",
+      "updated_at_ms": 1773400582235,
+      "updated_at_local": "2026-03-13 19:16:22",
+      "state": "idle",
+      "task": "test",
+      "skills": [],
+      "available_skills": [
+        "clawhub",
+        "coding-agent",
+        "gh-issues",
+        "github",
+        "healthcheck",
+        "session-logs",
+        "skill-creator",
+        "tmux",
+        "video-frames",
+        "voice-call",
+        "weather",
+        "self-improvement"
+      ]
+    },
     {
       "agent": "main",
       "session_key": "agent:main:telegram:direct:5683890141",
