@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-03-13T11:14:05Z",
-  "generated_at_local": "2026-03-13 19:14:05 ",
+  "generated_at": "2026-03-13T11:15:03Z",
+  "generated_at_local": "2026-03-13 19:15:03 ",
   "stale_after_seconds": 180,
   "host": "LeedeMac-mini.local",
   "openclaw": {
@@ -10,11 +10,11 @@
   },
   "telegram": {
     "status": "running",
-    "detail": "2026-03-13T19:07:32.220+08:00 [telegram] [default] starting provider (@lark_mini_claw_bot)"
+    "detail": "2026-03-13T19:14:07.692+08:00 [telegram] [default] starting provider (@lark_mini_claw_bot)"
   },
   "browser": {
     "status": "running",
-    "detail": "2026-03-13T19:07:30.742+08:00 [browser/server] Browser control listening on http://127.0.0.1:18791/ (auth=token)"
+    "detail": "2026-03-13T19:14:06.228+08:00 [browser/server] Browser control listening on http://127.0.0.1:18791/ (auth=token)"
   },
   "caffeinate": {
     "status": "running",
@@ -51,14 +51,14 @@
     }
   },
   "recent_log": [
-    "2026-03-13T19:07:32.236+08:00 [telegram] dnsResultOrder=ipv4first (default-node22)",
-    "2026-03-13T19:12:38.719+08:00 [reload] config change detected; evaluating reload (agents.list, bindings)",
-    "2026-03-13T19:12:38.722+08:00 [reload] config change applied (dynamic reads: agents.list, bindings)",
-    "2026-03-13T19:14:02.541+08:00 [gateway] signal SIGTERM received",
-    "2026-03-13T19:14:02.546+08:00 [gateway] received SIGTERM; shutting down",
-    "2026-03-13T19:14:02.589+08:00 [gateway] memory-lancedb: stopped",
-    "2026-03-13T19:14:02.591+08:00 [gmail-watcher] gmail watcher stopped",
-    "2026-03-13T19:14:04.991+08:00 [gateway] memory-lancedb: plugin registered (db: /Users/leelark/.openclaw/memory/lancedb, lazy init)"
+    "2026-03-13T19:14:06.473+08:00 [gateway] memory-lancedb: initialized (db: /Users/leelark/.openclaw/memory/lancedb, model: text-embedding-3-small)",
+    "2026-03-13T19:14:06.474+08:00 [voice-call] Webhook server listening on http://127.0.0.1:3334/voice/webhook",
+    "2026-03-13T19:14:06.475+08:00 [gateway] [voice-call] Runtime initialized",
+    "2026-03-13T19:14:06.476+08:00 [gateway] [voice-call] Webhook URL: http://127.0.0.1:3334/voice/webhook",
+    "2026-03-13T19:14:07.692+08:00 [telegram] [default] starting provider (@lark_mini_claw_bot)",
+    "2026-03-13T19:14:07.703+08:00 [telegram] autoSelectFamily=true (default-node22)",
+    "2026-03-13T19:14:07.707+08:00 [telegram] global undici dispatcher autoSelectFamily=true",
+    "2026-03-13T19:14:07.709+08:00 [telegram] dnsResultOrder=ipv4first (default-node22)"
   ],
   "active_tasks": [
     {
