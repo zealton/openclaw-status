@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-03-13T08:00:24Z",
-  "generated_at_local": "2026-03-13 16:00:24 ",
+  "generated_at": "2026-03-13T08:00:58Z",
+  "generated_at_local": "2026-03-13 16:00:58 ",
   "stale_after_seconds": 180,
   "host": "LeedeMac-mini.local",
   "openclaw": {
@@ -51,21 +51,21 @@
     }
   },
   "recent_log": [
-    "2026-03-13T14:54:38.324+08:00 typing TTL reached (2m); stopping typing indicator",
     "2026-03-13T14:58:12.327+08:00 [telegram] autoSelectFamily=true (default-node22)",
     "2026-03-13T15:07:27.646+08:00 [telegram] autoSelectFamily=false (config)",
     "2026-03-13T15:21:01.325+08:00 [telegram] autoSelectFamily=true (default-node22)",
     "2026-03-13T15:22:51.639+08:00 [telegram] autoSelectFamily=false (config)",
     "2026-03-13T15:41:02.480+08:00 [telegram] autoSelectFamily=true (default-node22)",
     "2026-03-13T15:41:31.524+08:00 [telegram] autoSelectFamily=false (config)",
-    "2026-03-13T15:52:50.717+08:00 typing TTL reached (2m); stopping typing indicator"
+    "2026-03-13T15:52:50.717+08:00 typing TTL reached (2m); stopping typing indicator",
+    "2026-03-13T16:00:53.462+08:00 [telegram] autoSelectFamily=true (default-node22)"
   ],
   "active_tasks": [
     {
       "agent": "twitter-ops",
       "session_key": "agent:twitter-ops:telegram:direct:5683890141",
-      "updated_at_ms": 1773388250683,
-      "updated_at_local": "2026-03-13 15:50:50",
+      "updated_at_ms": 1773388854111,
+      "updated_at_local": "2026-03-13 16:00:54",
       "state": "unknown",
       "task": "模型你换成本地的qwen吧",
       "skills": [
@@ -89,10 +89,10 @@
     {
       "agent": "twitter-ops",
       "session_key": "agent:twitter-ops:main",
-      "updated_at_ms": 1773386900800,
-      "updated_at_local": "2026-03-13 15:28:20",
-      "state": "idle",
-      "task": "[Fri 2026-03-13 12:13 GMT+8] OpenClaw runtime context (internal): This context is runtime-generated, not user-authored. Keep internal details private. [Internal",
+      "updated_at_ms": 1773388853008,
+      "updated_at_local": "2026-03-13 16:00:53",
+      "state": "queued",
+      "task": "Read HEARTBEAT.md if it exists (workspace context). Follow it strictly. Do not infer or repeat old tasks from prior chats. If nothing needs attention, reply HEA",
       "skills": [],
       "available_skills": [
         "clawhub",
