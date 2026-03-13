@@ -1,20 +1,20 @@
 {
-  "generated_at": "2026-03-13T10:23:30Z",
-  "generated_at_local": "2026-03-13 18:23:30 ",
+  "generated_at": "2026-03-13T10:24:27Z",
+  "generated_at_local": "2026-03-13 18:24:27 ",
   "stale_after_seconds": 180,
   "host": "LeedeMac-mini.local",
   "openclaw": {
     "running": true,
-    "pid": 1480,
+    "pid": 17679,
     "model": "openrouter/anthropic/claude-opus-4.6"
   },
   "telegram": {
-    "status": "unknown",
-    "detail": "No recent telegram startup log"
+    "status": "running",
+    "detail": "2026-03-13T18:24:01.810+08:00 [telegram] [default] starting provider (@lark_mini_claw_bot)"
   },
   "browser": {
-    "status": "unknown",
-    "detail": "No recent browser relay log"
+    "status": "running",
+    "detail": "2026-03-13T18:24:00.306+08:00 [browser/server] Browser control listening on http://127.0.0.1:18791/ (auth=token)"
   },
   "caffeinate": {
     "status": "running",
@@ -32,7 +32,7 @@
     "openclaw": {
       "loaded": true,
       "state": "running",
-      "pid": 1480
+      "pid": 17679
     },
     "watchdog": {
       "loaded": true,
@@ -51,14 +51,14 @@
     }
   },
   "recent_log": [
-    "**No upcoming events** in the next 48 hours (2026-03-13 17:00 → 2026-03-15 17:00 Asia/Shanghai).",
-    "",
-    "EventKit access was granted and all calendars were queried — the calendar is clear.",
-    "2026-03-13T17:01:29.088+08:00 Calendar clear through Sunday. Nothing needs attention.",
-    "",
-    "HEARTBEAT_OK",
-    "2026-03-13T17:18:35.163+08:00 [telegram] autoSelectFamily=true (default-node22)",
-    "2026-03-13T18:06:28.469+08:00 [telegram] autoSelectFamily=false (config)"
+    "2026-03-13T18:24:00.587+08:00 [gateway] memory-lancedb: initialized (db: /Users/leelark/.openclaw/memory/lancedb, model: text-embedding-3-small)",
+    "2026-03-13T18:24:00.588+08:00 [voice-call] Webhook server listening on http://127.0.0.1:3334/voice/webhook",
+    "2026-03-13T18:24:00.590+08:00 [gateway] [voice-call] Runtime initialized",
+    "2026-03-13T18:24:00.590+08:00 [gateway] [voice-call] Webhook URL: http://127.0.0.1:3334/voice/webhook",
+    "2026-03-13T18:24:01.810+08:00 [telegram] [default] starting provider (@lark_mini_claw_bot)",
+    "2026-03-13T18:24:01.821+08:00 [telegram] autoSelectFamily=true (default-node22)",
+    "2026-03-13T18:24:01.825+08:00 [telegram] global undici dispatcher autoSelectFamily=true",
+    "2026-03-13T18:24:01.828+08:00 [telegram] dnsResultOrder=ipv4first (default-node22)"
   ],
   "active_tasks": [
     {
