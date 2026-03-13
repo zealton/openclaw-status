@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-03-13T02:26:04Z",
-  "generated_at_local": "2026-03-13 10:26:04 ",
+  "generated_at": "2026-03-13T02:26:33Z",
+  "generated_at_local": "2026-03-13 10:26:33 ",
   "stale_after_seconds": 180,
   "host": "LeedeMac-mini.local",
   "openclaw": {
@@ -68,29 +68,6 @@
       "updated_at_local": "2026-03-13 10:24:19",
       "state": "idle",
       "task": "[Fri 2026-03-13 09:26 GMT+8] OpenClaw runtime context (internal): This context is runtime-generated, not user-authored. Keep internal details private. [Internal",
-      "skills": [],
-      "available_skills": [
-        "clawhub",
-        "coding-agent",
-        "gh-issues",
-        "github",
-        "healthcheck",
-        "session-logs",
-        "skill-creator",
-        "tmux",
-        "video-frames",
-        "voice-call",
-        "weather",
-        "self-improvement"
-      ]
-    },
-    {
-      "agent": "twitter-ops",
-      "session_key": "agent:twitter-ops:subagent:ac93f773-47d7-46b3-a128-b5a399e66c3d",
-      "updated_at_ms": 1773365199475,
-      "updated_at_local": "2026-03-13 09:26:39",
-      "state": "idle",
-      "task": "[Fri 2026-03-13 09:25 GMT+8] [Subagent Context] You are running as a subagent (depth 1/1). Results auto-announce to your requester; do not busy-poll for status.",
       "skills": [],
       "available_skills": [
         "clawhub",
