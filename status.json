@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-03-13T12:33:23Z",
-  "generated_at_local": "2026-03-13 20:33:23 ",
+  "generated_at": "2026-03-13T12:34:00Z",
+  "generated_at_local": "2026-03-13 20:34:00 ",
   "stale_after_seconds": 180,
   "host": "LeedeMac-mini.local",
   "openclaw": {
@@ -51,23 +51,23 @@
     }
   },
   "recent_log": [
-    "2026-03-13T20:24:35.749+08:00 [gateway] [voice-call] Runtime initialized",
     "2026-03-13T20:24:35.750+08:00 [gateway] [voice-call] Webhook URL: http://127.0.0.1:3334/voice/webhook",
     "2026-03-13T20:24:36.980+08:00 [telegram] [default] starting provider (@lark_mini_claw_bot)",
     "2026-03-13T20:24:36.990+08:00 [telegram] autoSelectFamily=true (default-node22)",
     "2026-03-13T20:24:36.993+08:00 [telegram] global undici dispatcher autoSelectFamily=true",
     "2026-03-13T20:24:36.996+08:00 [telegram] dnsResultOrder=ipv4first (default-node22)",
     "2026-03-13T20:25:07.339+08:00 [plugins] memory-lancedb: plugin registered (db: /Users/leelark/.openclaw/memory/lancedb, lazy init)",
-    "2026-03-13T20:32:03.358+08:00 [ws] ⇄ res ✓ config.get 511ms conn=badefd1e…943f id=4b3093f6…3127"
+    "2026-03-13T20:32:03.358+08:00 [ws] ⇄ res ✓ config.get 511ms conn=badefd1e…943f id=4b3093f6…3127",
+    "2026-03-13T20:33:53.690+08:00 [telegram] autoSelectFamily=false (config)"
   ],
   "active_tasks": [
     {
       "agent": "telegram-lite",
       "session_key": "agent:telegram-lite:telegram:direct:5683890141",
-      "updated_at_ms": 1773405185282,
-      "updated_at_local": "2026-03-13 20:33:05",
-      "state": "idle",
-      "task": "Privacy mode 是off的，你肯定能",
+      "updated_at_ms": 1773405234619,
+      "updated_at_local": "2026-03-13 20:33:54",
+      "state": "queued",
+      "task": "什么是supergroup",
       "skills": [],
       "available_skills": [
         "clawhub",
