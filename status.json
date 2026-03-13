@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-03-13T05:54:06Z",
-  "generated_at_local": "2026-03-13 13:54:06 ",
+  "generated_at": "2026-03-13T05:54:21Z",
+  "generated_at_local": "2026-03-13 13:54:21 ",
   "stale_after_seconds": 180,
   "host": "LeedeMac-mini.local",
   "openclaw": {
@@ -51,14 +51,14 @@
     }
   },
   "recent_log": [
-    "2026-03-13T12:21:23.742+08:00 [telegram] autoSelectFamily=false (config)",
     "2026-03-13T12:23:55.475+08:00 [telegram] autoSelectFamily=true (default-node22)",
     "2026-03-13T12:32:00.992+08:00 [telegram] autoSelectFamily=false (config)",
     "2026-03-13T12:32:56.586+08:00 [telegram] autoSelectFamily=true (default-node22)",
     "2026-03-13T12:46:56.944+08:00 [telegram] autoSelectFamily=false (config)",
     "2026-03-13T12:47:57.639+08:00 [telegram] autoSelectFamily=true (default-node22)",
     "2026-03-13T13:08:09.317+08:00 [telegram] autoSelectFamily=false (config)",
-    "2026-03-13T13:28:28.812+08:00 [telegram] autoSelectFamily=true (default-node22)"
+    "2026-03-13T13:28:28.812+08:00 [telegram] autoSelectFamily=true (default-node22)",
+    "2026-03-13T13:54:12.662+08:00 [gateway] update available (latest): v2026.3.12 (current v2026.3.8). Run: openclaw update"
   ],
   "active_tasks": [
     {
