@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-03-13T11:46:36Z",
-  "generated_at_local": "2026-03-13 19:46:36 ",
+  "generated_at": "2026-03-13T11:46:57Z",
+  "generated_at_local": "2026-03-13 19:46:57 ",
   "stale_after_seconds": 180,
   "host": "LeedeMac-mini.local",
   "openclaw": {
@@ -64,9 +64,9 @@
     {
       "agent": "telegram-lite",
       "session_key": "agent:telegram-lite:telegram:direct:5683890141",
-      "updated_at_ms": 1773402386259,
-      "updated_at_local": "2026-03-13 19:46:26",
-      "state": "queued",
+      "updated_at_ms": 1773402415397,
+      "updated_at_local": "2026-03-13 19:46:55",
+      "state": "idle",
       "task": "群里发送一下 当前香港天气",
       "skills": [],
       "available_skills": [
