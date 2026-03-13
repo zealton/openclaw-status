@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-03-13T10:31:55Z",
-  "generated_at_local": "2026-03-13 18:31:55 ",
+  "generated_at": "2026-03-13T10:32:54Z",
+  "generated_at_local": "2026-03-13 18:32:54 ",
   "stale_after_seconds": 180,
   "host": "LeedeMac-mini.local",
   "openclaw": {
@@ -64,8 +64,8 @@
     {
       "agent": "twitter-ops",
       "session_key": "agent:twitter-ops:telegram:direct:5683890141",
-      "updated_at_ms": 1773397108874,
-      "updated_at_local": "2026-03-13 18:18:28",
+      "updated_at_ms": 1773397956485,
+      "updated_at_local": "2026-03-13 18:32:36",
       "state": "unknown",
       "task": "模型你换成本地的qwen吧",
       "skills": [
@@ -84,6 +84,29 @@
         "polymarket-api",
         "trader-analysis",
         "trading-strategies"
+      ]
+    },
+    {
+      "agent": "twitter-ops",
+      "session_key": "agent:twitter-ops:telegram:group:-4947354395",
+      "updated_at_ms": 1773397940939,
+      "updated_at_local": "2026-03-13 18:32:20",
+      "state": "idle",
+      "task": "@lark_mini_claw_bot which model",
+      "skills": [],
+      "available_skills": [
+        "clawhub",
+        "coding-agent",
+        "gh-issues",
+        "github",
+        "healthcheck",
+        "session-logs",
+        "skill-creator",
+        "tmux",
+        "video-frames",
+        "voice-call",
+        "weather",
+        "self-improvement"
       ]
     },
     {
