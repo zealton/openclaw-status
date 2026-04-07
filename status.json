@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-04-07T12:45:41Z",
-  "generated_at_local": "2026-04-07 20:45:41 ",
+  "generated_at": "2026-04-07T12:46:31Z",
+  "generated_at_local": "2026-04-07 20:46:31 ",
   "stale_after_seconds": 180,
   "host": "LeedeMac-mini.local",
   "openclaw": {
@@ -62,12 +62,12 @@
   ],
   "active_tasks": [
     {
-      "agent": "telegram-lite",
-      "session_key": "agent:telegram-lite:telegram:group:-1003889106164",
-      "updated_at_ms": 1775565852220,
-      "updated_at_local": "2026-04-07 20:44:12",
-      "state": "idle",
-      "task": "收到",
+      "agent": "main",
+      "session_key": "agent:main:main",
+      "updated_at_ms": 1775565988420,
+      "updated_at_local": "2026-04-07 20:46:28",
+      "state": "queued",
+      "task": "Read HEARTBEAT.md if it exists (workspace context). Follow it strictly. Do not infer or repeat old tasks from prior chats. If nothing needs attention, reply HEA",
       "skills": [],
       "available_skills": [
         "clawhub",
@@ -85,12 +85,12 @@
       ]
     },
     {
-      "agent": "main",
-      "session_key": "agent:main:main",
-      "updated_at_ms": 1775564247164,
-      "updated_at_local": "2026-04-07 20:17:27",
+      "agent": "telegram-lite",
+      "session_key": "agent:telegram-lite:telegram:group:-1003889106164",
+      "updated_at_ms": 1775565852220,
+      "updated_at_local": "2026-04-07 20:44:12",
       "state": "idle",
-      "task": "Read HEARTBEAT.md if it exists (workspace context). Follow it strictly. Do not infer or repeat old tasks from prior chats. If nothing needs attention, reply HEA",
+      "task": "收到",
       "skills": [],
       "available_skills": [
         "clawhub",
