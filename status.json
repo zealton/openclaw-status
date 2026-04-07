@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-04-07T09:44:41Z",
-  "generated_at_local": "2026-04-07 17:44:41 ",
+  "generated_at": "2026-04-07T09:46:09Z",
+  "generated_at_local": "2026-04-07 17:46:09 ",
   "stale_after_seconds": 180,
-  "host": "LeedeMac-mini.local",
+  "host": "Mac",
   "openclaw": {
     "running": true,
-    "pid": 1505,
+    "pid": 2012,
     "model": "openrouter/minimax/minimax-m2.5"
   },
   "telegram": {
@@ -32,7 +32,7 @@
     "openclaw": {
       "loaded": true,
       "state": "running",
-      "pid": 1505
+      "pid": 2012
     },
     "watchdog": {
       "loaded": true,
@@ -42,7 +42,7 @@
     "caffeinate": {
       "loaded": true,
       "state": "running",
-      "pid": 1504
+      "pid": 2011
     },
     "notion_sync": {
       "loaded": true,
@@ -51,14 +51,14 @@
     }
   },
   "recent_log": [
-    "2026-04-07T16:23:56.700+08:00 [gateway] [voice-call] Runtime initialized",
-    "2026-04-07T16:23:56.701+08:00 [gateway] [voice-call] Webhook URL: http://127.0.0.1:3334/voice/webhook",
-    "2026-04-07T16:23:57.405+08:00 [gateway] update available (latest): v2026.4.5 (current v2026.3.8). Run: openclaw update",
-    "2026-04-07T16:24:06.237+08:00 [telegram] [default] starting provider",
-    "2026-04-07T16:24:06.348+08:00 [telegram] autoSelectFamily=true (default-node22)",
-    "2026-04-07T16:24:06.351+08:00 [telegram] global undici dispatcher autoSelectFamily=true",
     "2026-04-07T16:24:06.356+08:00 [telegram] dnsResultOrder=ipv4first (default-node22)",
-    "2026-04-07T17:32:29.620+08:00 [telegram] autoSelectFamily=false (config)"
+    "2026-04-07T17:32:29.620+08:00 [telegram] autoSelectFamily=false (config)",
+    "2026-04-07T17:44:56.810+08:00 [gateway] signal SIGTERM received",
+    "2026-04-07T17:44:56.811+08:00 [gateway] received SIGTERM; shutting down",
+    "2026-04-07T17:44:57.020+08:00 [gateway] memory-lancedb: stopped",
+    "2026-04-07T17:44:57.022+08:00 [gmail-watcher] gmail watcher stopped",
+    "2026-04-07T17:44:57.028+08:00 [gateway] signal SIGTERM received",
+    "2026-04-07T17:44:57.029+08:00 [gateway] received SIGTERM during shutdown; ignoring"
   ],
   "active_tasks": [
     {
