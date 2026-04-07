@@ -1,20 +1,20 @@
 {
-  "generated_at": "2026-04-07T21:55:11Z",
-  "generated_at_local": "2026-04-08 05:55:11 ",
+  "generated_at": "2026-04-07T21:55:59Z",
+  "generated_at_local": "2026-04-08 05:55:59 ",
   "stale_after_seconds": 180,
   "host": "LeedeMac-mini.local",
   "openclaw": {
     "running": true,
     "pid": 2012,
-    "model": "openrouter/minimax/minimax-m2.5"
+    "model": null
   },
   "telegram": {
-    "status": "running",
-    "detail": "2026-03-13T20:36:11.447+08:00 [telegram] [default] starting provider (@lark_mini_claw_bot)"
+    "status": "unknown",
+    "detail": "No recent telegram startup log"
   },
   "browser": {
-    "status": "running",
-    "detail": "2026-04-07T17:46:28.389+08:00 [browser/server] Browser control listening on http://127.0.0.1:18791/ (auth=token)"
+    "status": "unknown",
+    "detail": "No recent browser relay log"
   },
   "caffeinate": {
     "status": "running",
@@ -22,7 +22,7 @@
   },
   "watchdog": {
     "status": "running",
-    "detail": "2026-03-13T19:40:59+0800 gateway restored"
+    "detail": "No watchdog events yet"
   },
   "notion_sync": {
     "status": "scheduled",
@@ -50,64 +50,8 @@
       "pid": null
     }
   },
-  "recent_log": [
-    "2026-04-07T17:47:37.500+08:00 [telegram] autoSelectFamily=false (config)",
-    "2026-04-07T17:47:54.935+08:00 [telegram] autoSelectFamily=true (default-node22)",
-    "2026-04-07T18:20:02.565+08:00 [plugins] memory-lancedb: plugin registered (db: /Users/leelark/.openclaw/memory/lancedb, lazy init)",
-    "2026-04-07T18:22:41.106+08:00 [telegram] autoSelectFamily=false (config)",
-    "2026-04-08T00:30:10.659+08:00 [telegram] autoSelectFamily=true (default-node22)",
-    "2026-04-08T00:50:35.423+08:00 [telegram] autoSelectFamily=false (config)",
-    "2026-04-08T02:13:07.933+08:00 [telegram] autoSelectFamily=true (default-node22)",
-    "2026-04-08T03:15:04.116+08:00 [telegram] autoSelectFamily=false (config)"
-  ],
-  "active_tasks": [
-    {
-      "agent": "main",
-      "session_key": "agent:main:main",
-      "updated_at_ms": 1775598408179,
-      "updated_at_local": "2026-04-08 05:46:48",
-      "state": "idle",
-      "task": "Read HEARTBEAT.md if it exists (workspace context). Follow it strictly. Do not infer or repeat old tasks from prior chats. If nothing needs attention, reply HEA",
-      "skills": [],
-      "available_skills": [
-        "clawhub",
-        "coding-agent",
-        "gh-issues",
-        "github",
-        "healthcheck",
-        "session-logs",
-        "skill-creator",
-        "tmux",
-        "video-frames",
-        "voice-call",
-        "weather",
-        "self-improvement"
-      ]
-    },
-    {
-      "agent": "telegram-lite",
-      "session_key": "agent:telegram-lite:telegram:group:-1003889106164",
-      "updated_at_ms": 1775598127313,
-      "updated_at_local": "2026-04-08 05:42:07",
-      "state": "idle",
-      "task": "<media:sticker>",
-      "skills": [],
-      "available_skills": [
-        "clawhub",
-        "coding-agent",
-        "gh-issues",
-        "github",
-        "healthcheck",
-        "session-logs",
-        "skill-creator",
-        "tmux",
-        "video-frames",
-        "voice-call",
-        "weather",
-        "self-improvement"
-      ]
-    }
-  ],
+  "recent_log": [],
+  "active_tasks": [],
   "notes": [
     "Gateway watchdog checks launchd every 60 seconds."
   ]
