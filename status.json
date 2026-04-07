@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-04-07T21:41:31Z",
-  "generated_at_local": "2026-04-08 05:41:31 ",
+  "generated_at": "2026-04-07T21:42:18Z",
+  "generated_at_local": "2026-04-08 05:42:18 ",
   "stale_after_seconds": 180,
   "host": "LeedeMac-mini.local",
   "openclaw": {
@@ -64,10 +64,10 @@
     {
       "agent": "telegram-lite",
       "session_key": "agent:telegram-lite:telegram:group:-1003889106164",
-      "updated_at_ms": 1775598077371,
-      "updated_at_local": "2026-04-08 05:41:17",
-      "state": "queued",
-      "task": "这不巧了",
+      "updated_at_ms": 1775598127313,
+      "updated_at_local": "2026-04-08 05:42:07",
+      "state": "idle",
+      "task": "<media:sticker>",
       "skills": [],
       "available_skills": [
         "clawhub",
