@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-04-07T12:40:21Z",
-  "generated_at_local": "2026-04-07 20:40:21 ",
+  "generated_at": "2026-04-07T12:41:12Z",
+  "generated_at_local": "2026-04-07 20:41:12 ",
   "stale_after_seconds": 180,
   "host": "LeedeMac-mini.local",
   "openclaw": {
@@ -62,12 +62,12 @@
   ],
   "active_tasks": [
     {
-      "agent": "main",
-      "session_key": "agent:main:main",
-      "updated_at_ms": 1775564247164,
-      "updated_at_local": "2026-04-07 20:17:27",
+      "agent": "telegram-lite",
+      "session_key": "agent:telegram-lite:telegram:group:-1003889106164",
+      "updated_at_ms": 1775565649955,
+      "updated_at_local": "2026-04-07 20:40:49",
       "state": "idle",
-      "task": "Read HEARTBEAT.md if it exists (workspace context). Follow it strictly. Do not infer or repeat old tasks from prior chats. If nothing needs attention, reply HEA",
+      "task": "[Telegram SG Party 2025 id:-1003889106164 +2h Tue 2026-04-07 20:40 GMT+8] stephen (1094314155): <media:document> <file name=\"lvmon-custom-user-caps-latest---a4d",
       "skills": [],
       "available_skills": [
         "clawhub",
@@ -85,12 +85,12 @@
       ]
     },
     {
-      "agent": "telegram-lite",
-      "session_key": "agent:telegram-lite:telegram:group:-1003889106164",
-      "updated_at_ms": 1775557283881,
-      "updated_at_local": "2026-04-07 18:21:23",
+      "agent": "main",
+      "session_key": "agent:main:main",
+      "updated_at_ms": 1775564247164,
+      "updated_at_local": "2026-04-07 20:17:27",
       "state": "idle",
-      "task": "https://x.com/intern_leverup/status/2041445740241895424",
+      "task": "Read HEARTBEAT.md if it exists (workspace context). Follow it strictly. Do not infer or repeat old tasks from prior chats. If nothing needs attention, reply HEA",
       "skills": [],
       "available_skills": [
         "clawhub",
