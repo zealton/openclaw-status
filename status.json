@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-04-07T08:53:28Z",
-  "generated_at_local": "2026-04-07 16:53:28 ",
+  "generated_at": "2026-04-07T08:54:27Z",
+  "generated_at_local": "2026-04-07 16:54:27 ",
   "stale_after_seconds": 180,
   "host": "LeedeMac-mini.local",
   "openclaw": {
@@ -60,7 +60,18 @@
     "2026-04-07T16:24:06.351+08:00 [telegram] global undici dispatcher autoSelectFamily=true",
     "2026-04-07T16:24:06.356+08:00 [telegram] dnsResultOrder=ipv4first (default-node22)"
   ],
-  "active_tasks": [],
+  "active_tasks": [
+    {
+      "agent": "main",
+      "session_key": "agent:main:main",
+      "updated_at_ms": 1775552036503,
+      "updated_at_local": "2026-04-07 16:53:56",
+      "state": "working",
+      "task": "Read HEARTBEAT.md if it exists (workspace context). Follow it strictly. Do not infer or repeat old tasks from prior chats. If nothing needs attention, reply HEA",
+      "skills": [],
+      "available_skills": []
+    }
+  ],
   "notes": [
     "Gateway watchdog checks launchd every 60 seconds."
   ]
