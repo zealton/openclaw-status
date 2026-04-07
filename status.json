@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-04-07T08:23:32Z",
-  "generated_at_local": "2026-04-07 16:23:32 ",
+  "generated_at": "2026-04-07T08:24:37Z",
+  "generated_at_local": "2026-04-07 16:24:37 ",
   "stale_after_seconds": 180,
-  "host": "Mac",
+  "host": "LeedeMac-mini.local",
   "openclaw": {
     "running": true,
     "pid": 1505,
@@ -14,7 +14,7 @@
   },
   "browser": {
     "status": "running",
-    "detail": "2026-03-13T20:36:09.974+08:00 [browser/server] Browser control listening on http://127.0.0.1:18791/ (auth=token)"
+    "detail": "2026-04-07T16:23:56.276+08:00 [browser/server] Browser control listening on http://127.0.0.1:18791/ (auth=token)"
   },
   "caffeinate": {
     "status": "running",
@@ -51,14 +51,14 @@
     }
   },
   "recent_log": [
-    "2026-03-13T20:36:11.464+08:00 [telegram] dnsResultOrder=ipv4first (default-node22)",
-    "2026-03-13T20:37:19.724+08:00 [telegram] autoSelectFamily=false (config)",
-    "2026-03-13T20:38:15.523+08:00 [telegram] autoSelectFamily=true (default-node22)",
-    "2026-03-13T20:38:24.365+08:00 [gateway] signal SIGTERM received",
-    "2026-03-13T20:38:24.367+08:00 [gateway] received SIGTERM; shutting down",
-    "2026-03-13T20:38:25.534+08:00 [gateway] signal SIGTERM received",
-    "2026-03-13T20:38:25.535+08:00 [gateway] received SIGTERM during shutdown; ignoring",
-    "2026-03-13T20:38:26.036+08:00 [telegram] autoSelectFamily=false (config)"
+    "2026-04-07T16:23:56.698+08:00 [voice-call] Webhook server listening on http://127.0.0.1:3334/voice/webhook",
+    "2026-04-07T16:23:56.700+08:00 [gateway] [voice-call] Runtime initialized",
+    "2026-04-07T16:23:56.701+08:00 [gateway] [voice-call] Webhook URL: http://127.0.0.1:3334/voice/webhook",
+    "2026-04-07T16:23:57.405+08:00 [gateway] update available (latest): v2026.4.5 (current v2026.3.8). Run: openclaw update",
+    "2026-04-07T16:24:06.237+08:00 [telegram] [default] starting provider",
+    "2026-04-07T16:24:06.348+08:00 [telegram] autoSelectFamily=true (default-node22)",
+    "2026-04-07T16:24:06.351+08:00 [telegram] global undici dispatcher autoSelectFamily=true",
+    "2026-04-07T16:24:06.356+08:00 [telegram] dnsResultOrder=ipv4first (default-node22)"
   ],
   "active_tasks": [],
   "notes": [
