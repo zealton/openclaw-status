@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-04-07T09:24:18Z",
-  "generated_at_local": "2026-04-07 17:24:18 ",
+  "generated_at": "2026-04-07T09:25:11Z",
+  "generated_at_local": "2026-04-07 17:25:11 ",
   "stale_after_seconds": 180,
   "host": "LeedeMac-mini.local",
   "openclaw": {
@@ -64,9 +64,9 @@
     {
       "agent": "main",
       "session_key": "agent:main:main",
-      "updated_at_ms": 1775553836373,
-      "updated_at_local": "2026-04-07 17:23:56",
-      "state": "queued",
+      "updated_at_ms": 1775553905012,
+      "updated_at_local": "2026-04-07 17:25:05",
+      "state": "idle",
       "task": "Read HEARTBEAT.md if it exists (workspace context). Follow it strictly. Do not infer or repeat old tasks from prior chats. If nothing needs attention, reply HEA",
       "skills": [],
       "available_skills": [
