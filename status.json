@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-04-07T09:31:43Z",
-  "generated_at_local": "2026-04-07 17:31:43 ",
+  "generated_at": "2026-04-07T09:32:35Z",
+  "generated_at_local": "2026-04-07 17:32:35 ",
   "stale_after_seconds": 180,
   "host": "LeedeMac-mini.local",
   "openclaw": {
@@ -51,14 +51,14 @@
     }
   },
   "recent_log": [
-    "2026-04-07T16:23:56.698+08:00 [voice-call] Webhook server listening on http://127.0.0.1:3334/voice/webhook",
     "2026-04-07T16:23:56.700+08:00 [gateway] [voice-call] Runtime initialized",
     "2026-04-07T16:23:56.701+08:00 [gateway] [voice-call] Webhook URL: http://127.0.0.1:3334/voice/webhook",
     "2026-04-07T16:23:57.405+08:00 [gateway] update available (latest): v2026.4.5 (current v2026.3.8). Run: openclaw update",
     "2026-04-07T16:24:06.237+08:00 [telegram] [default] starting provider",
     "2026-04-07T16:24:06.348+08:00 [telegram] autoSelectFamily=true (default-node22)",
     "2026-04-07T16:24:06.351+08:00 [telegram] global undici dispatcher autoSelectFamily=true",
-    "2026-04-07T16:24:06.356+08:00 [telegram] dnsResultOrder=ipv4first (default-node22)"
+    "2026-04-07T16:24:06.356+08:00 [telegram] dnsResultOrder=ipv4first (default-node22)",
+    "2026-04-07T17:32:29.620+08:00 [telegram] autoSelectFamily=false (config)"
   ],
   "active_tasks": [
     {
