@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-04-07T12:43:32Z",
-  "generated_at_local": "2026-04-07 20:43:32 ",
+  "generated_at": "2026-04-07T12:44:23Z",
+  "generated_at_local": "2026-04-07 20:44:23 ",
   "stale_after_seconds": 180,
   "host": "LeedeMac-mini.local",
   "openclaw": {
@@ -64,10 +64,10 @@
     {
       "agent": "telegram-lite",
       "session_key": "agent:telegram-lite:telegram:group:-1003889106164",
-      "updated_at_ms": 1775565649955,
-      "updated_at_local": "2026-04-07 20:40:49",
+      "updated_at_ms": 1775565852220,
+      "updated_at_local": "2026-04-07 20:44:12",
       "state": "idle",
-      "task": "[Telegram SG Party 2025 id:-1003889106164 +2h Tue 2026-04-07 20:40 GMT+8] stephen (1094314155): <media:document> <file name=\"lvmon-custom-user-caps-latest---a4d",
+      "task": "收到",
       "skills": [],
       "available_skills": [
         "clawhub",
