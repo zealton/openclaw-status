@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-04-07T16:49:52Z",
-  "generated_at_local": "2026-04-08 00:49:52 ",
+  "generated_at": "2026-04-07T16:50:43Z",
+  "generated_at_local": "2026-04-08 00:50:43 ",
   "stale_after_seconds": 180,
   "host": "LeedeMac-mini.local",
   "openclaw": {
@@ -51,14 +51,14 @@
     }
   },
   "recent_log": [
-    "2026-04-07T17:47:01.624+08:00 [telegram] autoSelectFamily=true (default-node22)",
     "2026-04-07T17:47:12.198+08:00 [telegram] autoSelectFamily=false (config)",
     "2026-04-07T17:47:26.943+08:00 [telegram] autoSelectFamily=true (default-node22)",
     "2026-04-07T17:47:37.500+08:00 [telegram] autoSelectFamily=false (config)",
     "2026-04-07T17:47:54.935+08:00 [telegram] autoSelectFamily=true (default-node22)",
     "2026-04-07T18:20:02.565+08:00 [plugins] memory-lancedb: plugin registered (db: /Users/leelark/.openclaw/memory/lancedb, lazy init)",
     "2026-04-07T18:22:41.106+08:00 [telegram] autoSelectFamily=false (config)",
-    "2026-04-08T00:30:10.659+08:00 [telegram] autoSelectFamily=true (default-node22)"
+    "2026-04-08T00:30:10.659+08:00 [telegram] autoSelectFamily=true (default-node22)",
+    "2026-04-08T00:50:35.423+08:00 [telegram] autoSelectFamily=false (config)"
   ],
   "active_tasks": [
     {
