@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-04-07T10:20:00Z",
-  "generated_at_local": "2026-04-07 18:20:00 ",
+  "generated_at": "2026-04-07T10:20:17Z",
+  "generated_at_local": "2026-04-07 18:20:17 ",
   "stale_after_seconds": 180,
   "host": "LeedeMac-mini.local",
   "openclaw": {
@@ -51,16 +51,39 @@
     }
   },
   "recent_log": [
-    "2026-04-07T17:46:38.411+08:00 [telegram] global undici dispatcher autoSelectFamily=true",
     "2026-04-07T17:46:38.413+08:00 [telegram] dnsResultOrder=ipv4first (default-node22)",
     "2026-04-07T17:46:49.002+08:00 [telegram] autoSelectFamily=false (config)",
     "2026-04-07T17:47:01.624+08:00 [telegram] autoSelectFamily=true (default-node22)",
     "2026-04-07T17:47:12.198+08:00 [telegram] autoSelectFamily=false (config)",
     "2026-04-07T17:47:26.943+08:00 [telegram] autoSelectFamily=true (default-node22)",
     "2026-04-07T17:47:37.500+08:00 [telegram] autoSelectFamily=false (config)",
-    "2026-04-07T17:47:54.935+08:00 [telegram] autoSelectFamily=true (default-node22)"
+    "2026-04-07T17:47:54.935+08:00 [telegram] autoSelectFamily=true (default-node22)",
+    "2026-04-07T18:20:02.565+08:00 [plugins] memory-lancedb: plugin registered (db: /Users/leelark/.openclaw/memory/lancedb, lazy init)"
   ],
   "active_tasks": [
+    {
+      "agent": "telegram-lite",
+      "session_key": "agent:telegram-lite:telegram:group:-1003889106164",
+      "updated_at_ms": 1775557213439,
+      "updated_at_local": "2026-04-07 18:20:13",
+      "state": "queued",
+      "task": "好困啊🥱，还不敢睡觉",
+      "skills": [],
+      "available_skills": [
+        "clawhub",
+        "coding-agent",
+        "gh-issues",
+        "github",
+        "healthcheck",
+        "session-logs",
+        "skill-creator",
+        "tmux",
+        "video-frames",
+        "voice-call",
+        "weather",
+        "self-improvement"
+      ]
+    },
     {
       "agent": "main",
       "session_key": "agent:main:main",
